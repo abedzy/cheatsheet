@@ -1,0 +1,1769 @@
+
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+    <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/>
+    <b:include data='blog' name='all-head-content'/>
+	<title>
+		<b:if cond='data:blog.pageType == &quot;index&quot;'>
+			<data:blog.pageTitle/>
+		<b:else/>
+			<b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+				<data:blog.pageName/> | <data:blog.title/>
+			<b:else/>
+				404 | <data:blog.title/> 
+			</b:if>
+		</b:if>
+    </title>
+	<b:if cond='data:blog.metaDescription == &quot;&quot;'>
+		<meta expr:content='data:blog.pageName + &quot; - &quot; + data:blog.title' name='description'/>
+	<b:else/>
+		<meta expr:content='data:blog.metaDescription' name='description'/>			
+	</b:if>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'/>
+<link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'/>
+<script type='text/javascript'>//<![CDATA[
+var _0xddb3=["\x3C\x6C\x69\x6E\x6B\x20\x68\x72\x65\x66\x3D\x27\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x6F\x6F\x67\x6C\x65\x64\x72\x69\x76\x65\x2E\x63\x6F\x6D\x2F\x68\x6F\x73\x74\x2F\x30\x42\x77\x36\x4C\x6B\x73\x43\x31\x4A\x4A\x78\x45\x64\x48\x68\x34\x61\x6B\x4A\x4B\x52\x30\x52\x66\x54\x6A\x41\x27\x20\x72\x65\x6C\x3D\x27\x73\x74\x79\x6C\x65\x73\x68\x65\x65\x74\x27\x20\x74\x79\x70\x65\x3D\x27\x74\x65\x78\x74\x2F\x63\x73\x73\x27\x2F\x3E","\x77\x72\x69\x74\x65"];document[_0xddb3[1]](_0xddb3[0]);
+//]]></script>
+&lt;!--<style type='text/css'/>--&gt;<b:skin><![CDATA[/*
+-----------------------------------------------
+Blogger Template Style
+Name:        Rocket - Responsive version
+Author :     http://www.soratemplates.com
+License:     Free version
+If you want to customize this template and remove credit links permanently -> Purchase the full version here: http://goo.gl/2RWzyb
+----------------------------------------------- */
+body#layout #left-sidebar{margin-top:50px;display:inline-block;width:23%;vertical-align:top}
+body#layout #main-content{display:inline-block;width:48%;vertical-align:top}
+body#layout #right-sidebar{display:inline-block;width:23%;vertical-align:top}
+body#layout .social-share,body#layout #menu,body#layout .search-form,.widget-item-control,.pagenavi .pages,#responsive-menu,#navbar,.date-header,.feed-links,.post-location,.post-icons{display: none !important;}
+]]></b:skin>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<style type='text/css'>
+.post{margin-bottom:20px;float:left;margin-right:30px;width:338px}
+@media only screen and (min-width:980px) and (max-width:1301px){.post{width:240px}
+.post-body img{width:90%}
+}
+</style>
+</b:if>
+<script type='text/javascript'>//<![CDATA[
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('7 8(s,n){o s.e(/<.*?>/q,"").r(/\\s+/).u(0,n-1).v(" ")}7 w(a){f p=g.A(a),5="",2=p.B("2");C(2.D>=1)5=\'<2 3="h" 4="\'+2[0].4+\'" />\';E 5=\'<2 3="h F-2" 4="G://H.I.J/-K/L-M/N/O-P/Q.R" />\';p.i=\'<6 3="S-T"><p 3="j-U">\'+z+"</p>"+5+\'<6 3="V"><a 3="W-X" k="\'+y+\'"></a></6></6>\'+\'<l><a k="\'+y+\'">\'+x+"</a></l>"+"<p>"+8(p.i,Y)+"...</p>"}7 Z(a){f b=a.j.m[0];c=b.10.$t;d=b.11$12.4.e(/\\/s[0-9]+(-*c*)\\//,"/13$1/");g.14(\'<2 15="\'+c+\'" 3="16-m" 4="\'+d+\'" 17="\'+c+\'"/>\')};',62,70,'||img|class|src|imgtag|div|function|stripTags||||||replace|var|document|thumb|innerHTML|entry|href|h3|author||return||ig|split|||slice|join|readmore||||getElementById|getElementsByTagName|if|length|else|no|https|lh4|googleusercontent|com|G9M2DTCTUwM|Tlh|2pwtc5I|AAAAAAAABKM|kCJg|Kf3W2M|no_image_yet|jpg|kopa|view|date|mask|read|more|22|av|name|gd|image|s55|write|alt|avatar|title'.split('|'),0,{}))
+//]]></script>
+</head>
+<body>
+<div id='body-pattern'>
+<div id='body-left'>
+<div class='container'>
+<div class='wrapper clearfix'>
+<div id='left-sidebar'> 
+<div class='sticky-left clearfix'>
+<b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
+  <b:widget id='Header1' locked='false' title='NewsBreed™ (Header)' type='Header'>
+    <b:widget-settings>
+      <b:widget-setting name='displayUrl'>http://4.bp.blogspot.com/-kjS6ExyrtJI/UiOdgaU5TVI/AAAAAAAAAo4/uFqWVJGloc0/s1600/cooltext1172111266.png</b:widget-setting>
+      <b:widget-setting name='displayHeight'>135</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>184</b:widget-setting>
+      <b:widget-setting name='useImage'>true</b:widget-setting>
+      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+      <b:widget-setting name='imagePlacement'>BEFORE_DESCRIPTION</b:widget-setting>
+      <b:widget-setting name='displayWidth'>460</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+
+  <b:if cond='data:useImage'>
+    <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
+      <!--
+      Show image as background to text. You can't really calculate the width
+      reliably in JS because margins are not taken into account by any of
+      clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
+      width if the user is using shrink to fit.
+      This results in a margin-width's worth of pixels being cropped. If the
+      user is not using shrink to fit then we expand the header.
+      -->
+      <b:if cond='data:mobile'>
+          <div id='header-inner'>
+            <div class='titlewrapper' style='background: transparent'>
+              <h1 class='title' style='background: transparent; border-width: 0px'>
+                <b:include name='title'/>
+              </h1>
+            </div>
+            <b:include name='description'/>
+          </div>
+        <b:else/>
+          <div expr:style='&quot;background-image: url(\&quot;&quot; + data:sourceUrl + &quot;\&quot;); &quot;                        + &quot;background-position: &quot;                        + data:backgroundPositionStyleStr + &quot;; &quot;                        + data:widthStyleStr                        + &quot;min-height: &quot; + data:height                        + &quot;_height: &quot; + data:height                        + &quot;background-repeat: no-repeat; &quot;' id='header-inner'>
+            <div class='titlewrapper' style='background: transparent'>
+              <h1 class='title' style='background: transparent; border-width: 0px'>
+                <b:include name='title'/>
+              </h1>
+            </div>
+            <b:include name='description'/>
+          </div>
+        </b:if>
+    <b:else/>
+      <!--Show the image only-->
+      <div id='header-inner'>
+        <a expr:href='data:blog.homepageUrl' style='display: block'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block'/>
+        </a>
+        <!--Show the description-->
+        <b:if cond='data:imagePlacement == &quot;BEFORE_DESCRIPTION&quot;'>
+          <b:include name='description'/>
+        </b:if>
+      </div>
+    </b:if>
+  <b:else/>
+    <!--No header image -->
+    <div id='header-inner'>
+      <div class='titlewrapper'>
+        <h1 class='title'>
+          <b:include name='title'/>
+        </h1>
+      </div>
+      <b:include name='description'/>
+    </div>
+  </b:if>
+</b:includable>
+    <b:includable id='description'>
+  <div class='descriptionwrapper'>
+    <p class='description'><span><data:description/></span></p>
+  </div>
+</b:includable>
+    <b:includable id='title'>
+  <b:if cond='data:blog.url == data:blog.homepageUrl'>
+    <data:title/>
+  <b:else/>
+    <a expr:href='data:blog.homepageUrl'><data:title/></a>
+  </b:if>
+</b:includable>
+  </b:widget>
+</b:section>
+<nav class='main-nav' id='menu'> 
+ <span class='menu-icon'>Menu</span>
+ <input type='checkbox'/>
+ <label><span>Home</span></label>
+ <ul id='main-menu'>
+ <li class='current-menu-item'><a href='http://newsbreed.blogspot.com/'>Home</a></li>
+ <li><a href='http://newsbreed.blogspot.com/search/label/Muzik'>Muzik</a>
+ </li>
+ <li><a href='http://newsbreed.blogspot.com/search/label/Videos'>Videos</a></li>
+ <li><a href='http://newsbreed.blogspot.com/search/label/Picz'>Picz and Lifestyle</a></li>
+ <li><a href='http://newsbreed.blogspot.com/search/label/Naija%20News'>9ja News</a></li>
+ <li><a href='http://newsbreed.blogspot.com/search/label/OyInbo%20News'>Foreign News</a></li>
+ <li><a href='http://newsbreed.blogspot.com/search/label/health'>Health Tipz</a></li>
+ <li><a href='http://newsbreed.blogspot.com/search/label/Sport'>Sport</a></li>
+ <li><a href='http://newsbreed.blogspot.com/p/write-to-newsbreed.html'>Contact Us</a></li>
+ </ul> 
+ <div class='divider-menu'><span/></div>
+</nav>
+<div class='clear'/>
+</div>
+</div>
+     
+<div id='main-content'>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<section class='slider-wrapper'>
+<h2 class='widget-title'>NewsBreed&#8482; Feature news</h2>
+<div class='flexslider' id='home-slider'>
+ <ul class='slides'>
+ <li>
+ <article>
+ <div class='kp-view'>
+ <img alt='' src='https://1.bp.blogspot.com/--7s90dO4mQ8/VGW3vNtCZ2I/AAAAAAAABW4/fJOr7STzn2k/s1600/Zion%2BRecord2.jpg'/>
+ <a class='kp-mask' href='#'/>
+ </div> 
+ <div class='flex-caption'>
+ <h1><a href='#'>Photo of The week</a></h1>
+ </div> 
+ </article>
+ </li>
+ <li>
+ <article>
+ <div class='kp-view'>
+ <img alt='' src='http://https://upload.wikimedia.org/wikipedia/en/c/c9/Falz_-_Moral_Instruction_album_cover.jpg'/>
+ <a class='kp-mask' href='http://www.mobyloaded.com/'/>
+ </div> 
+ <div class='flex-caption'>
+ <h1><a href='#'>Olamide drops new album titled: STRRET OTI</a></h1>
+ </div> 
+ </article>
+ </li>
+ <li>
+ <article>
+ <div class='kp-view'>
+ <img alt='' src='http://notjustok.com/wp-content/uploads/2013/02/Davido-US-Tour-Slide-Spread.jpg'/>
+ <a class='kp-mask' href='#'/>
+ </div> 
+ <div class='flex-caption'>
+   <h1><a href='#'>Davido US and Canada Tour</a></h1>
+ </div> 
+ </article>
+ </li>
+ </ul>
+</div>
+</section>
+</b:if>
+  
+<b:section class='main' id='main' showaddelement='no'>
+  <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog'>
+    <b:widget-settings>
+      <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+      <b:widget-setting name='commentLabel'>your thaughts</b:widget-setting>
+      <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+      <b:widget-setting name='showShareButtons'>true</b:widget-setting>
+      <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+      <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+      <b:widget-setting name='showAuthor'>true</b:widget-setting>
+      <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
+      <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+      <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+      <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+      <b:widget-setting name='style.layout'>300x250</b:widget-setting>
+      <b:widget-setting name='showLabels'>false</b:widget-setting>
+      <b:widget-setting name='showLocation'>true</b:widget-setting>
+      <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+      <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+      <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+      <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+      <b:widget-setting name='showReactions'>false</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main' var='top'>
+  <b:if cond='data:mobile == &quot;false&quot;'>
+    <!-- posts -->
+      <b:include data='top' name='status-message'/>
+      <b:loop values='data:posts' var='post'>
+        <b:include data='post' name='post'/>
+        <b:if cond='data:blog.pageType != &quot;index&quot;'>
+          <b:if cond='data:post.showThreadedComments'>
+            <b:include data='post' name='threaded_comments'/>
+          <b:else/>
+            <b:include data='post' name='comments'/>
+          </b:if>
+        </b:if>
+      </b:loop>
+
+    <!-- navigation -->
+    <b:include name='nextprev'/>
+
+    <!-- feed links -->
+    <b:include name='feedLinks'/>
+
+    <b:if cond='data:top.showStars'>
+      <script src='//www.google.com/jsapi' type='text/javascript'/>
+      <script type='text/javascript'>
+        google.load(&quot;annotations&quot;, &quot;1&quot;, {&quot;locale&quot;: &quot;<data:top.languageCode/>&quot;});
+        function initialize() {
+          google.annotations.setApplicationId(<data:top.blogspotReviews/>);
+          google.annotations.createAll();
+          google.annotations.fetch();
+        }
+        google.setOnLoadCallback(initialize);
+      </script>
+    </b:if>
+
+  <b:else/>
+    <b:include name='mobile-main'/>
+  </b:if>
+
+  <b:if cond='data:top.showDummy'>
+    <data:top.dummyBootstrap/>
+  </b:if>
+
+</b:includable>
+    <b:includable id='backlinkDeleteIcon' var='backlink'>
+  <span expr:class='&quot;item-control &quot; + data:backlink.adminClass'>
+    <a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'>
+      <img src='//www.blogger.com/img/icon_delete13.gif'/>
+    </a>
+  </span>
+</b:includable>
+    <b:includable id='backlinks' var='post'>
+  <a name='links'/><h4><data:post.backlinksLabel/></h4>
+  <b:if cond='data:post.numBacklinks != 0'>
+    <dl class='comments-block' id='comments-block'>
+      <b:loop values='data:post.backlinks' var='backlink'>
+        <div class='collapsed-backlink backlink-control'>
+          <dt class='comment-title'>
+            <span class='backlink-toggle-zippy'>&#160;</span>
+            <a expr:href='data:backlink.url' rel='nofollow'><data:backlink.title/></a>
+            <b:include data='backlink' name='backlinkDeleteIcon'/>
+          </dt>
+          <dd class='comment-body collapseable'>
+            <data:backlink.snippet/>
+          </dd>
+          <dd class='comment-footer collapseable'>
+            <span class='comment-author'><data:post.authorLabel/> <data:backlink.author/></span>
+            <span class='comment-timestamp'><data:post.timestampLabel/> <data:backlink.timestamp/></span>
+          </dd>
+        </div>
+      </b:loop>
+    </dl>
+  </b:if>
+  <p class='comment-footer'>
+    <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &quot;_backlinks-create-link&quot;' target='_blank'><data:post.createLinkLabel/></a>
+  </p>
+</b:includable>
+    <b:includable id='comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <h4 id='comment-post-message'>
+        <a expr:id='data:widget.instanceId + &quot;_comment-editor-toggle-link&quot;' href='javascript:void(0)'><data:postCommentMsg/></a></h4>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='210' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='210' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.friendConnectJs/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.communityId/>&#39;);
+    </script>
+  </div>
+</b:includable>
+    <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'>
+        <img src='//www.blogger.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+    <b:includable id='comment_count_picker' var='post'>
+  <b:if cond='data:post.forceIframeComments'>
+    <span class='cmt_count_iframe_holder' expr:data-count='data:post.numComments' expr:data-onclick='data:post.addCommentOnclick' expr:data-url='data:post.canonicalUrl'>
+    </span>
+  <b:else/>
+    <b:if cond='data:post.commentSource == 1'>
+      <span class='cmt_count_iframe_holder' expr:data-count='data:post.numComments' expr:data-onclick='data:post.addCommentOnclick' expr:data-url='data:post.canonicalUrl'>
+      </span>
+    <b:else/>
+      <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
+        <data:post.commentLabelFull/>:
+      </a>
+    </b:if>
+  </b:if>
+</b:includable>
+    <b:includable id='comment_picker' var='post'>
+  <b:if cond='data:post.forceIframeComments'>
+    <b:include data='post' name='iframe_comments'/>
+    <b:if cond='data:post.showThreadedComments'>
+      <b:include data='post' name='threaded_comments'/>
+    <b:else/>
+      <b:include data='post' name='comments'/>
+    </b:if>
+  <b:else/>
+    <b:if cond='data:post.commentSource == 1'>
+      <b:include data='post' name='iframe_comments'/>
+    <b:else/>
+      <b:if cond='data:post.showThreadedComments'>
+        <b:include data='post' name='threaded_comments'/>
+      <b:else/>
+        <b:include data='post' name='comments'/>
+      </b:if>
+    </b:if>
+  </b:if>
+</b:includable>
+    <b:includable id='comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <b:if cond='data:post.allowComments'>
+      <h4>
+        <b:if cond='data:post.numComments == 1'>
+          1 <data:commentLabel/>:
+        <b:else/>
+          <data:post.numComments/> <data:commentLabelPlural/>:
+        </b:if>
+      </h4>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <span class='paging-control-container'>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'><data:post.oldestLinkText/></a>
+          &#160;
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'><data:post.olderLinkText/></a>
+          &#160;
+          <data:post.commentRangeText/>
+          &#160;
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'><data:post.newerLinkText/></a>
+          &#160;
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'><data:post.newestLinkText/></a>
+        </span>
+      </b:if>
+
+      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+        <div expr:class='data:post.avatarIndentClass' id='comments-block'>
+          <b:loop values='data:post.comments' var='comment'>
+            <div expr:class='&quot;comment-author &quot; + data:comment.authorClass' expr:id='data:comment.anchorName'>
+              <b:if cond='data:comment.favicon'>
+                <img expr:src='data:comment.favicon' height='16px' style='margin-bottom:-2px;' width='16px'/>
+              </b:if>
+              <a expr:name='data:comment.anchorName'/>
+              <b:if cond='data:blog.enabledCommentProfileImages'>
+                <data:comment.authorAvatarImage/>
+              </b:if>
+              <b:if cond='data:comment.authorUrl'>
+                <a expr:href='data:comment.authorUrl' rel='nofollow'><data:comment.author/></a>
+              <b:else/>
+                <data:comment.author/>
+              </b:if>
+              <data:commentPostedByMsg/>
+            </div>
+            <div class='comment-body' expr:id='data:widget.instanceId + data:comment.cmtBodyIdPostfix'>
+              <b:if cond='data:comment.isDeleted'>
+                <span class='deleted-comment'><data:comment.body/></span>
+              <b:else/>
+                <p>
+                  <data:comment.body/>
+                </p>
+              </b:if>
+            </div>
+            <div class='comment-footer'>
+              <span class='comment-timestamp'>
+                <a expr:href='data:comment.url' title='comment permalink'>
+                  <data:comment.timestamp/>
+                </a>
+                <b:include data='comment' name='commentDeleteIcon'/>
+              </span>
+            </div>
+          </b:loop>
+        </div>
+      </div>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <span class='paging-control-container'>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+            <data:post.oldestLinkText/>
+          </a>
+          <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+            <data:post.olderLinkText/>
+          </a>
+          &#160;
+          <data:post.commentRangeText/>
+          &#160;
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+            <data:post.newerLinkText/>
+          </a>
+          <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+            <data:post.newestLinkText/>
+          </a>
+        </span>
+      </b:if>
+
+      <p class='comment-footer'>
+        <b:if cond='data:post.embedCommentForm'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='comment-form'/>
+          <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:post.allowComments'>
+            <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+          </b:if>
+        </b:if>
+
+      </p>
+    </b:if>
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+       <b:if cond='data:post.showBacklinks'>
+         <b:include data='post' name='backlinks'/>
+       </b:if>
+    </div>
+    </div>
+  </div>
+</b:includable>
+    <b:includable id='feedLinks'>
+  <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+
+    <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.allowComments'>
+          <b:if cond='data:post.feedLinks'>
+            <b:include data='post.feedLinks' name='feedLinksBody'/>
+          </b:if>
+        </b:if>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+    <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:feedLinksMsg/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+    <b:includable id='iframe_comments' var='post'>
+
+  <b:if cond='data:post.allowIframeComments'>
+    <script expr:src='data:post.iframeCommentSrc' type='text/javascript'/>
+    <div class='cmt_iframe_holder'/>
+
+    <b:if cond='data:post.embedCommentForm == &quot;false&quot;'>
+      <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+    </b:if>
+  </b:if>
+</b:includable>
+    <b:includable id='mobile-index-post' var='post'>
+  <div class='mobile-date-outer date-outer'>
+    <div class='mobile-post-outer'>
+      <a expr:href='data:post.url'>
+        <h3 class='mobile-index-title entry-title'>
+          <data:post.title/>
+        </h3>
+
+        <div class='mobile-index-arrow'>&amp;rsaquo;</div>
+
+        <div class='mobile-index-contents'>
+          <b:if cond='data:post.thumbnailUrl'>
+            <div class='mobile-index-thumbnail'>
+              <div class='Image'>
+                <img expr:src='data:post.thumbnailUrl'/>
+              </div>
+            </div>
+          </b:if>
+
+          <div class='post-body'>
+            <b:if cond='data:post.snippet'><data:post.snippet/></b:if>
+          </div>
+        </div>
+
+        <div style='clear: both;'/>
+      </a>
+
+      <div class='mobile-index-comment'>
+        <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+          <b:if cond='data:post.allowComments'>
+            <b:if cond='data:post.numComments != 0'>
+              <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 1'>1 <data:top.commentLabel/><b:else/><data:post.numComments/> <data:top.commentLabelPlural/></b:if></a>
+            </b:if>
+          </b:if>
+        </b:if>
+      </div>
+    </div>
+  </div>
+</b:includable>
+    <b:includable id='mobile-main' var='top'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
+      <b:include data='top' name='status-message'/>
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-index-post'/>
+        </b:loop>
+      <b:else/>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-post'/>
+        </b:loop>
+      </b:if>
+    </div>
+
+   <b:include name='mobile-nextprev'/>
+</b:includable>
+    <b:includable id='mobile-nextprev'>
+  <div class='blog-pager' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'>&amp;lsaquo;</a>
+      </div>
+    </b:if>
+
+    <b:if cond='data:olderPageUrl'>
+      <div class='mobile-link-button' id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'>&amp;rsaquo;</a>
+      </div>
+    </b:if>
+
+    <div class='mobile-link-button' id='blog-pager-home-link'>
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+    </div>
+
+    <div class='mobile-desktop-link'>
+      <a class='home-link' expr:href='data:desktopLinkUrl'><data:desktopLinkMsg/></a>
+    </div>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+    <b:includable id='mobile-post' var='post'>
+  <div class='date-outer'>
+    <div class='date-posts'>
+      <div class='post-outer'>
+
+        <div class='post'>
+          <b:if cond='data:post.title'>
+            <h3 class='post-title'>
+              <b:if cond='data:post.link'>
+                <a expr:href='data:post.link'><data:post.title/></a>
+              <b:else/>
+                <b:if cond='data:post.url'>
+                  <b:if cond='data:blog.url != data:post.url'>
+                    <a expr:href='data:post.url'><data:post.title/></a>
+                  <b:else/>
+                    <data:post.title/>
+                  </b:if>
+                <b:else/>
+                  <data:post.title/>
+                </b:if>
+              </b:if>
+            </h3>
+          </b:if>
+
+          <div class='post-header'/>
+
+          <div class='post-body'>
+            <data:post.body/>
+            <div class='clear'/> 
+          </div>
+
+          <div class='post-footer'>
+            <div class='post-footer-line post-footer-line-1'>
+              <span class='post-author vcard'>
+                <b:if cond='data:top.showAuthor'>
+                  <b:if cond='data:post.authorProfileUrl'>
+                    <span class='fn'>
+                      <a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'>
+                        <data:post.author/>
+                      </a>
+                    </span>
+                  <b:else/>
+                    <span class='fn'><data:post.author/></span>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-timestamp'>
+                <b:if cond='data:top.showTimestamp'>
+                  <data:top.timestampLabel/>
+                  <b:if cond='data:post.url'>
+                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601'><data:post.timestamp/></abbr></a>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-comment-link'>
+                <b:if cond='data:blog.pageType != &quot;item&quot;'>
+                  <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+                    <b:if cond='data:post.allowComments'>
+                      <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 1'>1 <data:top.commentLabel/><b:else/><data:post.numComments/> <data:top.commentLabelPlural/></b:if></a>
+                    </b:if>
+                  </b:if>
+                </b:if>
+              </span>
+            </div>
+
+            <div class='post-footer-line post-footer-line-2'>
+              <b:if cond='data:top.showMobileShare'>
+                <div class='mobile-link-button goog-inline-block' id='mobile-share-button'>
+                  <a href='javascript:void(0);'><data:shareMsg/></a>
+                </div>
+              </b:if>
+              <b:if cond='data:top.showDummy'>
+                <div class='goog-inline-block dummy-container'><data:post.dummyTag/></div>
+              </b:if>
+            </div>
+
+          </div>
+        </div>
+
+        <b:if cond='data:blog.pageType != &quot;index&quot;'>
+          <b:if cond='data:post.showThreadedComments'>
+            <b:include data='post' name='threaded_comments'/>
+          <b:else/>
+            <b:include data='post' name='comments'/>
+          </b:if>
+        </b:if>
+      </div>
+    </div>
+  </div>
+</b:includable>
+    <b:includable id='nextprev'>
+      <div class='clear'/>
+  <div class='blog-pager clearfix' id='blog-pager'>
+    <b:if cond='data:newerPageUrl'>
+      <span id='blog-pager-newer-link'>
+      <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>
+      </span>
+    </b:if>
+	
+    <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
+	
+    <b:if cond='data:olderPageUrl'>
+      <span id='blog-pager-older-link'>
+      <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
+      </span>
+    </b:if>
+
+    <b:if cond='data:mobileLinkUrl'>
+      <div class='blog-mobile-link'>
+        <a expr:href='data:mobileLinkUrl'><data:mobileLinkMsg/></a>
+      </div>
+    </b:if>
+
+  </div>
+  <div class='clear'/>
+</b:includable>
+    <b:includable id='post' var='post'>
+<div class='post'>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+<b:if cond='data:post.title'>
+  <h3 style='display:none'>
+<b:if cond='data:post.link'>
+<a expr:href='data:post.link' expr:title='data:post.title'><data:post.title/></a>
+<b:else/>
+<b:if cond='data:post.url'>
+<a expr:href='data:post.url' expr:title='data:post.title'><data:post.title/></a>
+<b:else/><data:post.title/>
+</b:if>
+</b:if>
+</h3>
+</b:if>
+<b:else/>
+<h1><b:if cond='data:post.link'><a expr:href='data:post.link' expr:title='data:post.title'><data:post.title/></a><b:else/><data:post.title/>
+</b:if></h1>
+<div class='post-meta'>
+  <span class='post-author'>
+        <b:if cond='data:top.showAuthor'>
+          By:
+          <a><data:post.author/></a>
+        </b:if>
+      </span> -
+
+        <span class='post-labels'>
+        <b:if cond='data:post.labels'>
+          In:
+          <b:loop values='data:post.labels' var='label'>
+            <a expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != &quot;true&quot;'>,</b:if>
+          </b:loop>
+        </b:if>
+      </span> -
+  
+<span class='post-comment-link'>
+            <b:if cond='data:post.allowComments'>
+              <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 1'>1 <data:top.commentLabel/><b:else/><data:post.numComments/> <data:top.commentLabelPlural/></b:if></a>
+        </b:if>
+</span>
+</div>
+</b:if>
+
+<div class='post-body'>
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+ <span expr:id='&quot;p&quot; + data:post.id'><data:post.body/></span>
+ <script type='text/javascript'>var x=&quot;<data:post.title/>&quot;,y=&quot;<data:post.url/>&quot;,z=&quot;<data:post.timestamp/>&quot;;readmore(&quot;p<data:post.id/>&quot;)</script><b:else/><data:post.body/><div id='fb-root'/>
+    <script src='http://connect.facebook.net/en_US/all.js#xfbml=1'/>
+     <fb:comments expr:href='data:post.url' num_posts='9' width='550'/></b:if>
+ <b:if cond='data:post.hasJumpLink'>
+  <a class='jump-link' expr:href='data:post.url + &quot;#more&quot;' rel='nofollow'>Learn more &#187;</a><b:else/>
+ <b:if cond='data:blog.pageType == &quot;index&quot;'>
+  <a class='jump-link' expr:href='data:post.url' rel='nofollow'>Learn more &#187;</a>
+</b:if>
+</b:if>
+</div>
+<div class='clear'/>
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<div class='post-footer'>
+<span class='post-icons'>
+        <!-- email post links -->
+        <b:if cond='data:post.emailPostUrl'>
+          <span class='item-action'>
+          <a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'>
+              <img alt='' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/>
+          </a>
+          </span>
+        </b:if>
+        <!-- quickedit pencil -->
+        <b:include data='post' name='postQuickEdit'/>
+      </span>
+
+<div class='post-share-buttons goog-inline-block'>
+        <b:if cond='data:post.sharePostUrl'>
+          <b:include data='post' name='shareButtons'/>
+        </b:if>
+</div>
+
+      <span class='post-location'>
+        <b:if cond='data:top.showLocation'>
+          <b:if cond='data:post.location'>
+            <data:postLocationLabel/>
+            <a expr:href='data:post.location.mapsUrl' target='_blank'><data:post.location.name/></a>
+          </b:if>
+        </b:if>
+      </span>
+
+<article class='about-author clearfix'>
+ <div class='about-author-inner'>
+ <h2><span>About the author</span></h2>
+ <script expr:src='&quot;/feeds/posts/default/&quot; + data:post.id + &quot;?alt=json-in-script&amp;amp;callback=av&quot;'/>
+ <a href='#'><b:if cond='data:top.showAuthor'><data:post.author/></b:if></a>
+ <p>Ajakaiye Michael popularly known as Ajas_Mike is a Dope Writer #Publicist #Online promoter #Dope Writer #Advertiser ff me on iNSTAGRAM @Ajas_Mike and Twitter @Ajas_Mike.</p>
+ <ul class='clearfix social-link'>
+ <li>Follow me:</li>
+ <li class='facebook-icon'><a class='facebook' href='https://www.facebook.com/newsbreeder' target='_blank' title='Facebook'>Twitter</a></li>
+ <li><a>|</a></li>
+ <li class='twitter-icon'><a class='twitter' href='https://twitter.com/ajas_mike' target='_blank' title='Twitter'>Facebook</a></li>
+ </ul> 
+ </div> 
+</article> 
+  
+</div>
+</b:if>
+</div>
+</b:includable>
+    <b:includable id='postQuickEdit' var='post'>
+  <b:if cond='data:post.editUrl'>
+    <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
+      <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
+        <img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+      </a>
+    </span>
+  </b:if>
+</b:includable>
+    <b:includable id='shareButtons' var='post'>
+  <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if><b:if cond='data:top.showTwitterButton'><a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToTwitterMsg/></span></a></b:if><b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if><b:if cond='data:top.showOrkutButton'><a class='goog-inline-block share-button sb-orkut' expr:href='data:post.sharePostUrl + &quot;&amp;target=orkut&quot;' expr:title='data:top.shareToOrkutMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToOrkutMsg/></span></a></b:if><b:if cond='data:top.showDummy'><div class='goog-inline-block dummy-container'><data:post.dummyTag/></div></b:if>
+</b:includable>
+    <b:includable id='status-message'>
+  <b:if cond='data:navMessage'>
+  <div class='status-msg-wrap'>
+    <div class='status-msg-body'>
+      <data:navMessage/>
+    </div>
+  </div>
+  <div class='clear'/>
+  </b:if>
+</b:includable>
+    <b:includable id='threaded-comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='210' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='210' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.friendConnectJs/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.communityId/>&#39;);
+    </script>
+  </div>
+</b:includable>
+    <b:includable id='threaded_comment_js' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+
+  <script type='text/javascript'>
+    (function() {
+      var items = <data:post.commentJso/>;
+      var msgs = <data:post.commentMsgs/>;
+      var config = <data:post.commentConfig/>;
+
+// <![CDATA[
+      var cursor = null;
+      if (items && items.length > 0) {
+        cursor = parseInt(items[items.length - 1].timestamp) + 1;
+      }
+
+      var bodyFromEntry = function(entry) {
+        if (entry.gd$extendedProperty) {
+          for (var k in entry.gd$extendedProperty) {
+            if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
+              return '<span class="deleted-comment">' + entry.content.$t + '</span>';
+            }
+          }
+        }
+        return entry.content.$t;
+      }
+
+      var parse = function(data) {
+        cursor = null;
+        var comments = [];
+        if (data && data.feed && data.feed.entry) {
+          for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+            var comment = {};
+            // comment ID, parsed out of the original id format
+            var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
+            comment.id = id ? id[2] : null;
+            comment.body = bodyFromEntry(entry);
+            comment.timestamp = Date.parse(entry.published.$t) + '';
+            if (entry.author && entry.author.constructor === Array) {
+              var auth = entry.author[0];
+              if (auth) {
+                comment.author = {
+                  name: (auth.name ? auth.name.$t : undefined),
+                  profileUrl: (auth.uri ? auth.uri.$t : undefined),
+                  avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
+                };
+              }
+            }
+            if (entry.link) {
+              if (entry.link[2]) {
+                comment.link = comment.permalink = entry.link[2].href;
+              }
+              if (entry.link[3]) {
+                var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
+                if (pid && pid[1]) {
+                  comment.parentId = pid[1];
+                }
+              }
+            }
+            comment.deleteclass = 'item-control blog-admin';
+            if (entry.gd$extendedProperty) {
+              for (var k in entry.gd$extendedProperty) {
+                if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+                  comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
+                }
+              }
+            }
+            comments.push(comment);
+          }
+        }
+        return comments;
+      };
+
+      var paginator = function(callback) {
+        if (hasMore()) {
+          var url = config.feed + '?alt=json&v=2&orderby=published&reverse=false&max-results=50';
+          if (cursor) {
+            url += '&published-min=' + new Date(cursor).toISOString();
+          }
+          window.bloggercomments = function(data) {
+            var parsed = parse(data);
+            cursor = parsed.length < 50 ? null
+                : parseInt(parsed[parsed.length - 1].timestamp) + 1
+            callback(parsed);
+            window.bloggercomments = null;
+          }
+          url += '&callback=bloggercomments';
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = url;
+          document.getElementsByTagName('head')[0].appendChild(script);
+        }
+      };
+      var hasMore = function() {
+        return !!cursor;
+      };
+      var getMeta = function(key, comment) {
+        if ('iswriter' == key) {
+          var matches = !!comment.author
+              && comment.author.name == config.authorName
+              && comment.author.profileUrl == config.authorUrl;
+          return matches ? 'true' : '';
+        } else if ('deletelink' == key) {
+          return config.baseUri + '/delete-comment.g?blogID='
+               + config.blogId + '&postID=' + comment.id;
+        } else if ('deleteclass' == key) {
+          return comment.deleteclass;
+        }
+        return '';
+      };
+
+      var replybox = null;
+      var replyUrlParts = null;
+      var replyParent = undefined;
+
+      var onReply = function(commentId, domId) {
+        if (replybox == null) {
+          // lazily cache replybox, and adjust to suit this style:
+          replybox = document.getElementById('comment-editor');
+          if (replybox != null) {
+            replybox.height = '210px';
+            replybox.style.display = 'block';
+            replyUrlParts = replybox.src.split('#');
+          }
+        }
+        if (replybox && (commentId !== replyParent)) {
+          document.getElementById(domId).insertBefore(replybox, null);
+          replybox.src = replyUrlParts[0]
+              + (commentId ? '&parentID=' + commentId : '')
+              + '#' + replyUrlParts[1];
+          replyParent = commentId;
+        }
+      };
+
+      var hash = (window.location.hash || '#').substring(1);
+      var startThread, targetComment;
+      if (/^comment-form_/.test(hash)) {
+        startThread = hash.substring('comment-form_'.length);
+      } else if (/^c[0-9]+$/.test(hash)) {
+        targetComment = hash.substring(1);
+      }
+
+      // Configure commenting API:
+      var configJso = {
+        'maxDepth': config.maxThreadDepth
+      };
+      var provider = {
+        'id': config.postId,
+        'data': items,
+        'loadNext': paginator,
+        'hasMore': hasMore,
+        'getMeta': getMeta,
+        'onReply': onReply,
+        'rendered': true,
+        'initComment': targetComment,
+        'initReplyThread': startThread,
+        'config': configJso,
+        'messages': msgs
+      };
+
+      var render = function() {
+        if (window.goog && window.goog.comments) {
+          var holder = document.getElementById('comment-holder');
+          window.goog.comments.render(holder, provider);
+        }
+      };
+
+      // render now, or queue to render when library loads:
+      if (window.goog && window.goog.comments) {
+        render();
+      } else {
+        window.goog = window.goog || {};
+        window.goog.comments = window.goog.comments || {};
+        window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+        window.goog.comments.loadQueue.push(render);
+      }
+    })();
+// ]]>
+  </script>
+</b:includable>
+    <b:includable id='threaded_comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <h4><data:post.commentLabelFull/>:</h4>
+
+    <div class='comments-content'>
+      <b:if cond='data:post.embedCommentForm'>
+        <b:include data='post' name='threaded_comment_js'/>
+      </b:if>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threaded-comment-form'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+       <b:if cond='data:post.showBacklinks'>
+         <b:include data='post' name='backlinks'/>
+       </b:if>
+    </div>
+    </div>
+  </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML22' locked='false' title='tabber' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'/>
+    </b:widget-settings>
+    <b:includable id='main'>
+                    <ul class='tabs' id='tabs'>
+                      <li>
+                        <a class='selected' href='#popular-posts' rel='popular-posts'>
+                          Recent Posts
+                        </a>
+                      </li>
+                      <li>
+                        <a class='' href='#feature-posts' rel='feature-posts'>
+                          Feature Posts
+                        </a>
+                      </li>
+                      <li>
+                        <a class='' href='#recent-comments' rel='recent-comments'>
+                          Comments
+                        </a>
+                      </li>
+                    </ul>
+                    <div class='clear'/>
+                    <ul class='tabcontent' id='popular-posts'>
+                      <script>
+                        document.write(&quot;&lt;script src=\&quot;/feeds/posts/default?max-results=&quot;+numposts2+&quot;&amp;orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts4\&quot;&gt;&lt;\/script&gt;&quot;);
+                      </script>
+                    </ul>
+                    <ul class='tabcontent' id='feature-posts'>
+                      <script>
+                        document.write(&quot;&lt;script src=\&quot;/feeds/posts/default/-/Latest?max-results=&quot;+numposts2+&quot;&amp;orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts4\&quot;&gt;&lt;\/script&gt;&quot;);
+                      </script>
+                    </ul>
+                    <ul class='tabcontent' id='recent-comments'>
+                      <script src='/feeds/comments/default?alt=json-in-script&amp;callback=showrecentcomments'/>
+                    </ul>
+                    <script type='text/javascript'>
+                      var tabs=new ddtabcontent(&quot;tabs&quot;)
+                      tabs.setpersist(false)
+                      tabs.setselectedClassTarget(&quot;link&quot;)
+                      tabs.init()
+                    </script>
+                  </b:includable>
+  </b:widget>
+  <b:widget id='HTML3' locked='false' title='ads1' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<script type="text/javascript" src="http://cdn.wibiya.com/Toolbars/dir_1435/Toolbar_1435741/Loader_1435741.js"></script><noscript><a href="http://www.wibiya.com/">Web Toolbar by Wibiya</a></noscript>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+                    <data:content/>
+                  </b:includable>
+  </b:widget>
+  <b:widget id='HTML12' locked='false' title='feature content slider' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'/>
+    </b:widget-settings>
+    <b:includable id='main'>
+                    <div id='slider'>
+                      <div id='featured'>
+                        <script>
+                          document.write(&quot;&lt;script src=\&quot;/feeds/posts/default/-/<data:content/>?max-results=&quot;+numposts1+&quot;&amp;orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts1\&quot;&gt;&lt;\/script&gt;&quot;);
+                        </script>
+                        <ul class='ui-tabs-nav'>
+                          <script>
+                            document.write(&quot;&lt;script src=\&quot;/feeds/posts/default/-/<data:content/>?max-results=&quot;+numposts1+&quot;&amp;orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts2\&quot;&gt;&lt;\/script&gt;&quot;); 
+                          </script>
+                        </ul>
+                      </div>
+                    </div>
+                  </b:includable>
+  </b:widget>
+  <b:widget id='HTML13' locked='false' title='Content left' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'/>
+    </b:widget-settings>
+    <b:includable id='main'>
+                    <div class='postbox left'>
+                      <script>
+                        document.write(&#39;&lt;h1&gt;&lt;a href=&quot;/search/label/<data:content/>?max-results=10&quot;&gt;<data:title/>&lt;/a&gt;&lt;/h1&gt;&#39;);
+                                       document.write(&quot;&lt;script src=\&quot;/feeds/posts/default/-/<data:content/>?max-results=&quot;+numposts+&quot;&amp;orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts\&quot;&gt;&lt;\/script&gt;&quot;);
+                      </script>
+                    </div>
+                    <!--end: postbox-->				 
+                  </b:includable>
+  </b:widget>
+  <b:widget id='HTML14' locked='false' title='Content right' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'/>
+    </b:widget-settings>
+    <b:includable id='main'>
+                    <div class='postbox right'>
+                      <script>
+                        document.write(&#39;&lt;h1&gt;&lt;a href=&quot;/search/label/<data:content/>?max-results=10&quot;&gt;<data:title/>&lt;/a&gt;&lt;/h1&gt;&#39;);
+                                       document.write(&quot;&lt;script src=\&quot;/feeds/posts/default/-/<data:content/>?max-results=&quot;+numposts+&quot;&amp;orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts\&quot;&gt;&lt;\/script&gt;&quot;);
+                      </script>
+                    </div>
+                    <!--end: postbox-->		 
+                  </b:includable>
+  </b:widget>
+  <b:widget id='HTML15' locked='false' title='Content left' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'/>
+    </b:widget-settings>
+    <b:includable id='main'>
+                    <div class='postbox left'>
+                      <script>
+                        document.write(&#39;&lt;h1&gt;&lt;a href=&quot;/search/label/<data:content/>?max-results=10&quot;&gt;<data:title/>&lt;/a&gt;&lt;/h1&gt;&#39;);
+                                       document.write(&quot;&lt;script src=\&quot;/feeds/posts/default/-/<data:content/>?max-results=&quot;+numposts+&quot;&amp;orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts\&quot;&gt;&lt;\/script&gt;&quot;);
+                      </script>
+                    </div>
+                    <!--end: postbox-->				 
+                  </b:includable>
+  </b:widget>
+  <b:widget id='HTML11' locked='false' title='sideCategory1' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'/>
+    </b:widget-settings>
+    <b:includable id='main'>
+                    <div class='leftsidebar'>
+                      <h3>
+                        <script>
+                          document.write(&#39;&lt;a href=&quot;/search/label/<data:content/>&quot;&gt;<data:title/>&lt;/a&gt;&#39;);
+                        </script>
+                      </h3>
+                      <div class='box'>
+                        <script>
+                          document.write(&quot;&lt;script src=\&quot;/feeds/posts/default/-/<data:content/>?max-results=&quot;+numposts2+&quot;&amp;orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts3\&quot;&gt;&lt;\/script&gt;&quot;);
+                        </script>
+                      </div>
+                      <div class='clear'/>
+                    </div>
+                  </b:includable>
+  </b:widget>
+  <b:widget id='HTML17' locked='false' title='Content left' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'/>
+    </b:widget-settings>
+    <b:includable id='main'>
+                    <div class='postbox left'>
+                      <script>
+                        document.write(&#39;&lt;h1&gt;&lt;a href=&quot;/search/label/<data:content/>?max-results=10&quot;&gt;<data:title/>&lt;/a&gt;&lt;/h1&gt;&#39;);
+                                       document.write(&quot;&lt;script src=\&quot;/feeds/posts/default/-/<data:content/>?max-results=&quot;+numposts+&quot;&amp;orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts\&quot;&gt;&lt;\/script&gt;&quot;);
+                      </script>
+                    </div>
+                    <!--end: postbox-->				 
+                  </b:includable>
+  </b:widget>
+  <b:widget id='HTML16' locked='false' title='Content right' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'/>
+    </b:widget-settings>
+    <b:includable id='main'>
+                    <div class='postbox right'>
+                      <script>
+                        document.write(&#39;&lt;h1&gt;&lt;a href=&quot;/search/label/<data:content/>?max-results=10&quot;&gt;<data:title/>&lt;/a&gt;&lt;/h1&gt;&#39;);
+                                       document.write(&quot;&lt;script src=\&quot;/feeds/posts/default/-/<data:content/>?max-results=&quot;+numposts+&quot;&amp;orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts\&quot;&gt;&lt;\/script&gt;&quot;);
+                      </script>
+                    </div>
+                    <!--end: postbox-->		 
+                  </b:includable>
+  </b:widget>
+</b:section>
+<div class='page-footer'>
+<div id='credit'><a href='https://www.facebook.com/Abednego.okegwu'>Designed By ENDORSED_AMEBOR</a></div>
+<div class='footer-bullet clearfix'>
+  <p>Copyright &#169; 2013 <a expr:href='data:blog.homepageUrl' id='copyrights'><data:blog.title/></a></p> 
+<p id='back-top'><a href='#top'>Back to Top</a></p>
+</div>
+</div>
+</div>
+
+<div id='right-sidebar'>
+<div class='sidebar'>
+<div class='widget search-form'>
+<h2>Search</h2>
+ <div class='search-box clearfix'>
+   <form action='/search' class='search-form clearfix' method='get'> 
+ <p class='input-search-text'>
+ <input class='search-text' maxlength='255' name='q' onblur='if (this.value == &apos;&apos;) this.value = this.defaultValue;' onfocus='if (this.value == this.defaultValue)  this.value = &apos;&apos;;' type='text' value='Search'/>
+ </p>
+ <p class='input-search-submit'>
+   <input class='search-submit' name='submit' type='submit' value='Search'/>
+ </p>
+ </form> 
+ </div>
+</div>
+  
+<div class='widget social-share'>  
+<h2>Follow us</h2>
+  <div class='clearfix' id='search-social'>
+ <ul class='social-links clearfix'>
+ <li class='facebook-icon'>
+ <a class='facebook' href='https://www.facebook.com/newsbreeder' target='_blank' title='Facebook'/></li>
+ <li class='twitter-icon'><a class='twitter' href='https://twitter.com/ajas_mike' target='_blank' title='Twitter'/></li>
+ <li class='rss-icon'><a class='rss' href='#' target='_blank' title='RSS'/></li>
+ <li class='dribbble-icon'><a class='dribbble' href='#' target='_blank' title='Dribble'/></li> 
+ <li class='linkedin-icon'><a class='linkedin' href='#' target='_blank' title='LinkedIn'/></li>
+ <li class='behance-icon'><a class='behance' href='#' target='_blank' title='Behance'/></li>
+ <li class='digg-icon'><a class='digg' href='#' target='_blank' title='Digg'/></li>
+ <li class='evernote-icon'><a class='evernote' href='#' target='_blank' title='Evernote'/></li>
+ <li class='lastfm-icon'><a class='lastfm' href='#' target='_blank' title='LastFM'/></li>
+ <li class='myspace-icon'><a class='myspace' href='#' target='_blank' title='MySpace'/></li>
+ <li class='wordpress-icon'><a class='wordpress' href='#' target='_blank' title='WordPress'/></li>
+ <li class='youtube-icon'><a class='youtube' href='#' target='_blank' title='YouTube'/></li>
+ <li class='google-icon'><a class='google' href='ajasmike@gmail.com' target='_blank' title='Google'/></li> 
+ </ul>
+</div>
+</div>  
+</div>
+<div class='sidebar'>
+<b:section class='sidebar1' id='sidebar' preferred='yes'>
+  <b:widget id='HTML2' locked='false' title='Video of the Week' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<iframe width="240" height="160" src="//www.youtube.com/embed/QjqIx155gqE?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+              <!-- only display title if it's non-empty -->
+              <b:if cond='data:title != &quot;&quot;'>
+                <h2 class='title'>
+                  <data:title/>
+                </h2>
+              </b:if>
+              <div class='widget-content'>
+                <data:content/>
+              </div>
+              <b:include name='quickedit'/>
+            </b:includable>
+  </b:widget>
+  <b:widget id='HTML1' locked='false' title='nRelate Posts Only' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;div id=&#39;nrelate_related_backup_placeholder&#39;&gt;&lt;/div&gt;
+				&lt;script async type=&#39;text/javascript&#39; src=&#39;http://staticjs.nrcdn.com/rcw_b/0.52.0/loader.min.js&#39;&gt;&lt;/script&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+					<b:if cond='data:blog.pageType == &quot;item&quot;'>
+					<script type='text/javascript'>
+						var nr_is_home = false;
+						var nr_posts_only = true;
+						var nr_pageurl = &#39;<data:blog.url/>&#39;;
+					</script>
+					<data:content/>
+					</b:if>
+				</b:includable>
+  </b:widget>
+  <b:widget id='HTML7' locked='false' title='NewsBreed HeaDlines' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;script src=&quot;http://widgets.paper.li/javascripts/sr.embeddable.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script&gt;Paperli.PaperFrame.Show({id: &#39;b7d7f346-1a24-4932-b7bd-0167bbcb8a97&#39;, width: 390, height: 480, background: &#39;#ECECEC&#39;, borderColor: &#39;#DDDDDD&#39;})&lt;/script&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+</b:includable>
+  </b:widget>
+  <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts'>
+    <b:widget-settings>
+      <b:widget-setting name='numItemsToShow'>6</b:widget-setting>
+      <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+      <b:widget-setting name='showSnippets'>true</b:widget-setting>
+      <b:widget-setting name='timeRange'>ALL_TIME</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+<b:if cond='data:title'><h2><data:title/></h2></b:if>
+  <div class='widget-content popular-posts'>
+    <ul>
+      <b:loop values='data:posts' var='post'>
+      <dd>
+        <b:if cond='data:showThumbnails == &quot;false&quot;'>
+          <b:if cond='data:showSnippets == &quot;false&quot;'>
+            <!-- (1) No snippet/thumbnail -->
+            <a expr:href='data:post.href'><data:post.title/></a>
+          <b:else/>
+            <!-- (2) Show only snippets -->
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <div class='item-snippet'><data:post.snippet/></div>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:showSnippets == &quot;false&quot;'>
+            <!-- (3) Show only thumbnails -->
+            <div class='item-thumbnail-only'>
+              <b:if cond='data:post.thumbnail'>
+                <div class='item-thumbnail'>
+                  <a expr:href='data:post.href' target='_blank'>
+                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
+                  </a>
+                </div>
+              </b:if>
+              <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            </div>
+            <div style='clear: both;'/>
+          <b:else/>
+           <!-- (4) Show snippets and thumbnails -->
+        <b:if cond='data:post.thumbnail'>
+            <img expr:alt='data:post.title' expr:src='data:post.thumbnail' height='50' width='50'/>
+<b:else/>
+            <img alt='no image' height='50' src='http://lh4.ggpht.com/_u7a1IFxc4WI/TTjruHJjcfI/AAAAAAAAAk0/i11Oj6i_bHY/s50/no-image.png' width='50'/>
+        </b:if>
+        <a expr:href='data:post.href' expr:title='data:post.snippet' rel='bookmark'><data:post.title/></a>
+            <div style='clear: both;'/>
+          </b:if>
+        </b:if>
+      </dd>
+      </b:loop>
+    </ul>
+  </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='PageList1' locked='false' title='Categories' type='PageList'>
+    <b:widget-settings>
+      <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'http://newsbreed.blogspot.com/', 'title': 'Home', 'position': 0}, 'link0': {'href': 'http://newsbreed.blogspot.com/search/label/Muzik', 'title': 'Muzik', 'position': 1}, 'link1': {'href': 'http://newsbreed.blogspot.com/search/label/Videos', 'title': 'Videos', 'position': 2}, 'link2': {'href': 'http://newsbreed.blogspot.com/search/label/Picz', 'title': 'Picz', 'position': 3}, 'link3': {'href': 'http://newsbreed.blogspot.com/search/label/Naija%20News', 'title': '9ja News', 'position': 4}, 'link4': {'href': 'http://newsbreed.blogspot.com/search/label/OyInbo%20News', 'title': 'Foreign News', 'position': 5}, 'link5': {'href': 'http://newsbreed.blogspot.com/search/label/Sport', 'title': 'Sport', 'position': 6}, '8056172601904274667': {'href': 'http://newsbreed.blogspot.com/p/write-to-newsbreed.html', 'title': 'Write to NewsBreeder', 'position': 7}}]]></b:widget-setting>
+      <b:widget-setting name='homeTitle'>Home</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+                      <div class='widget-content'>
+                        <b:if cond='data:mobile'>
+                          <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
+                            <b:loop values='data:links' var='link'>
+                              <b:if cond='data:link.isCurrentPage'>
+                                <option expr:value='data:link.href' selected='selected'>
+                                  <data:link.title/>
+                                </option>
+                                <b:else/>
+                                <option expr:value='data:link.href'>
+                                  <data:link.title/>
+                                </option>
+                              </b:if>
+                            </b:loop>
+                          </select>
+                          <span class='pagelist-arrow'>
+                            &amp;#9660;
+                          </span>
+                          <b:else/>
+                          <ul>
+                            <b:loop values='data:links' var='link'>
+                              <b:if cond='data:link.isCurrentPage'>
+                                <li class='selected'>
+                                  <a expr:href='data:link.href'>
+                                    <data:link.title/>
+                                  </a>
+                                </li>
+                                <b:else/>
+                                <li>
+                                  <a expr:href='data:link.href'>
+                                    <data:link.title/>
+                                  </a>
+                                </li>
+                              </b:if>
+                            </b:loop>
+                          </ul>
+                        </b:if>
+                        <b:include name='quickedit'/>
+                      </div>
+                    </b:includable>
+  </b:widget>
+  <b:widget id='HTML102' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<div id="NBTFlashContent"><p style="display:none;">Flash Labels by <a href="http://www.newbloggertips.com/">NBT</a></p></div>  <script type="text/javascript">  /*<![CDATA[*/  var NBTFlashLabelSettings = {      blogurl        : "http://www.NEWSBREED.BLOGSPOT.com/",      color          : "000000",      hoverColor     : "333333",      backgroundColor: "FFFFFF",      size             : 12,      speed         : 100,      width          : 200,      height         : 340,      transparency   :true  };  /*]]]]><![CDATA[>*/  </script>  <script type="text/javascript" src="https://dl.dropbox.com/s/wv1jiwr7xay5vyu/NBTflash_lable_cloud.js"></script>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+                      <!-- only display title if it's non-empty -->
+                      <b:if cond='data:title != &quot;&quot;'>
+                        <h2 class='title'>
+                          <data:title/>
+                        </h2>
+                      </b:if>
+                      <div class='widget-content'>
+                        <data:content/>
+                      </div>
+                      <b:include name='quickedit'/>
+                    </b:includable>
+  </b:widget>
+  <b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar'>
+    <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener(&#39;load&#39;,
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent(&#39;onload&#39;, function(){ object[attribute] = val; });
+      }
+    }
+  &lt;/script&gt;
+&lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+      gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
+        if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d8904676976645357613\x26blogName\x3dNewsBreed%E2%84%A2\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://newsbreed.blogspot.com/search\x26blogLocale\x3den_GB\x26v\x3d2\x26homepageUrl\x3dhttps://newsbreed.blogspot.com/\x26vt\x3d-675729918279885339&#39;,
+              where: document.getElementById(&quot;navbar-iframe-container&quot;),
+              id: &quot;navbar-iframe&quot;
+          });
+        }
+      });
+    &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+(function() {
+var script = document.createElement(&#39;script&#39;);
+script.type = &#39;text/javascript&#39;;
+script.src = &#39;//pagead2.googlesyndication.com/pagead/js/google_top_exp.js&#39;;
+var head = document.getElementsByTagName(&#39;head&#39;)[0];
+if (head) {
+head.appendChild(script);
+}})();
+&lt;/script&gt;
+</b:includable>
+  </b:widget>
+  <b:widget id='Feed2' locked='false' title='Free Blogger' type='Feed'>
+    <b:includable id='main'>
+                      <h2>
+                        <data:title/>
+                      </h2>
+                      <div class='widget-content' expr:id='data:widget.instanceId + &quot;_feedItemListDisplay&quot;'>
+                        <span style='filter: alpha(25); opacity: 0.25;'>
+                          <a expr:href='data:feedUrl'>
+                            <data:loadingMsg/>
+                          </a>
+                        </span>
+                      </div>
+                      <b:include name='quickedit'/>
+                    </b:includable>
+  </b:widget>
+  <b:widget id='Feed1' locked='false' title='Free Blogger Templates' type='Feed'>
+    <b:includable id='main'>
+                      <h2>
+                        <data:title/>
+                      </h2>
+                      <div class='widget-content' expr:id='data:widget.instanceId + &quot;_feedItemListDisplay&quot;'>
+                        <span style='filter: alpha(25); opacity: 0.25;'>
+                          <a expr:href='data:feedUrl'>
+                            <data:loadingMsg/>
+                          </a>
+                        </span>
+                      </div>
+                      <b:include name='quickedit'/>
+                    </b:includable>
+  </b:widget>
+  <b:widget id='HTML101' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
+      ad_client = &quot;pub-12149&quot;;
+      ad_slot = 1;
+      ad_cat = 0;
+      ad_type = &quot;hybrid-160-2&quot;;
+      &lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://promo.com.ng/scripts/pps_adstation.js&quot;&gt;&lt;/script&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+                      <!-- only display title if it's non-empty -->
+                      <b:if cond='data:title != &quot;&quot;'>
+                        <h2 class='title'>
+                          <data:title/>
+                        </h2>
+                      </b:if>
+                      <div class='widget-content'>
+                        <data:content/>
+                      </div>
+                      <b:include name='quickedit'/>
+                    </b:includable>
+  </b:widget>
+  <b:widget id='HTML5' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;script src=&#39;http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js&#39; type=&#39;text/javascript&#39;&gt;&lt;/script&gt;
+&lt;style type=&quot;text/css&quot; media=&quot;screen&quot;&gt;
+&lt;!--
+/* ========== Scrolling Recent Posts Widget By NewsBreeder ======== */
+
+#NBT-widget {
+overflow: hidden;
+margin-top: 5px;
+padding: 0px 0px;
+height: 385px;
+}
+#NBT-widget ul {
+width: 295px;
+overflow: hidden;
+list-style-type: none;
+padding: 0px 0px;
+margin: 0px 0px;
+}
+#NBT-widget li {
+width: 282px;
+padding: 5px 5px;
+margin: 0px 0px 5px 0px;
+list-style-type: none;
+float: none;
+height: 80px;
+overflow: hidden;
+background: #fff url(http://4.bp.blogspot.com/-n-c0E1EolLQ/UNgwiGzaTEI/AAAAAAAAI08/QlG8dKfnY0g/s1600/NewBloggerTips.com-post.jpg) repeat-x;
+border: 1px solid #ddd;
+}
+#NBT-widget li a {
+text-decoration: none;
+color: #4B545B;
+font-size: 15px;
+height: 18px;
+overflow: hidden;
+margin: 0px 0px;
+padding: 0px 0px 2px 0px;
+}
+#NBT-widget img {
+float: left;
+margin-top: 10px;
+margin-right: 15px;
+background: #EFEFEF;
+border: 0;
+}
+#NBT-widget img {
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+transition: all 0.5s ease;
+padding: 4px;
+background: #eee;
+background: -webkit-gradient(linear, left top, left bottom, from(#eee), color-stop(0.5, #ddd), color-stop(0.5, #c0c0c0), to(#aaa));
+background: -moz-linear-gradient(top, #eee, #ddd 50%, #c0c0c0 50%, #aaa);
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: 0 0 3px rgba(0,0,0,.7);
+-moz-box-shadow: 0 0 3px rgba(0,0,0,.7);
+box-shadow: 0 0 3px rgba(0,0,0,.7);
+}
+#NBT-widget img:hover {
+-moz-transform: scale(1.2) rotate(-350deg);
+-webkit-transform: scale(1.2) rotate(-350deg);
+-o-transform: scale(1.2) rotate(-350deg);
+-ms-transform: scale(1.2) rotate(-350deg);
+transform: scale(1.2) rotate(-350deg);
+-webkit-box-shadow: 0 0 20px rgba(255,0,0,.4), inset 0 0 20px rgba(255,255,255,1);
+-moz-box-shadow: 0 0 20px rgba(255,0,0,.4), inset 0 0 20px rgba(255,255,255,1);
+box-shadow: 0 0 20px rgba(255,0,0,.4), inset 0 0 20px rgba(255,255,255,1);
+}
+.spydate {
+overflow: hidden;
+font-size: 10px;
+color: #0284C2;
+padding: 2px 0px;
+margin: 1px 0px 0px 0px;
+height: 15px;
+font-family: Tahoma,Arial,verdana, sans-serif;
+}
+.spycomment {
+overflow: hidden;
+font-family: Tahoma,Arial,verdana, sans-serif;
+font-size: 10px;
+color: #262B2F;
+padding: 0px 0px;
+margin: 0px 0px;
+}
+
+/* ========== Scrolling Recent Posts Widget By NewsBreeder ======== */
+
+--&gt;
+&lt;/style&gt;
+&lt;script language=&#39;JavaScript&#39;&gt;
+imgr = new Array();
+imgr[0] = &quot;http://1.bp.blogspot.com/-_Ka22NXTcw8/UNROKxLh64I/AAAAAAAAIxQ/na4pvgRt9Mw/s1600/No+Image+1.gif&quot;;
+imgr[1] = &quot;http://1.bp.blogspot.com/-_Ka22NXTcw8/UNROKxLh64I/AAAAAAAAIxQ/na4pvgRt9Mw/s1600/No+Image+1.gif&quot;;
+imgr[2] = &quot;http://1.bp.blogspot.com/-_Ka22NXTcw8/UNROKxLh64I/AAAAAAAAIxQ/na4pvgRt9Mw/s1600/No+Image+1.gif&quot;;
+imgr[3] = &quot;http://1.bp.blogspot.com/-_Ka22NXTcw8/UNROKxLh64I/AAAAAAAAIxQ/na4pvgRt9Mw/s1600/No+Image+1.gif&quot;;
+imgr[4] = &quot;http://1.bp.blogspot.com/-_Ka22NXTcw8/UNROKxLh64I/AAAAAAAAIxQ/na4pvgRt9Mw/s1600/No+Image+1.gif&quot;;
+showRandomImg = true;
+boxwidth = 255;
+cellspacing = 6;
+borderColor = &quot;#232c35&quot;;
+bgTD = &quot;#000000&quot;;
+thumbwidth = 50;
+thumbheight = 50;
+fntsize = 15;
+acolor = &quot;#666&quot;;
+aBold = true;
+icon = &quot; &quot;;
+text = &quot;comments&quot;;
+showPostDate = true;
+summaryPost = 40;
+summaryFontsize = 10;
+summaryColor = &quot;#666&quot;;
+icon2 = &quot; &quot;;
+numposts = 10;
+home_page = &quot;http://www.newsbreed.blogspot.com/&quot;;
+limitspy=4;
+intervalspy=4000;
+&lt;/script&gt;
+&lt;div id=&quot;NBT-widget&quot;&gt;
+&lt;script src=&#39;https://dl.dropbox.com/s/gviv5r1iksjfvj3/Scrolling_recent-posts-Spy-NBT.js&#39; type=&#39;text/javascript&#39;&gt;&lt;/script&gt;
+&lt;/div&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+                  <!-- only display title if it's non-empty -->
+                  <b:if cond='data:title != &quot;&quot;'>
+                    <h2 class='title'>
+                      <data:title/>
+                    </h2>
+                  </b:if>
+                  <div class='widget-content'>
+                    <data:content/>
+                  </div>
+                  <b:include name='quickedit'/>
+                </b:includable>
+  </b:widget>
+  <b:widget id='HTML10' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<object type="application/x-shockwave-flash" data="http://www.buzzbuttons.com/BUTTON3/twitbutton.swf" width="150" height="150"><param name="movie" value="http://www.buzzbuttons.com/BUTTON3/twitbutton.swf" /><param name="allowscriptaccess" value="always" /><param name="menu" value="false" /><param name="wmode" value="transparent" /><param name="flashvars" value="username=AJAS_MIKE" /><a href="http://24work.blogspot.com/" target="_blank" title="Blogger Tips and Tricks"><img src="https://bitly.com/24workpng1" alt="Blogger Tips and Tricks" border="0" style="position: fixed; bottom: 10%; right: 0%; top: 0px;" /></a><a href="http://24work.blogspot.com/" target="_blank" title="Latest Tips And Tricks"><img src="https://bitly.com/24workpng1" alt="Latest Tips And Tricks" border="0" style="position: fixed; bottom: 10%; right: 0%;" /></a><a href="http://24work.blogspot.com/" target="_blank" title="Blogger Tricks"><img src="https://bitly.com/24workpng1" alt="Blogger Tricks" border="0" style="position: fixed; bottom: 10%; left: 0%;" /></a><embed src="http://www.buzzbuttons.com/BUTTON3/twitbutton.swf" type="application/x-shockwave-flash" allowscriptaccess="always" width="150" height="150" menu="false" wmode="transparent" flashvars="username=AJAS_MIKE"></embed></object>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+              <!-- only display title if it's non-empty -->
+              <b:if cond='data:title != &quot;&quot;'>
+                <h2 class='title'>
+                  <data:title/>
+                </h2>
+              </b:if>
+              <div class='widget-content'>
+                <data:content/>
+              </div>
+              <b:include name='quickedit'/>
+            </b:includable>
+  </b:widget>
+  <b:widget id='FollowByEmail1' locked='false' title='Follow by Email' type='FollowByEmail'>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2 class='title'><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <div class='follow-by-email-inner'>
+      <form action='https://feedburner.google.com/fb/a/mailverify' expr:onsubmit='&quot;window.open(\&quot;https://feedburner.google.com/fb/a/mailverify?uri=&quot; + data:feedPath + &quot;\&quot;, \&quot;popupwindow\&quot;, \&quot;scrollbars=yes,width=550,height=520\&quot;); return true&quot;' method='post' target='popupwindow'>
+        <table width='100%'>
+          <tr>
+            <td>
+              <input class='follow-by-email-address' name='email' placeholder='Email address...' type='text'/>
+            </td>
+            <td width='64px'>
+              <input class='follow-by-email-submit' type='submit' value='Submit'/>
+            </td>
+          </tr>
+        </table>
+        <input expr:value='data:feedPath' name='uri' type='hidden'/>
+        <input name='loc' type='hidden' value='en_US'/>
+      </form>
+    </div>
+  </div>
+  <span class='item-control blog-admin'>
+    <b:include name='quickedit'/>
+  </span>
+</b:includable>
+  </b:widget>
+</b:section>
+<h2>Advertising</h2>
+<b:section class='sidebar2' id='sidebar2' maxwidgets='4' preferred='yes' showaddelement='no'/>
+</div>
+</div>
+
+<div class='clear'/>
+</div>
+</div>
+</div>
+</div>
+ 
+<script type='text/javascript'>//<![CDATA[
+var posts=6,
+    num=2,
+    previous="&#171;",
+    next="&#187;";
+rocket="<citlnug=JvSrp\"vrG\"\"Clcto.rfHDBFI) ucinlohlmnbnadt)vrhm=\"nmriipren(u/)i(oekr=nmnmriinmnmrii21mliBnmriii(ua<)ua=;asmlpren(aykaapss+;fmkia-=bnadt/ot)asmlmkia-;ki=ua+u-;fahrmkia)ki=asmlhm+\"sa ls=pgs>ae\"B\"o +asml\"/pn\"vrpenmrpren()1i(>)fB=)fD=pg\"hm+'ahe='G'>+rvos\"/>;lehm+'ahe=/erhlbl'F\"&a-eut=+pss'>+rvos\"/>;lei(=\"ae)tl=< rf\"\"ocik\"eietae'penmr';eunfle>+rvos\"/>;lehm+'ahe=# nlc=rdrclbl'penmr';eunfle>+rvos\"/>;o(a jmlij<ahrj+)fB=jhm+'sa ls=cret>+j\"/pn\"es fj=1i(=\"ae)tl=< rf\"++\"1/>;lehm+'ahe=/erhlbl'F\"&a-eut=+ot+\"1/>;lei(=\"ae)tl=< rf\"\"ocik\"eietae' j';eunfle>+j\"/>;lehm+'ahe=# nlc=rdrclbl'j+)rtr as\"'j+<a\"vrnxnmrpren()1i(<asmli(=\"ae)tl=< rf\"\"ocik\"eietae'nxnmr';eunfle>+et\"/>;lehm+'ahe=# nlc=rdrclbl'nxnmr';eunfle>+et\"/>;a aeradcmn.eEeetBNm(pgAe\";a lgae=ouetgtlmnBI(bo-ae\";o(a =;<aeralnt;+)aerap.neHM=hm;fpgAe&pgAe.egh0hm=\"i(lgae)lgae.neHM=<i ls=pgnv\"'hm+<dv\"fnto iugoadt(ot{a edro.edvrttlaapren(edoeSac$oaRsls$,0;opaaa(oadt) ucinI)vrtiUlCi(hsr.neO(/erhlbl\"!-)ftiUlidxf\"udtdmx)=1FtiUlsbtigtiUlidxf\"sac/ae/)1,hsr.neO(?pae-a\")es =hsr.usrn(hsr.neO(/erhlbl\"+4tiUlidxf\"&a\")i(hsr.neO(?=)=1&hsr.neO(.tl)=1i(hsr.neO(/erhlbl\"=-)D\"ae;fCidxf\"PgN=)=1BCsbtigCidxf\"PgN=)8Clnt)es =;ouetwie'srp r=' +fespsssmaymxrsls1atjo-nsrp&alakhtnttlaa>xcsrp>)es{=lbl;ftiUlidxf\"mxrsls\"=-)ot=0i(.neO(#aeo\"!-)=.usrn(.neO(#aeo\"+,.egh;leB1dcmn.rt(<citsc\"++fespsssmay-\"F'atjo-nsrp&alakhtnttlaamxrsls1 \\3/cit'} ucinrdrcpg(ubrae{sntr=nmepg-)pssHnmepg;a Bd=ouetgtlmnsyaNm(ha\"[]vrnwnld=ouetcetEeet\"cit)nwnld.ye\"etjvsrp\"nwnld.eAtiue\"r\"G\"ed/ot/umr?tr-ne=+sntr+&a-eut=&l=sni-citclbc=idaeot)noyapnCidnwnld) ucinrdrclblnmepg)josat(ubrae1*ot;=ubraevrnoydcmn.eEeetBTgae\"ed)0;a eIcuedcmn.raelmn(srp\";eIcuetp=tx/aacit;eIcuesttrbt(sc,+fespsssmay-\"F\"satidx\"josat\"mxrsls1atjo-nsrp&alakfndtps\";Bd.pedhl(eIcue}fnto idaeotro)ps=otfe.nr[]vrtmsap=otpbihd$.usrn(,9+otpbihd$.usrn(32)vrtmsapecdUIopnn(ietm1;fD=pg\"vraaa=/erhudtdmx\"tmsap\"mxrsls\"pss\"PgN=+;levraaa=/erhlbl\"F\"udtdmx\"tmsap\"mxrsls\"pss\"PgN=+;oainhe=lmt f$\"cprgt\".egh{fnto()vrdfut=tppcn:,otmpcn:,lsNm:i-tcy,rpeCasae\"tcywapr}$idw$wno)$ouet$dcmn)sikd[,idwegt$idwhih(,colrfnto({a colo=wno.colo(,ouetegt$ouethih(,w=ouetegtwnoHih,xr=colo>w?w-colo:;o(a =;<tce.eghi+{a =tce[]eeeto=.tcyrpe.fst)tpes=lmnTpstppcn-xr;i(colo<es)i(.urnTp=nl)ssikEeetcs\"oiin,\".s(tp,\".eoels(.lsNm)ssikEeetprn(.eoels(.lsNm)screto=ul}levrnwo=ouetegtssikEeetotregt)stppcn-.otmpcn-colo-xr;fnwo<)eTpnwo+.oSaiges eTpstppcn;fscreto!nwo)ssikEeetcs\"oiin,fxd)cs\"o\"nwo)adls(.lsNm)ssikEeetprn(.dCasscasae;screto=eTp}}rszrfnto({idwegt$idwhih(}mtos{ntfnto(pin)vro$etn(ealsotos;eunti.ahfnto({a tcylmn=(hs;tcydsikEeetat(i\";rpe=(<i>/i>)at(i\"sikI+-tcywapr)adls(.rpeCasae;tcylmn.rpl(rpe)vrsikWaprsikEeetprn(;tcyrpe.s(hih\"sikEeetotregt);tce.uh{oSaigotppcn,otmpcn:.otmpcn,sikEeetsikEeetcreto:ulsikWaprsikWaprcasaeocasae)),paesrle}i(idwadvnLsee)wno.dEetitnr\"col,colrfle;idwadvnLsee(rsz\"rszrfle}lei(idwatcEet{idwatcEet\"ncol,colr;idwatcEet\"neie,eie)$f.tcyfnto(ehd{fmtosmto]rtr ehd[ehd.pl(hsArypooyesiecl(ruet,);lei(yefmto==ojc\"|!ehdrtr ehd.ntapyti,ruet)es .ro(Mto +ehd\"de o xs njur.tcy);(ucin)stieu(colr0}}(Qey;fnto()$fesie=ucine,pin)vrsie=(l,as$etn(}$fesie.ealsotos,aepc=asnmsaetuh\"nocsati idw|idwDcmnTuh&ouetisaco ouetoc,vnTp=oc?tuhn\"\"lc\"vria=asdrcin=\"etcl,ees=asrvrecrue=asieWdh ,aevr.nmto==fd\"aNvvr.saFr=\",ehd=}$dt(l\"lxldr,ldr;ehd=ii:ucin)sie.nmtn=as;ldrcretld=assattsie.nmtnT=ldrcretld;ldraEdsie.urnSie=0|ldrcretld==ldrls;ldrcnanreetrvr.eetrsbt(,asslco.erh\"\")sie.lds$vr.eetrsie)sie.otie=(ldrcnanreetrsie)sie.on=ldrsie.eghsie.ycxss (assn)lnt>;fvr.nmto==sie)asaiain\"wn\"sie.rpvria?tp:mriLf\"sie.rs{;ldrmnaPueflesie.rniin=vr.ie&(fd&(asueS&fnto({a b=ouetcetEeet\"i\",rp=\"esetvPoet\"\"ektesetv\"\"oPrpcie,Oesetv\"\"sesetv\";o(a  nposi(b.tl[rp[]!=neie)sie.f=rp[]rpae\"esetv\"\")tLwrae)sie.rp\"\"sie.f+-rnfr\" euntu}eunfle();fvr.otosotie!=\"sie.otosotie=(ascnrlCnanr.egh0&(ascnrlCnanr;fvr.aulotos=\")ldrmnaCnrl=(asmnaCnrl)lnt>&$vr.aulotos;fvr.admz)sie.ldssr(ucin)rtr ahrudMt.adm)-.};ldrcnanrepy)apn(ldrsie)sie.oah)i(sa)ehd.sa.eu(;ldrstp\"nt)i(ascnrla)ehd.otoNvstp) fvr.ietoNvmtosdrcina.eu(;fvr.ebad&$sie.otieSlco)lnt==|vr.utpeebad)(ouet.id\"eu\"fnto(vn)vrkyoeeetkyoei(sie.nmtn&(ecd==9|ecd==7)vrtre=ecd==9sie.eTre(nx\":ecd==7sie.eTre(pe\":as;ldrfeAiaetre,aspuencin})i(asmuehe)ldrbn(muehe\"fnto(vn,et,etXdla)eetpeeteal(;a agt et<?ldrgtagt\"et)sie.eTre(pe\";ldrfeAiaetre,aspuencin};fvr.asPa)ehd.asPa.eu(;fvr.ldso)i(aspuenoe)ldrhvrfnto({f!ldrmnaPa&!ldrmnaPuesie.as(}fnto({f!ldrmnaPue&sie.aullysie.ly))vr.ntea>?eTmotsie.lyvr.ntea)sie.ly)i(oc&vr.oc)ehd.oc(;f!ae|ae&assotHih)(idw.id\"eiefcs,mtosrsz)stieu(ucin)vr.tr(ldr}20}aNv{eu:ucin)sie.sa=resie.nmtnT=ahforsie.urnSiesie.oe;ldrcrettmsie.urnSiesie.ldsrmvCasnmsae\"ciesie)e(ldrcrettm.dCasnmsae\"ciesie)sie.ldscikfnto()epeeteal(;a sie$ti)tre=sieidx)i($vr.saFr.aa\"lxldr)aiaig&$ld.aCas\"cie){ldrdrcin ldrcrettmtre?nx\"\"rv;ldrfeAiaetre,aspuencinfletu,re})}cnrla:stpfnto({f!ldrmnaCnrl)ehd.otoNvstpaig)es ehd.otoNvstpaul),euPgn:ucin)vrtp=ascnrla==tubal\"\"oto-hms:cnrlpgn\"j1ie;ldrcnrlaSafl=(<lcas\"+aepc+cnrlnv\"nmsaetp+\"<o>)i(ldrpgnCut1frvri0isie.aigon;+)ie=ascnrla==\"hmnis?<m r='sie.ldse()at(dt-hm\"+\">:<>++<a\"sie.otoNvcfodapn(<i\"ie+<l>)j+sie.otosotie?(ldrcnrlCnanr.pedsie.otoNvcfod:ldrapn(ldrcnrlaSafl)mtoscnrla.e(;ehd.otoNvatv(;ldrcnrlaSafl.eeae\",ig,vnTp,ucineet{vn.rvnDfut)vr$hs$ti)tre=ldrcnrla.ne(ti)i($hshsls(aepc+\"cie){ldrdrcintre>ldrcretld?nx\"\"rv;ldrfeAiaetre,aspuencin})i(oc)ldrcnrlaSafl.eeae\"\"\"lc ocsat,ucineet{vn.rvnDfut)),euMna:ucin)sie.otoNvsie.aulotosmtoscnrla.cie)sie.otoNvlv(vnTp,ucineet{vn.rvnDfut)vr$hs$ti)tre=ldrcnrla.ne(ti)i($hshsls(aepc+atv\")tre>ldrcretld?sie.ieto=nx\"sie.ieto=pe\"sie.lxnmt(agtvr.asOAto)};ftuhsie.otoNvlv(ciktuhtr\"fnto(vn)eetpeeteal(}}stfnto({a eetrvr.otoNv=\"hmnis?ig:a;ldrcnrla=(.+aepc+cnrlnvl +eetrsie.otosotie?ldrcnrlCnanrsie),ciefnto({ldrcnrla.eoels(aepc+atv\".qsie.nmtnT)adls(aepc+atv\"}udt:ucinato,ps{fsie.aigon>&ato==ad)ldrcnrlaSafl.ped$\"l>a\"sie.on+<a<l>);lei(ldrpgnCut=1sie.otoNvcfodfn(l\".eoe)es ldrcnrla.qps.lss(l\".eoe)mtoscnrla.e(;ldrpgnCut1&ldrpgnCut=sie.otoNvlnt?ldrudt(o,cin:ehd.otoNvatv(},ietoNv{eu:ucin)vrdrcinaSafl=(<lcas\"+aepc+drcinnv>l>acas\"+nmsae'rv rf\"\"'vr.rvet'/>/i<i< ls='nmsae'et rf\"\"'vr.etet\"/>/i<u>)i(ldrcnrlCnanr{(ldrcnrlCnanr.peddrcinaSafl)sie.ietoNv$\"\"nmsae\"ieto-a ia,ldrcnrlCnanr}lesie.peddrcinaSafl)sie.ietoNv$\"\"nmsae\"ieto-a ia,ldr}ehd.ietoNvudt(;ldrdrcina.ideetyefnto(vn)eetpeeteal(;vrtre=(hs.aCasnmsae\"et)sie.eTre(nx\":ldrgtagt\"rv)sie.lxnmt(agtvr.asOAto))i(oc)ldrdrcina.id\"lc ocsat,ucineet{vn.rvnDfut)),paefnto({a ialdls=aepc+dsbe\"i(ldrpgnCut=1sie.ietoNvadls(ialdls)es f!asaiainopi(ldraiaigo=0sie.ietoNvrmvCasdsbeCas.itr\"\"nmsae\"rv)adls(ialdls) lei(ldraiaigo=sie.atsie.ietoNvrmvCasdsbeCas.itr\"\"nmsae\"et)adls(ialdls)es ldrdrcina.eoels(ialdls)es ldrdrcina.eoels(ialdls)}puely{eu:ucin)vrpuelycfod$'dvcas\"+aepc+puely>a<a<dv';fsie.otosotie)sie.otosotie.pedpuelycfod;ldrpuely$\"\"nmsae\"aspa \"sie.otosotie)es{ldrapn(asPaSafl) ldrpuely$\"\"nmsae\"aspa \"sie)mtospuelyudt(assiehwnmsae\"as\"nmsae\"ly)sie.asPa.ideetyefnto(vn)eetpeeteal(;f$ti)hsls(aepc+pue){ldrmnaPuetu;ldrmnaPa=as;ldrpue)es{ldrmnaPueflesie.aullytu;ldrpa(})i(oc)ldrpuelybn(ciktuhtr\"fnto(vn)eetpeeteal(}}udt:ucinsae{tt==pa\" ldrpuelyrmvCasnmsae\"as\".dCasnmsae\"ly)tx(aspaTx)sie.asPa.eoels(aepc+pa\".dCasnmsae\"as\".etvr.asTx)}tuhfnto({a trXsat,fstcit,xsat,coln=as;ladvnLsee(tuhtr\"oTuhtr,as)fnto nocSate{fsie.nmtn).rvnDfut)es fetuhslnt==)sie.as(;wdhvria?ldrhsie.;trTNme(e ae;fstcrue& rvre&ldraiaigo=sie.at?:aosl&ees?ldrlmt(ldrieWvr.tmagn*ldrmv*ldraiaigocrue&sie.urnSie=sie.atsie.ii:aosl(ldrieWvr.tmagn*ldrmv*ldrcretld:ees?sie.atsie.urnSiesie.lnOfe)cit:sie.urnSiesie.lnOfe)cit;trXvria?.oce[]pgYetuhs0.ae;trYvria?.oce[]pgXetuhs0.ae;ladvnLsee(tuhoe,oTuhoefle;ladvnLsee(tuhn\"oTuhn,as)}ucinoTuhoee{xvria?trXetuhs0.ae:trXetuhs0.ae;coln=etclMt.b(x<ahasetuhs0.ae-trY:ahasd)Mt.b(.oce[]pgYsat)i(srlig|ubrnwDt)sat>0)epeeteal(;f!ae&ldrtastos{f!asaiainopd=x(ldrcretld==&d<|sie.urnSie=sie.at&x0Mt.b(x/wdh21;ldrstrp(fst x\"eTuh)}fnto nocEde{lrmvEetitnr\"ocmv\"oTuhoefle;fsie.nmtnT==ldrcretld&(srlig&(x=nl))vrudtD=ees?d:xtre=paex0sie.eTre(nx\":ldrgtagt\"rv)i(ldrcndac(agt&(ubrnwDt)sat<5&Mt.b(paex>0|ahasudtD)cit/)sie.lxnmt(agtvr.asOAto)es f!aesie.lxnmt(ldrcretld,aspuencintu)e.eoevnLsee(tuhn\" nocEdfle;trXnl;trYnl;xnl;fstnl},eiefnto({f!ldraiaig&ldri(:iil\")i(crue)ldrdMt(;ffd)ehd.mohegt)es fcrue)sie.ldswdhsie.optd)sie.paesie.aigon)sie.ePos)es fvria)sie.iwothih(ldrh;ldrstrp(ldrh\"eTtl)es{fvr.mohegtmtossotHih(;ldrnwldswdhsie.optd)sie.ePossie.optd,\"eTtl)},mohegtfnto(u)i(vria|fd)vr$b=aesie:ldrvepr;u?ojaiae{hih\"sie.ldse(ldraiaigo.egt),u)$b.egtsie.ldse(ldraiaigo.egt)},ycfnto(cin{a oj$vr.yc.aa\"lxldr)tre=ldraiaigosic(cin{ae\"nmt\"$b.lxnmt(agtvr.asOAto,as,re;ra;ae\"ly:f!ojpaig&$b.sa)ojpa(;ra;ae\"as\"$b.as(;bek};ldrfeAiaefnto(agtpueoerd,ihycfoNv{faNv&ldrpgnCut=1sie.ieto=ldrcrettmtre?nx\"\"rv;f!ldraiaig&(ldrcndac(agtfoNv|oerd)&ldri(:iil\"){faNv&ihyc{a atr$vr.saFr.aa\"lxldr)sie.tn=agt=0|agt=sie.on-;atrfeAiaetre,refletu,rma)sie.ieto=ldrcrettmtre?nx\"\"rv;atrdrcin ldrdrcini(ahci(tre+)sie.iil)1=sie.urnSie&agt=0{ldrcrettmtre;ldrsie.eoels(aepc+atv-ld\".qtre)adls(aepc+atv-ld\";agtMt.lo(agtsie.iil)es{ldrcrettmtre;ldrsie.eoels(aepc+atv-ld\".qtre)adls(aepc+atv-ld\";eunfle}ldraiaigtu;ldraiaigotre;asbfr(ldr;fpuesie.as(;fsie.ycxss&!rma)ehd.yc\"nmt\";fvr.otoNvmtoscnrla.cie)i(crue)ldrsie.eoels(aepc+atv-ld\".qtre)adls(aepc+atv-ld\";ldraEdtre==|tre==ldrls;fvr.ietoNvmtosdrcina.pae)i(agt=sie.at{asedsie)i(vr.nmtoLo)ldrpue)i(fd)vrdmninvria?ldrsie.itr\"frt)hih(:ldrcmueWmri,ldSrn,aceti(aosl{agn asieWdhsie.?asieMri*:asieMri;acet(ldrieWmri)sie.oesie.nmtnT;ldSrn=acetsie.ii&sie.iil!=?ldrlmtclNx}lei(ldrcretld==&(agt=sie.on-&(asaiainop&ldrdrcin=\"et))ldSrn=ees?sie.on+ldrcoefst*ieso:;lei(ldrcretld==ldrls&(agt=0&vr.nmtoLo&sie.ieto!=pe\")sietigrvre0(ldrcut )dmnines ldSrn=ees?sie.on--agtsie.lnOfe)dmnin(agtsie.lnOfe)dmninsie.ePossietig\",asaiainpe)i(ldrtastos{f!asaiainop|sie.tn)sie.nmtn=as;ldrcretld=ldraiaigosie.otie.nid\"ektrniinn rniinn\";ldrcnanrbn(wbiTastoEdtastoed,ucin)sie.rppdmnin}}lesie.otie.nmt(ldrag,vr.nmtoSedvr.aigfnto({ldrwau(ieso))es f!oc)sie.ldse(ldrcretld)fdOtvr.nmtoSedvr.aig;ldrsie.qtre)fdI(asaiainpe,asesn,ldrwau)es{ldrsie.qsie.urnSie.s(\"pct\"0\"Idx:};ldrsie.qtre)cs{oaiy:,zne\"2)sie.ldsubn(wbiTastoEdtastoed)sie.ldse(ldrcretld)bn(wbiTastoEdtastoed,fnto({asatrsie))sie.nmtn=as;ldrcretld=ldraiaigoi(assotHih)ehd.mohegtvr.nmtoSed};ldrwau=ucindmnin{f!ae&crue)fsie.urnSie=0&sie.nmtnT==ldrls&vr.nmtoLo)sie.ePosdmnin\"upn\";lei(ldrcretld==ldrls&(ldraiaigo=0&asaiainop)ldrstrp(ieso,jmSat)sie.nmtn=as;ldrcretld=sie.nmtnT;asatrsie);ldraiaeldsfnto({f!ldraiaigsie.lxnmt(ldrgtagt\"et)}sie.as=ucin)cernevlsie.nmtdlds;ldrpaigflei(aspuelymtospuelyudt(pa\";fsie.ycxssmtossn(pue);ldrpa=ucin)sie.nmtdldsstnevlsie.nmtSie,assiehwpe)sie.lyn=rei(aspuelymtospuelyudt(pue)i(ldrsnEit)ehd.yc\"ly);sie.aAvnefnto(agtfoNv{a ataNvsie.aigon-:ldrls;eunfoNvtu:sa&(ldrcrettm=sie.on-&(agt=0&ldrdrcin=\"rv)?reaNv&sie.urnIe==&(agt=sie.aigon-&sie.ieto!=nx\")fletre==ldrcretld&!sa?as:asaiainoptu:ldraEd&sie.urnSie=0&tre==at&ldrdrcin=\"et)?as:ldraEd&sie.urnSie=ls&(agt= &sie.ieto==nx\")fletu}sie.eTre=ucindr{ldrdrcindri(i==nx\"rtr ldrcretld==ldrls?:ldrcretld+;lertr ldrcretld==?ldrls:ldrcretld-}sie.ePosfnto(o,pca,u)vrtre=ucin)vrpshc=o?o:sie.tm+asieMri)sie.oesie.nmtnT,oCl=ucin)i(aoslrtr pca==stoc\"psrvre&ldraiaigo=sie.at0 ees?ldrlmt(ldrieWvr.tmagn*ldrmv*ldraiaigosie.nmtnT==ldrls?ldrlmtpshc;lesic(pca)cs stoa\"rtr ees?sie.on--ldrcretld+ldrcoefst*o:sie.urnSiesie.lnOfe)pscs stoc\"rtr ees?o:o;ae\"upn\"rtr ees?o:ldrcutpscs jmSat:eunrvresie.on*o:o;eal:eunps})rtr oCl*1\"x})i(ldrtastos{agt etcl\"rnlt3(,+agt\"0\"\"rnlt3(+agt\"00\"drdr=udfnddr13\"\"\"s;ldrcnanrcs\"\"sie.f+-rniindrto\"dr}ldrag[ldrpo]tre;fsie.rniin|dr=udfndsie.otie.s(ldrag);ldrstpfnto(ye{f!ae{a ldrfstari(ye=\"nt)sie.iwot$'dvcas\"+aepc+vepr\"<dv'.s(\"vrlw:hde\"\"oiin:rltv\")apnT(ldr.pedsie.otie) ldrcoeon=;ldrcoefst0i(ees)ar$mkArysie.lds.ees(;ldrsie=(r)sie.otie.mt(.pedsie.lds}i(asaiainop&crue)sie.lnCut2sie.lnOfe=;ftp!=ii\"sie.otie.id\"coe)rmv(;ldrcnanrapn(ldrsie.is(.ln(.dCas\"ln\")peedsie.ldsls(.ln(.dCas\"ln\")sie.eSie=(asslco,ldr;ldrfstrvresie.on--sie.urnSiesie.lnOfe:ldrcretld+ldrcoefsti(etcl&crue)sie.otie.egt(ldrcutsie.lnCut*0+%)cs\"oiin,aslt\".it(10\";eTmotfnto({ldrnwldscs{dsly:bok};ldrdMt(;ldrvepr.egtsie.)sie.ePossieOfe*ldrh\"nt),ye=\"nt?0:)es{ldrcnanrwdh(ldrcutsie.lnCut*0+%)sie.ePossieOfe*ldrcmueW ii\";eTmotfnto({ldrdMt(;ldrnwldscs{wdh:ldrcmueW\"la\"\"et,dsly:bok};fvr.mohegtmtossotHih(}tp==ii\"100}es{ldrsie.s(\"it\"\"0%,fot:lf\"\"agnih\"\"10\"\"oiin:rltv\")i(ye=\"nt)f!oc)ldrsie.qsie.urnSie.aenvr.nmtoSedvr.aig;lesie.ldscs{oaiy:,dsly:bok,wbiTasto\"\"pct +asaiainpe/13\" ae,zne\"1)e(ldrcretld)cs{oaiy:,zne\"2)i(assotHih)ehd.mohegt)i(crue)ldrsie.eoels(aepc+atv-ld\".qsie.urnSie.dCasnmsae\"ciesie);ldrdMt=ucin)vrsiesie.ldsfrt)sieagnvr.tmagnmntm=asmntm,aIesvr.aIessie.=ldrwdh)sie.=ld.egt)sie.oPdigsieotrit(-ld.it(;fcrue)sie.tm=vr.tmit+ldMri;ldrmn=iIesmntm*ldrieTsie.;ldrmx=aIesmxtm*ldrieTsie.;ldrieWsie.iWsie.?sie.-ldMri*iIes/iIessie.aWsie.?sie.-ldMri*aIes/aIesvr.tmit>ldrwsie.:asieWdhsie.iil=ahforsie./sie.tm+ldMri);ldrmv=asmv>&vr.oesie.iil?asmv:ldrvsbesie.aigon=ahci(sie.on-ldrvsbe/sie.oe1;ldrls=ldrpgnCut1sie.ii=ldrpgnCut=10vr.tmit>ldrw(ldrieWsieagn2*ldrcutsie.-ldMri:sie.tm+ldMri)sie.on-ldrwsieagnes{ldrieWsie.;ldrpgnCutsie.on;ldrls=ldrcut1sie.optd=ldrieWsie.oPdig;ldrudt=ucinpsato)sie.oah)i(crue)i(o<ldrcretld)ldrcretld+1es fps=ldrcretld& o!=)ldrcretld-1sie.nmtnT=ldrcretld}fvr.otoNv&sie.aulotosi(cin=\"d\"&crue|sie.aigon>ldrcnrla.eghmtoscnrla.pae\"d\";lei(cin=\"eoe&!aosl|ldrpgnCutsie.otoNvlnt)i(aosl&ldrcretld>ldrls)sie.urnSie=;ldraiaigo=}ehd.otoNvudt(rmv\"sie.at}fvr.ietoNvmtosdrcina.pae);ldradld=fnto(b,o)vr$b=(b)sie.on+1sie.atsie.on-;fvria&rvreps=udfndsie.ldse(ldrcutps.fe(oj:ldrcnanrpeed$b)es o!=neie?ldrsie.qps.eoe$b)sie.otie.ped$b)sie.paeps\"d\";ldrsie=(asslco+:o(coe\"sie)sie.eu(;asaddsie);ldrrmvSiefnto(b)vrpsiNNoj?ldrsie.ne((b):b;ldrcut=;ldrls=sie.on-;fiNNoj)(b,ldrsie)rmv(;levria&rvresie.ldse(ldrls)rmv(:ldrsie.qoj.eoe)sie.oah)sie.paeps\"eoe)sie.lds$vr.eetr\"nt.ln),ldr;ldrstp)vr.eoe(ldr}mtosii(}$fesie.eals{aepc:fe-,eetr\"sie  i,nmto:fd\"esn:sig,ieto:hrzna\"rvrefleaiainoptu,mohegtflesatt0siehwtu,ldsoSed73 nmtoSed60iiDly0rnoieflepuencintu,asOHvrfleueS:retuhtu,ie:as,otoNvtu,ietoNvtu,rvet\"rvos,etet\"et,ebadtu,utpeebadflemuehe:as,asPa:as,asTx:Pue,lyet\"ly,otosotie:\"mnaCnrl:\"sn:\"aNvo:\"ieWdh0ieMri:,iIes0mxtm:,oe0satfnto({,eoefnto({,fe:ucin)}edfnto({,de:ucin)} eoe:ucin)};.nfesie=ucinotos{fotos=udfndotos{;ftpo pin==ojc\"rtr hsec(ucin)vr$hs$ti)slco=pin.eetrotosslco:.lds>l\"$lds$hsfn(eetr;f$ldslnt==)$ldsfdI(0)i(pin.tr)pin.tr(ti)es f$hsdt(fesie\"=udfndnw$fesie(hsotos};levr$ldr$ti)dt(fesie\";wthotos{ae\"ly:sie.ly)bek ae\"as\"$ldrpue)bekcs nx\"$ldrfeAiae$ldrgtagt\"et)tu)bekcs pe\"cs peiu\"$ldrfeAiae$ldrgtagt\"rv)tu)bekdfuti(yefotos=\"ubr)sie.lxnmt(pin,re}})jur)(ucin${f$f.aoFeSlrtr;.ncrurde=.ncrurde=ucinuw{fti.egh=)dbgtu,N lmn on o 'ti.eetr'.)rtr hsi(hslnt>)eunti.ahfnto({(hs.aoFeSlu ))vryti,t0ti[]satn_oiinflei(.aa\"csiCrue\")satn_oiinytigrade(_f_rgeEet,cretoiin)ytigr\"cstigrvn\"[dsry,re)y_f_ntfnto(,,)og_eOjc(t0o;.tm=ogttmOjc(t0oies;.colg_eSrlOjc(t0osrl)oat=ogtuobet$t,.uo;.rvg_ePeNxOjc(t0ope)onx=ogtrvetbet$t,.et;.aiaing_ePgntoOjc(t0opgnto) .wp=ogtwpOjc(t0osie;.oswelg_eMueheOjc(t0omuehe)i()psoi=.xedtu,}$f.aoFeSldfut,)ot=.xedtu,}$f.aoFeSldfut,)ot.=fgtiesosot)zdrcinot.ieto=\"p|ot.ieto=\"et?nx\"\"rv;a =.hlrn)aalpiaym_ePrnSz(wpot,wdh)i(stu(pscoi)ot.oke\"aofeslcoi_+ofsraNme;psmxieso=sgtaDmninot,vi_rmr) psiesi_opeettm(psiesot,,)ot[psd\"it\"]i_opeetrmrSz(psot.[wdh],psc;psot.[hih\"]i_opeeteodrSz(psot.[hih\"]ot,)i(psrsosv)f!spretg(psot.[wdh])ot[psd\"it\"]\"0%;fi_ecnaeot[psd\"it\"])zuDtOWnoRsz=rezpiayieecnaeot[psd\"it\"]ot[psd\"it\"]m_ePretg(vi_rmr,.rmrSzPretg)i(ot.tm.iil)psiesvsbeofvral=tu}fot.epnie{psueadn=as;pspdig[,,,]ot.lg=as;psiesvsbeofvral=as}lei(ot.tm.iil)psi_opeetiilIesot,vi_rmr)i(ot[psd\"it\"]i(ot.tm.iilCn.aibe&i_ubrot.tm[psd\"it\"]&ot.tm.itr=*){psot.[wdh]=psiesvsbeot.tm[psd\"it\"]ot.lg=as}leot[psd\"it\"]\"aibe;fi_neie(psain)psaini_ubrot[psd\"it\"]?\"etr:as;fot.tm.iilCn.aibeot.tm.iil=ngtiilIesetcot,)i(psiesfle!\"\"&ot.tm.iilCn.aibe{psiesvsbeofogot.tm.iil;psiesvsbeg_eVsbetmNxFle(,ps0}psiesvsbec_eIesdutot.tm.iil,psot.tm.iilCn.dut$t)ot.tm.iilCn.l=psiesvsbei(psrsosv)i(ot.tm.iilCn.i)psiesvsbeofmnot.tm.iil;i(ot.tm.iilCn.a)psiesvsbeofmxot.tm.iil;psi_eRsosvVle(pscaalpiay}leot.adn=fgtadn(pspdig;fot.lg=\"o\"ot.lg=lf\"es fot.lg=\"otm)psain\"ih\"sic(psain{ae\"etr:ae\"et:ae\"ih\"i(psot.[wdh]!\"aibe)ot=ngtlgPdigot,)ot.sPdigtu}ra;eal:psainfleot.sPdigot.adn[]=&(pspdig1=0&ot.adn[]=0&pspdig3=0)fletu;ra}i(i_ubrot.coldrto)ot.coldrto=0;fi_neie(pssrl.tm)ot.coliesot.epnie|ot.tm.iilCn.aibe|psiesfle!\"\"?vsbe:psiesvsbeot.uo$etn(re{,pssrl,psat)ot.rv$etn(re{,pssrl,pspe)ot.et$etn(re{,pssrl,psnx)ot.aiain$etn(re{,pssrl,pspgnto)ot.uog_opeetuobet$t,ot.uo;pspe=ocmlmnPeNxOjc(t0ot.rv;psnx=ocmlmnPeNxOjc(t0ot.et;pspgnto=ocmlmnPgntoOjc(t0ot.aiain;pssieg_opeetwpOjc(t0ot.wp)ot.oswelg_opeetoswelbet$t,psmuehe)i(pssnhoieot.ycrns=fgtycArot.ycrns)i(psat.nasSat{psat.nieuSatot.uooPuetr;erctd\"uooPuetr\"\"uooTmottr\"}fot.uooPueas)ot.uooTmotas=ot.uooPueas;erctd\"uooPueas\"\"uooTmotas\"}fot.uooPuen)ot.uooTmotn=psat.nasEddpeae(at.nasEd,at.nieuEd)i(psat.asDrto)ot.uotmotuainot.uopueuaindpeae(at.asDrto\"\"uotmotuain)}y_f_ul=ucin)ydt(_f_saosl,re;a =.hlrn)ogS=nmps(,\"etlg\"\"la\"\"oiin,tp,rgt,bto\"\"et,zne\"\"it\" hih\"\"agno\"\"agnih\"\"agnotm,mriLf\")nwoiin\"eaie;wthogS.oiin{ae\"boue:ae\"ie\"nwoiinogS.oiinbek$r.s(rCS.s(\"vrlw:hde\"\"oiin:ePsto};.aa\"csoiCs,rCS.s(\"etlg\"\"et,fot:nn\"\"oiin:aslt\"\"o\"0\"ih\"\"uo,bto\"\"uo,lf\"0\"agno\"0\"agnih\"0\"agnotm:,mriLf\"0)s_trMri(,ps;zsoeie(,ps;fot.epnies_eRsosvSzsot,a}y_f_ideet=ucin)y_f_nideet(;.idc_(so\"cn)fnto(,)esoPoaain)i(ziSopdi(psat.utnot.uobto.dCasc_(sopd,of)ziSopdtu;fot.uopa)ot.uopa=as;.rge(fe\"as\"cn)a}euntu};.idc_(fns\"cn)fnto()esoPoaain)i(.scoln)csoSrl(cl;euntu};.idc_(pue,of,ucineab{.tprpgto(;mss_laTmr(ms;i(&ziSrlig{cliSopdtu;a =eTm(-clsatiesr.uain=;fsr.r)clpedrto-ci(clps)clps.uain=;csoSrl(clfle}f!.sasd&ziSrligi()mstmPse+gtie)tr.trTm;f!.sasdi(psat.utnot.uobto.dCasc_(pue\"cn);.sasdtu;fot.uooTmotas)vrdot.uotmotuaintr.ieasdpr=0-ahci(*0/psat.ieuDrto)ot.uooTmotas.al$t,pr,)rtr re)ybn(fe\"ly,of,ucinebcd{.tprpgto(;mss_laTmr(ms;a =bcd,=\"tig,nme\"\"ola\",=fsrPrm(,)ba0;=[]da2;fb=pe\"&!\"et)=.ieto;f!snme()c0i(i_ola()dflei()ziSopdfleot.uopa=rei(ot.uopa)esoImdaerpgto(;eundbgcn,Crue tpe:Ntsrlig\"}fziPue)fot.uobto)ot.uobto.eoels(fc\"tpe\" of)ot.uobto.eoels(fc\"asd,of)ziPue=as;mssatiegtie)vrfot.uotmotuaincdr=-mstmPse;ec10Mt.eldr*0/)i(psat.rgestr.rgesstnevlfnto({a =eTm(-mssatietr.ieasdpr=ahci(*0/)ot.uopors.pae.alot.uopors.a[]pr),psat.rgesitra)tr.uostieu(ucin)i(psat.rgesot.uopors.pae.alot.uopors.a[] 0)i(psat.nieuEdot.uooTmotn.al$t,ecdr)i(.scoln).rge(fe\"ly,of,)es .rge(febcn)ot.uo}dr)i(psat.nieuSatot.uooTmottr.al$t,ecdr)rtr re)ybn(fe\"eue,of,ucine{.tprpgto(;fsr.stpe)sr.stpe=as;.sasdfleziSrligtu;clsatiegtie)s_trSrl(cl}leytigrc_(pa\"cn);euntu};.idc_(pe\" of+ +fe\"et,of,ucinebfgh{.tprpgto(;fziSopd|.s\"hde\")esoImdaerpgto(;eundbgcn,Crue tpe rhde:Ntsrlig\"}a =snme(psiesmnmm?psiesmnmmot.tm.iil+;fiim.oa)esoImdaerpgto(;eundbgcn,Nteog tm \"im.oa+ oa,\"i\"nee) o coln.)vrv[,,,]t[ojc\"\"ubrsrn\"\"ucin,boen]ac_otaasvt;=[] =[]ga2;=[]vrketp.lc(ofeet.rfxlnt)i(i_betb)=}i(sfnto()boAtrgi(sboenh).uu=;=.xedtu,}ot[]b;fbcniin&!.odtoscl(t0k)esoImdaerpgto(;eundbgcn,Clbc cniin\"rtre as.)i(i_ubrf)i(psiesfle!\"\"f\"iil\"es{a =fbiesot[]ies;o(a =,=.eghala+i(snme([]|([]=pg\"|[]=vsbe){=[]bek}wthf{ae\"ae:.tpmeitPoaain) eunytigrade(fek\"ae,of,bg)bekcs vsbe:f!psiesvsbeofvral&ot.tm.itr=*)=psiesvsbebek}fsr.stpe)ytigrc_(rsm\"cn);.rge(fe\"uu\"cn)[,bfg];.tpmeitPoaain)rtr eu(of\"aoslrsmdsrlig\"}fbdrto>)fziSrlig{fbqeeytigrc_(qee,of,k[,,])esoImdaerpgto(;eundbgcn,Crue urnl coln.)tr.ieasd ;.rge(fe\"ld_+,of,bf)i(pssnhoie{a =pssnhoiec[,]frvrj0lslnt;<;+)vrdki(sj[]dd=pe\"\"et:pe\"i(sj[]c0=[]0.rgeHnlr\"cstigrvn\"[cniuain,];[]fsj[]sj[]tigr\"cstigrvn\"[sie\"dc)}euntu};.idc_(siepe\"cn)fnto(,,)esoPoaain)vrdycide(;f!pscrua)fim.is=0{fot.niieytigrc_(nx\"cn) tsttl1;eunesoImdaerpgto(}zrstagndot)i(i_ubrc)i(psiesvsbeofvral)=ngtiilIesrvdot,tsttl1;lei(psiesfle!\"\"{a =snme(.tm)biesg_eVsber(,ps;=ngtcoltmPeFle(,psim.oa-,)es =psiesvsbecc_eAjs(,psbies$t)i(ot.iclri(tsttlcim.is)=tsttlim.is;psiesvsbeofodot.tm.iil;fot.tm.iilCn.aibe{a =c_eIesdutg_eVsbetmNx(,psim.oa-)ot,psiesvsbeofajs,t0;fot.tm.iil+<g&<tsttl{+;=fgttmAjs(ngtiilIesetdot,tsttlc,psot.tm.iilCn.dut$t)ot.tm.iil=}lei(psiesfle!\"\"{a =ngtiilIesetitrdot,tsttlc;psiesvsbec_eIesdutgot,psiesvsbeofajs,t0}zrstagndot,re;fc=)esoImdaerpgto(;rtr eu(of\" tm osrl:Ntsrlig\"}eu(of\"coln ++ tm akad\";tsfrt=;hl(tsfrt=tsttlim.is-im.oa;f!pscrua)i(tsfrt=&boEdboEdcl(t0\"rv)i(ot.niien_nbeaiot,tsfrtcn)ycide(.lc(tsttlcim.oa)peedoy;fim.oa<psiesvsbecycide(.lc(,psiesvsbecim.oa)coetu)apnT()vrdycide(,_l=igtlIesrvd psc,_e=igteIesrvdot)icrlde(-)iodliodls(,_e_=_e.at)s_eeMri(,ps;a =,R0i(psain{a =fgtlgPdiginwot)hp0;Rp1}a =<?pspdigot.[]:;a =as,_k=(;fot.tm.iil<)ispdsieot.tm.iilCn.l,)i(.x=drcsrl\"{a =psiesot.[wdh];=_k;_u_=_e_;chdHdeIesj;psiesot.[wdh]=vral\"}a =as,_i=sgtoaSz(.lc(,c,ps\"it\",_i=fmprpeSzsm_eSzsinwot,re,ps!psueadn)iszvs0acs{,_s=}acr{,_l=}anw{,_e=}alfvs{,_u=cgtuainbot,,_i)sic(.x{ae\"oe\"cs cvrfd\"iszvsm_eTtliedsie0ot.tm.iil)ot,wdh)beki()psiesot.[wdh]=;zrstagndot,re;fp>0s_eeMri(_l_,psot.adn[psd1];fh=)zrstagnicrlot,pspdigot.[]) fot.lg)ot.adn[psd1]p;pspdigot.[]=}_e[psd\"et]=(_i-)alfvsot.[lf\"]-iszvsi;_s[psd\"et]=_i[psd\"it\"]vrmfnto({,awaprfnto({,spdigl=ucin)}__adnodfnto({,spdige=ucin)}__adnnwfnto({,spdigu=ucin)}__adncrfnto({,oatrfnto({,mviesfnto({,psto=ucin)}sic(.x{ae\"rsfd\"cs cvr:ae\"oe-ae:ae\"noe\"cs ucvrfd\"l .ln(re.pedo$r)beksic(.x{ae\"rsfd\"cs ucvr:ae\"noe-ae:.hlrn)sie0c.eoe)lcide(.lc(psiesvsbeofod.eoe)bekcs cvr:ae\"oe-ae:.hlrn)sieot.tm.iil)rmv(;.s(_e_i)bekycsalf;cls_eSrl(_u,.aig;_f[psd\"et]=psueadn?pspdigot.[]:;fot[psd\"it\"]=vral\"|psot.[hih\"]=vral\"{=ucin)$r.s(_i);__rpe=ucin)sr.nm.uh[wpwsz)}fot.sPdig{finwlnticrl.egh{_u[psd\"agnih\"]icrldt(_f_rgsMri\";fh0icrlcsacr;le__adncrfnto({_u_.s(_u);apdigu=ucin)sr.nm.uh[_u_,_u]}}wthbf)cs cvr:ae\"oe-ae:.hlrn)e(-)csacr;ra}finwlntiodl.egh{_l[psd\"agnih\"]iodldt(_f_rgsMri\";spdigl=ucin)iodlcsaod} apdigl=ucin)sr.nm.uh[_l_,_l]}i(R=)anwot.[mriRgt]=_e_.aa\"csoiCsagn)ot.adn[psd1]__adnnwfnto({_e_.s(_e);apdige=ucin)sr.nm.uh[_e_,_e]}}psto=ucin)ycsacs}vrnot.tm.iil+-tsttl_oetm=ucin)i(>)ycide(.lc(tsttl.eoe)iod$ycide(.lc(tsttl(psiesvsben)gt)cna(.hlrn)sie0 )gt))s_hwidntm()i(psueadn)vraycide(.qot.tm.iil+-)acsot.[mriRgt]adt(_f_rgsMri\")}vros_aClbcAgmnsiodispinwc\"rv,_u,_i)_nfe=ucin)s_feSrl(,,)ziSrligflecb.nfe=cfrClbcs$t,,oAtr,,lk;uus_ieuu(,uucn)i(ziPue).rge(fe\"ly,of);.scoln=retr=cceriestr)cb.neoes_iealak(t0 ,oBfr\"ocb)sic(.x{ae\"oe:.s(_f)m)__adnod)__adnnw)__adncr)_oiin)_oetm(;oatr)bekcs fd\"sr.nm.uh[,\"pct\"0,ucin)m)__adnod)__adnnw)__adncr)_oiin)_oetm(;cls_eSrl(_u,.aig;claisps(y{oaiy:}_nfe];csatcolsr)];ra;ae\"rsfd\"ycs{oaiy:};claisps(l{oaiy:})sr.nm.uh[,\"pct\"1,oatr) awapr)__adnod)__adnnw)__adncr)_oiin)_oetm(;ra;ae\"oe\"sr.nm.uh[,_f,ucin)__adnod)__adnnw)__adncr)_oiin)_oetm(;oatr)];awapr)bekcs cvrfd\"sr.nm.uh[,\"pct\"0];claisps(lacsfnto({.s(\"pct\"1)__adnod)__adnnw)__adncr)_oiin)_oetm(;oatr)];awapr)bekcs ucvr:claisps(lawz oatr)__rpe(;spdigl(;spdige(;spdigu(;psto(;mvies)bekcs ucvrfd\"ycs{oaiy:};claisps(y{oaiy:})sr.nm.uh[,_s,oatr)__rpe(;spdigl(;spdige(;spdigu(;psto(;mvies)bekdfutsr.nm.uh[,_f,ucin)_oetm(;oatr)];awapr)__adnod)__adnnw)__adncr)beks_trSrl(cl;fstokeot.okeycn)ytigrc_(udtPgSau\" of,flewsz)rtr re)ybn(fe\"ld_et,of,ucinecd{.tprpgto(;a =.hlrn)i(ot.iclri(tsfrt=psiesvsbe{fot.niieytigrc_(pe\"cn)im.oa-)rtr .tpmeitPoaain)s_eeMri(,ps;f!snme(){fot.tm.itr=*)vrgi_ubrcies?.tm:ngtiilOgyot)dg_eSrlIesetitrfot,,)es =psiesvsbedc_eAjs(,pscies$t)vrh tsfrt=?tsttlim.is;f!pscrua)i(psiesvsbeofvral)a =ngtiilIesetfot,)gg_eVsbetmPe(,psh1;levriot.tm.iil,=psiesvsbei(+>)=-}psiesvsbeofodot.tm.iil;fot.tm.iilCn.aibe{a =fgttmAjs(ngtiilIeseteticlrfot,,)ot,psiesvsbeofajs,t0;hl(psiesvsbed=&dim.oa)d+ic_eIesdutg_eVsbetmNxTsCrua(,ot,,)ot,psiesvsbeofajs,t0}psiesvsbeies fot.tm.itr=*)vrig_eVsbetmNxFle(,psd;psiesvsbec_eIesdutiot,psiesvsbeofajs,t0}zrstagnfot,re;fd=)esoImdaerpgto(;eundbgcn,0iest col o coln.)dbgcn,Srlig\"d\"iesfrad\";tsfrt=;hl(tsfrt0im.is+im.oa;f!pscrua)i(tsfrt=psiesvsbe&coEdcoEdcl(t0\"et)i(ot.niien_nbeaiot,tsfrtcn)i(tsttlot.tm.iil+).hlrn)sie0ot.tm.iil+-tsttl.ln(re.pedoy;a =.hlrn)iodg_eOdtmNx(,ps,_e=igteIesetfot,)icrlfe(-)iodliodls(,_e_=_e.at)s_eeMri(,ps;a =,R0i(psain{a =fgtlgPdiginwot)jp0;Rp1}a =as,_k=(;fot.tm.iilCn.l<d{_k=.lc(psiesvsbeofodd;fcf=\"ietcol)vrlot.tm[psd\"it\"]kispicrliodls_ieidntm()ot.tm[psd\"it\"]\"aibe}vrmfleiszm_eTtliefsie0d,ps\"it\",_i=fmprpeSzsm_eSzsinwot,re,ps!psueadn)iszvs0acs{,_f_i=}acr{,_l=}alf{,_u=cgtuaincot,,_i)sic(.x{ae\"noe\"cs ucvrfd\"iszvsm_eTtliefsie0 psiesvsbeofod,ps\"it\";ra}fkot.tm[psd\"it\"]li(psaini(pspdigot.[]<)pspdigot.[]=;zrstagnfot,re;zrstagniodlot,pspdigot.[])i(psain{pspdigot.[]=Rot.adn[psd3]jalfot.[lf\"]ot.sPdigot.adn[psd3]0vrnfnto({,awaprfnto({,spdigl=ucin)}__adnodfnto({,spdigu=ucin)}__adncr ucin)}_nfe=ucin)}_oetm=ucin)}_oiinfnto({;wthcf)cs cosae:ae\"oe\"cs cvrfd\"cs ucvr:ae\"noe-ae:=.ln(re.pedo$r)mcide(.lc(psiesvsbeofod.eoe)beksic(.x{ae\"rsfd\"cs cvr:ae\"oe-ae:.s(zne\"1;.s(zne\"0;ra}cls_eSrl(_u,.aig;_f[psd\"et]=iszacsvsot.[lf\"]-_i_i;fj0acsot.[lf\"]=ji(psot.[wdh]=\"aibe|ot[psd\"egt]=\"aibe)nfnto({wpcswsz}__rpe=ucin)sr.nm.uh[wpwsz)}fot.sPdig{a =_e_.aa\"csoiCsagn)i(R=)+ot.adn[psd1]inwlcsot.[mriRgt]o;ficrlntiodl.eghaodot.[mriRgt]=_l_.aa\"csoiCsagn)__adnodfnto({_l_.s(_l);apdigl=ucin)sr.nm.uh[_l_,_l]}vrqicrldt(_f_rgsMri\";i(>)+ot.adn[psd3]acrot.[mriRgt]=;spdigu=ucin)icrlcsacr}__adncrfnto({claisps(icrlacr)}psto=ucin)ycsalf}vrrot.tm.iil+-tsttl_oetm=ucin)i(>).hlrn)sieim.oa)rmv(;a =.hlrn)sie0d.pedoy.at)i(>)_e=igturnIesfot)s_hwidntm()i(psueadn)i(tsttlot.tm.iil+)vrbycide(.qot.tm.iil-1;.s(psd\"agnih\",.aa\"csoiCsagn)ot.adn[psd3]}.s(psd\"agnih\",.aa\"csoiCsagn)};a =cmpalakruet(_l,_k,_e,,nx\"adrwsz;oatrfnto({.s(zne\"ydt(_f_rgs\".Idx;catrcolymc;.scoln=as;lkoAtrs_iealak(t0c\"nfe\"scb)qe=cfrQeeyqe,of;f!.sasdytigrc_(pa\"cn)}ziSrligtu;mss_laTmr(ms;lkoBfr=s_iealak(t0c\"neoe,,lk;wthcf)cs nn\"ycsacs;(;spdigl(;spdigu(;psto(;mvies)_nfe(;ra;ae\"ae:claisps(y{oaiy:}fnto({(;spdigl(;spdigu(;psto(;mvies)sr=cstcoladrcesn)sr.nm.uh[,\"pct\"1,oatr)s_trSrl(cl})bekcs cosae:.s(\"pct\"0)sr.nm.uh[,\"pct\"0];claisps(y{oaiy:}_nfe];__rpe(;spdigl(;spdigu(;psto(;mvies)bekcs cvr:.s(psd\"et]$r[psd\"it\"]);claisps(yalf_nfe];awapr)__adnod)__adncr)_oetm(;ra;ae\"oe-ae:.s(psd\"et]$r[psd\"it\"]);claisps(m{oaiy:})sr.nm.uh[,_e,oatr)__rpe(;spdigl(;spdigu(;mvies)bekcs ucvr:claisps(macsvs_nfe];awapr) spdigl(;spdigu(;psto(;mvies)bekcs ucvrfd\"ycs{oaiy:};claisps(y{oaiy:})sr.nm.uh[,_f_i,oatr)__rpe(;spdigl(;spdigu(;psto(;mvies)bekdfutsr.nm.uh[,_f,ucin)_oiin)_oetm(;oatr)];awapr)__adnod)__adncr)beks_trSrl(cl;fstokeot.okeycn)ytigrc_(udtPgSau\"cn)[as,_i];euntu};ybn(fe\"ldT\"cn)fnto(,,,,,,)esoPoaain)vrv[,,,,,]t[srn/ubrojc\"\"ubr,boen,ojc\"\"tig,fnto\",=fsrPrm(,)fa3;=[]ha5;=ngttmne([]a1,[]im,)i(=0rtr as;f!sojc()fflei(.scoln)f!sojc()|.uain0rtr as;fg=pe\"&!\"et)fot.iclrgb=tsttl2\"et:pe\"es =tsfrt=|im.is>?nx\"\"rv;fg=pe\"bim.oa-bytigrc_(,of,fbh)rtr re)ybn(fe\"rvae,of,ucineab{.tprpgto(;a =.rgeHnlrc_(cretae,of)rtr .rgeHnlrc_(sieoae,of,c1a\"rv,]};.idc_(nxPg\"cn)fnto(,,)esoPoaain)vrcytigrade(fe\"urnPg\"cn);eunytigrade(fe\"ldTPg\"cn)[+,,nx\"b))ybn(fe\"ldTPg\"cn)fnto(,,,,)esoPoaain)i(i_ubra)=ytigrade(fe\"urnPg\"cn);a =pspgnto.tm|ot.tm.iil,a=ahci(tsttlf-;fa0amxi(>a)=;eunytigrade(fe\"ldT\"cn)[*,,rebcd))ybn(fe\"upotr\"cn)fnto(,)esoPoaain)i()=ngttmne(,,reim,)es =;+im.is;fs=)i(tm.oa>)hl(>tsttls=tsttlypeedycide(.lc(,tsttl)rtr re)ybn(fe\"ycrns\"cn)fnto(,s{.tprpgto(;fssc_eSnhr()es fot.ycrns)=pssnhoiees eundbgcn,N aoslt ycrns.)vrnytigrade(fe\"urnPsto\"cn),=refrvrj0lslnt;<;+)f![]0.rgeHnlrc_(sieo,of,nsj[]tu])=as;eunx)ybn(fe\"uu\"cn)fnto(,,)esoPoaain)i(sfnto()acl(t0qe)es fi_ra()qe=;lei(i_neie()qe.uh[,];eunqe};ybn(fe\"nettm,of,ucinebcdf{.tprpgto(;a =bcdf,=\"tigojc\"\"tignme/bet,boen,nme\",=fsrPrm(,)ba0;=[]da2;=[]i(sojc()&i_qeyb)=()es fi_tigb)=()i(i_qeyb|blnt=0rtr eu(of\"o  ai bet\";fi_neie()c\"n\"s_trMri(,ps;zsoeie(,ps;a =,eoe\"eoe;fc=ed)fd{fim.is=0{=tsttl1bfr=atr}lec tsfrtim.is+blnt}fc0c0es{=tsttl1bfr=atr}lecg_eIeIdxcfdim,)i(!\"n\"&di(<tsfrtim.is+blnt;fim.is>im.oa)tsfrt=tsttlvrhycide(.qc;fhlnt)[eoe()es .pedb;tsttlycide(.eghytigrc_(udtSzs,of)ytigrc_(lnAcos,of)rtr re)ybn(fe\"eoetm,of,ucinecdf{.tprpgto(;a =cdf,=\"tignme/bet,\"ola\"\"ubr]ac_otaasvt;=[]da1;=[]vrgflei( ntnef$&.egh1{=(;.ahfnto(,)vrbytigrc_(rmvIe\"cn)[(hs,,];fbhhadb};eunhi(sudfndc|c=ed)=.hlrn)ls(;lecg_eIeIdxcfdim,)vrhycide(.qc;fhlnt)fcim.is)tsfrt=.eghi(&hlnt)hdtc(;tsttlycide(.eghytigrc_(udtSzs,of)rtr };.idc_(oBfr\" of+ +fe\"nfe\"cn)fnto(,)esoPoaain)vrbetp.lc(ofeet.rfxlnt)i(sarya)lkb=;fi_ucina)lkb.uha;euncb[])ybn(fe\"urnPsto\"cn)fnto(,)esoPoaain)i(tsfrt=)a =;levrbim.oa-tsfrti(sfnto()acl(t0b;eunb)ybn(fe\"urnPg\"cn)fnto(,)esoPoaain)vrbot.aiainies|psiesvsbemxMt.elim.oa/-) ri(tsfrt=)r0es fim.is<tsttlbn=;lei(tsfrt=&!pscrua)rmxes rMt.on(im.oa-tsfrt/)i(r0n=;fn>a)rmxi(sfnto()acl(t0n)rtr r)ybn(fe\"urnVsbe,of,ucinea{.tprpgto(;a =igturnIesycide(,ps;fi_ucina).al$t,)rtr };.idc_(sie,of,ucineflb{.tprpgto(;fim.oa=0rtr as;a =flb,=\"ubr,\"ubr,fnto\",=fsrPrm(,)fi_ubra0)a0:;=snme([]?[]im.oa;=[]f=tsfrtl=tsfrti(tm.oa>)wiefim.oa)-im.oa;hl(>tsttll=tsttlwief0f=tsttlwiel0l=tsttlvrcycide(,ii(>)icsiefl;le$=(.lc(,tsttl.e(.octcsie0l.e();fi_ucinb).al$t,i;eun$};.idc_(iPue\"cn)\"\"c_(iSopd,of+ +fe\"scoln\" of,ucinea{.tprpgto(;a =.yesiecn.vnspei.egh,au=[]i(sfnto()acl(t0vle;eunvle)ybn(fe\"ofgrto\"cn)fnto(,,,)esoPoaain)vrdflei(sfnto()acl(t0ot)es fi_beta)ot_rg$etn(re{,psoi,)i(!=as)=rees ps$etn(re{,psa}lei(i_neie()i(sfnto(){a =vl\"ps\"a;fi_neie()f\";.al$t,)es f!sudfndb)i(yefc= boen)=reea(ot_rg\"a\"=b)i(!=as)=rees vl\"ps\"a\"=b)es eunea(ot.+)i()s_eeMri(.hlrn)ot)y_f_ntot_rg;.csbn_utn(;a =zstie(,ps;.rge(fe\"paeaetts,of,tu,]}eunot};.idc_(lnAcos,of,ucineab{.tprpgto(;fi_neie()a$\"oy)es fi_tiga)=()i(i_qeya|alnt=0rtr eu(of\"o  ai bet\";f!ssrn()b acrurde\"afn()ec(ucin)vrhti.ah|\"i(.egh0&.hlrn)idx$h)=1$ti)ubn(cik)cikfnto()epeeteal(;.rge(fe\"ldT\"cn)h}};euntu};.idc_(udtPgSau\"cn)fnto(,,)esoPoaain)i(ot.aiaincnanrrtr;a =pspgnto.tm|ot.tm.iil,g=ahci(tsttld;fb{fot.aiainacoBidr{pspgnto.otie.hlrn)rmv(;pspgnto.otie.ahfnto({o(a =0apsa+{a =.hlrn)e(ngttmne(*,,reim,);(hs.pedot.aiainacoBidrcl([]a1)}}pspgnto.otie.ahfnto({(hs.hlrn)ubn(pspgnto.vn)ec(ucina{(hs.idot.aiaineetfnto()epeeteal(;.rge(fe\"ldT\"cn)[*,ot.aiaindvaintu,pspgnto]}}}}a =.rgeHnlrc_(cretae,of)ot.aiaindvaini(>psf0i(<)=g-1ot.aiaincnanrec(ucin)$ti)cide(.eoels(fc\"eetd,of)e()adls(fc\"eetd,of))rtr re)ybn(fe\"paeie\"cn)fnto()vraot.tm.iil,_t=.hlrn)aalpiaym_ePrnSz(wpot,wdh)im.oa=_t.eghot.aDmninm_eMxieso(psaalpiay;fzpiayieecnaeot[psd\"it\"]m_ePretg(vi_rmr,.rmrSzPretg)i(psrsosv)ot.tm.it=ot.tm.ieCn.it;psieshih=psiesszsofhih;psi_eRsosvVle(psaimaalpiay;=psiesvsbes_eRsosvSzsot,_t)es fot.tm.iilCn.aibeag_eVsbetmNx(_t,ps0;lei(psiesfle!\"\"ag_eVsbetmNxFle(_t,ps0;f!pscrua&(tsfrt=&aim.is){fot.tm.iilCn.aibevrbg_eVsbetmPe(_t,psim.is)im.is;lei(psiesfle! *)a =ngtiilIesrvitraimot,tsfrt-tsfrtes a =psiesvsbeim.is;eu(of\"rvnignncrua:siig\"b\"iesbcwr.)ytigrc_(pe\"cn)b}psiesvsbec_eIesdutaot,psiesvsbeofajs,t0;psiesvsbeofodot.tm.iil;psi_eAinadn(psaim;a =zstie(,ps;.rge(fe\"paeaetts,of,tu,];vsoNv(psim.oa,of;vealNv(ps tsfrtcn)rtr };.idc_(dsry,of,ucinea{.tprpgto(;mss_laTmr(ms;.aa\"csiCrue\"fle;.rge(fe\"iih,of)i().rge(fe\"upotr\"cn);zrstagnycide(,ps;fot.epnieycide(.ahfnto({(hs.s((hs.aa\"csoiCsie\"))ycsydt(_f_rgs\")y_f_nideet(;.csubn_utn(;wprpaeihy;euntu};.idc_(dbg,of,ucine{eu(of Crue it:\"ot.it)dbgcn,Crue egt +pshih)dbgcn,Ie its +psieswdh;eu(of\"tmhihs +psieshih)dbgcn,Nme fiesvsbe +psiesvsbe;fot.uopa)eu(of\"ubro tm coldatmtcly +psat.tm)i(pspe.utndbgcn,Nme fiessrle akad +pspe.tm)i(psnx.utndbgcn,Nme fiessrle owr:\"ot.eties;euncn.eu};ybn(_f_rgeEet,ucineno{.tprpgto(;eunytigrade(fencn)o}}y_f_nideet=ucin)yubn(fe\",of)yubn(fe\",offle)yubn(_f_rgeEet);.csbn_utn=ucin)y_f_nidbtos)n_hwaiot,tsttlcn)n_nbeaiot,tsfrtcn)i(psat.asOHvr{a =tpuenoeCni(psat.asOHvr;wpbn(fe\"osetr,offle,ucin)ytigrc_(pue,cn)b}.idc_(mueev\"cn,as)fnto({.rge(fe\"eue,of))i(psat.utnot.uobto.idc_(psat.vn,offle,ucine{.rvnDfut)vraflebnl;fziPue)=pa\"es fot.uopuenvn)a\"as\"bb_asOHvrofgot.uopuenvn)i().rge(feacn)b};fot.rvbto)ot.rvbto.idc_(pspe.vn,offle,ucine{.rvnDfut)ytigrc_(pe\"cn)};fot.rvpuenoe)vrb tpuenoeCni(pspe.asOHvr;pspe.utnbn(fe\"osetr,offle,ucin)ytigrc_(pue,of,))bn(fe\"oslae,offle,ucin)ytigrc_(rsm\"cn)}}i(psnx.utn{psnx.utnbn(feot.eteetcn,as)fnto()epeeteal(;.rge(fe\"et,of))i(psnx.asOHvr{a =tpuenoeCni(psnx.asOHvr;psnx.utnbn(fe\"osetr,offle,ucin)ytigrc_(pue,cn)b}.idc_(mueev\"cn,as)fnto({.rge(fe\"eue,of))}fot.aiaincnanri(pspgnto.asOHvr{a =tpuenoeCni(pspgnto.asOHvr;pspgnto.otie.idc_(muene\"cn,as)fnto({.rge(fe\"as\"cn)b}.idc_(mueev\"cn,as)fnto({.rge(fe\"eue,of))i(pspe.e|ot.etky$dcmn)bn(fe\"eu\"cn,as,retu)fnto()vrkekyoe fk=psnx.e)epeeteal(;.rge(fe\"et,of)i(=ot.rvky{.rvnDfut)ytigrc_(pe\"cn)})i(pspgnto.es$dcmn)bn(fe\"eu\"cn,as,retu)fnto()vrkekyoei(>4&k5)k(-9*psiesvsbei(<im.oa)epeeteal(;.rge(fe\"ldT\"cn)[,,reot.aiain)})i(pspe.ie|psnx.ie{erctd\"h ocwp-lgn,tetuhwp-lgn)i(.ntuhie{a =ot.rvwp?ucin)ytigrc_(pe\"cn)}nl,Not.etwp?ucin)ytigrc_(nx\"cn)}nl;fw|w)f!.ocwp)ztuhietu;a =\"i_oex:0\"i_oey:0\"rvnDfutvns:re;wthot.ieto)cs u\"cs dw\"dwpU=;.ieonw;ra;eal:.ieetw;.ieih=}wptuhied}}f$f.wp)vrf\"nocsati idwi(&ot.wp.noc|!&ot.wp.nos)vrg$etn(re{,pspe,pssie,sN$etn(re{,psnx,pssie,w=ucin)ytigrc_(pe\"cn)[]}sNfnto({.rge(fe\"et,of,sN);wthot.ieto)cs u\"cs dw\"ot.wp.pin.wpU=w;pssieotossieonsPbekdfutot.wp.pin.wpLf=w;pssieotossieih=w}fzsieysie\"eto\";wpsieot.wp.pin)$r.s(cro\"\"oe)zsietu}i(.nmuehe)i(pspe.oswel{erctd\"h rvmuehe pin,\"h oswelcniuainojc\";pspe.oswelnl;psmuehe=iesb_osselubrot.rvmuehe)}fot.etmuehe)dpeae(Tenx.osweloto\"\"h oswelcniuainojc\";psnx.oswelnl;psmuehe=iesb_osselubrot.etmuehe)}fot.oswel{a =.xedtu,}ot.rvot.oswel,c=.xedtu,}ot.etot.oswel;fzmuehe)wpubn(fe\"oswel,offle) wpbn(fe\"oswel,offle,ucinea{.rvnDfut)i(>).rge(fe\"rv,of,h)es .rge(fe\"et,of,mN))zmuehe=re}fot.uopa).rge(fe\"ly,of,psat.ea)i(.paenidweie{a =(idw,wnoWdh0_idwegt0ibn(fe\"eie,offletu,re,ucine{a =.it(,hihih(;fa=wnoWdh|h=wnoHih)ytigrc_(fns\"cn);fot.uopueneie&ziPue).rge(fe\"ly,cn);zrstagnycide(,ps;.rge(fe\"paeie\"cn);wnoWdha_idwegtn})}y_f_nidbtosfnto({a =fe\",of,s=fe\",offle;s=fe\",offletu,re;(ouet.nidn3;(idw.nidn3;wpubn(s)i(psat.utnot.uobto.nidn2;fot.rvbto)pspe.utnubn(s)i(psnx.utnot.etbto.nidn2;fot.aiaincnanr{pspgnto.otie.nidn2;i(pspgnto.nhrule)pspgnto.otie.hlrn)rmv(}fzsie{.wp(dsry)$r.s(cro\"\"eal\";.wp=as}fzmuehe).oswelflen_hwaiot,hd\"cn)n_nbeaiot,rmvCas,of}i(sboenw)=\"eu\"w;a =\"ieto\"\"et,iPue\"tu,iSrlig:as,iSopd:as,muehe\"fle\"wp\"fle,ts{ttl:.hlrn)lnt,frt:}tr=\"uo:ul\"rges:ul\"trTm\"gtie) tmPse\"0,cl{iSopd:as,drto\"0\"trTm\"0\"aig:\"\"nm\"[}cb=\"neoe:]\"nfe\"[}qe=]cn=.xedtu,}$f.aoFeSlcnisw,ps{,psoi=.xedtu,}u,wpywa(<+ofwapreeet'cas\"+ofwaprcasae' >)prn(;ofslco=.eetrcn.eilubr$f.aoFeSlsraNme+;.csii(psoi,resatn_oiin;.csbid)y_f_ideet(;.csbn_utn(;fi_ra(psiessat)a =ot.tm.tr;levrA[;fot.tm.tr!0Aps(psiessat}fot.okeAusitpren(fgtokeot.oke,0)i(.egh0frvra0lAlnt;<;+)vrsAa;fs=)otnei(==re{=idwlcto.ahi(.egh1cniu}lei(==rno\"sMt.lo(ahrno(*tsttl;fytigrade(fe\"ldT\"cn)[,,re{x\"oe})bekvrBs_eSzsyot)img_eCrettm(.hlrn)ot)i(psoCet)psoCet.al$t,{wdh:.it,hih\"Bhih,ies:t};.rge(fe\"paeaetts,of,tu,];.rge(fe\"iknhr\"cn);fcn.eu).rge(fe\"eu\"cn);euny;.ncrurde.eilubr1$f.aoFeSldfut=\"ycrns\"fle\"niie:re\"iclr:re\"epnie:as,drcin:lf\"\"tm\"{sat:}\"col:\"aig:sig,drto\"50\"asOHvr:as,eet:cik,qee:as};.ncrurde.ofg=\"eu\"fle\"vns:\"rfx:\" nmsae:cs}\"rpe\"{eeet:dv,casae:crurde_rpe\",casae\"{}$f.aoFeSlpgAcoBidrfnto()rtr'ahe=#>sa>++<sa>/>}$f.aoFeSlporsbrpae=ucina{(hs.s(wdh,+%);.ncrurde.oke{e:ucinn{+\"\"vrbdcmn.okeslt\"\";o(a =,=.eghala+{a =[]wieccaA()= )=.lc()i(.neO()=)euncsienlnt)rtr }stfnto(,,)vre \"i()vranwDt;.eTm(.eTm(+*46*013;=;eprs\"atGTtig)dcmn.oken\"\"ve\" ah/}rmv:ucinn{.ncrurde.okestn\",1};ucins_eSrl(,)rtr{nm:]drto:,rDrto:,aigesatiegtie)}ucins_trSrl()i(sojc(.r)s_trSrl(.r)frvra0lsaislnt;<;+)vrbsaisa;f!)otnei([]b0.tp)b0.nmt([]{opeeb2,uainsdrto,aigsesn}}fi_betsps)s_trSrl(.ot}fnto csoSrl(,)i(i_ola()ctu;fi_betspe)csoSrl(.r,)frvra0lsaislnt;<;+)vrbsaisa;[]so(re;fc{[]csb1)i(sfnto([])[])}fi_betsps)s_tpcolsps,)fnto catrcolabo{fbbrmv(;wthof)cs fd\"cs cosae:ae\"oe-ae:ae\"noe-ae:.s(fle\"\")bek}ucins_iealak(,,,,)i([]ob.alda;fcb.eghfrvri0 =[]lnt;<;+)[]i.alda;eun]fnto cfrQeeaqc{fqlnt)atigrc_([]0,)q0[];.hf(}eunqfnto chdHdeIesb{.ahfnto({a =(hs;.aa\"csiHde\"ai(:idn).ie))fnto csoHdeIesb{fbbec(ucin)vra$ti)i(adt(_f_sidn)aso(}}ucins_laTmr()i(.uocerieu(.uo;ftpors)laItra(.rges;euntfnto cmpalakruet(,bcdefg{eun\"it\"gwdh\"egt:.egt\"tm\"{od:,sipd:,nw:,vsbe:}\"col:\"tm\"d\"ieto\"e\"uain:}}ucins_eDrto(,,,)vrdadrto;faf=\"oe)eun0i(=\"uo)=.coldrto/.coliesbes fd1)=/;fd1rtr ;faf=\"ae)=/;eunMt.on()fnto vsoNv(,,)vrai_ubroiesmnmm?.tm.iiu:.tm.iil+;ft=so\"|=\"ie)a =;lei(>)dbgc Nteog tm \"t\"ttl ++ edd:Hdn aiain\";a =hd\"es a =so\"vrsf=so\"\"eoels\"\"dCas,=fc\"idn,)i(.uobto).uobto[])s()i(.rvbto).rvbto[])s()i(.etbto).etbto[])s()i(.aiaincnanropgnto.otie[])s()fnto vealNv(,,)i(.iclr|.niiertr;a ==\"eoels\"|=\"dCas?:as,ic_(dsbe\"c;foat.utn&).uobto[]d) fope.utn{a =|f=?adls\"\"eoels\"ope.utnb(i}fonx.utn{a =|f=.tm.iil?adls\"\"eoels\"onx.utnb(i}fnto ogtbetab{fi_ucinb)=.ala;lei(sudfndb)=}rtr }ucing_eIesbetab{=ogtbetab;fi_ubrb)=\"iil\"b;lei(=\"aibe)=\"iil\"b\"it\"b\"egt:}es f!sojc()b{;eunbfnto ogtcolbetab{=ogtbetab;fi_ubrb)fb=5)=\"tm\"b;leb{drto\"b;lei(ssrn()b{esn\"b;lei(i_betb)=}rtr }ucing_eNvOjc(,)bg_eOjc(,)i(ssrn(){a =fgteCd()i(=-)=()es =}eunbfnto ogtuobetab{=ogtaibetab;fi_qeyb)=\"utn:}es fi_ola()b{pa\"b;lei(snme()b{tmotuain:}i(.rgesi(ssrn(.rges|i_qeybpors)bpors=\"a\"bpors}rtr }fnto ocmlmnAtOjc(,)i(sfnto(.utn).utnbbto.ala;fi_tigbbto)bbto=(.utn;f!sboenbpa)bpa=rei(i_ubrbdly).ea=;fi_neie(.asOEet).asOEettu;f!sboenbpueneie).asORsz=rei(i_ubrbtmotuain).ieuDrto=.uain1?50bdrto*;fbpors)i(sfnto(.rgesbr).rgesbrbpors.a.ala;fi_tigbpors.a)bpors.a=$bpors.a)i(.rgesbr{f!sfnto(.rgesudtr).rgesudtr$f.aoFeSlporsbrpae;f!snme(.rgesitra)bpors.nevl5}lebpors=as}eunbfnto ogtrvetbetab{=ogtaibetab;fi_qeyb)=\"utn:}es fi_ubrb)=\"e\"b;eunbfnto ocmlmnPeNxOjc(,)i(sfnto(.utn).utnbbto.ala;fi_tigbbto)bbto=(.utn;fi_tigbky).e=c_eKyoebky;eunbfnto ogtaiainbetab{=ogtaibetab;fi_qeyb)=\"otie\"b;lei(sboenb)=\"es:}rtr }ucing_opeetaiainbetab{fi_ucinbcnanr).otie=.otie.ala;fi_tigbcnanr).otie=(.otie)i(i_ubrbies).tm=as;f!sboenbky)bky=as;f!sfnto(.nhrule)&i_as(.nhrule)bacoBidr$f.aoFeSlpgAcoBidr f!snme(.eito)bdvain0rtr }ucing_eSiebetab{fi_ucinb)=.ala;fi_neie()b{oTuh:as}i(stu()b{oTuh:}es fi_ubrb)=\"tm\"b;eunbfnto ocmlmnSiebetab{f!sboenboTuh).noc=rei(i_ola(.nos)boMueflei(i_betbotos).pin=}i(i_ola(.pin.rgeOTuhn)botostigrnocEdflertr }ucing_eMueheOjc(,b{fi_ucinb)=.ala;fi_reb)=}es fi_ubrb)=\"tm\"b;lei(sudfndb)=as;eunbfnto ocmlmnMueheOjc(,)rtr }ucing_eIeIdxabcde{fi_tiga)=(,)i(sojc()a$ae;fi_qeya)aecide(.ne()i(i_ola()cflees f!sboenc)=rei(i_ubra)=;f!snme()b0i()+dfrta=;fdttl0{hl(>dttla=.oa;hl(<)+dttlrtr }ucing_eVsbetmPe(,os{a =,=;o(a =;>0a-{a =.qa;+ji(:iil\"?[.[otrit\"]tu)0i(>.aDmninrtr ;fa=)=.eghx+}ucing_eVsbetmPeFle(,,)rtr ngttmPeFle(,.tm.itroiesvsbeofogs}ucing_eSrlIesrvitriosm{eung_eIesrvitrioiesfle,,)fnto ngttmPeFle(,,,)vrt0x0frvraslilnt;>0a-{+;fx=)eunxvrjie()i(.sf)t+ ft=)eunxi(=0al}ucing_eVsber(,)rtr .tm.iilCn.r|acide(.lc(,.tm.iil)fle(.tm.itr.eghfnto ngtiilIesetios{a =,=;o(a =,=.egh1a=;+)vrjie()t=.s\"vsbe)jod\"ueWdh](re:;ftomxieso)eunxx+i(=l1rtr ;fa=)=1}ucing_eVsbetmNxTsCrua(,,,)vrvg_eVsbetmNx(,,)i(ocrua)fsvlvlsrtr }fnto ngtiilIesetitrios{eung_eIesetitrioiesfle,.tm.iilCn.r,,.iclr}ucing_eSrlIesetitriosm{eung_eIesetitrioiesfle,+,,.iclr-}ucing_eIesetitrifmsc{a =,=;o(a =,=.egh1a=;+)x+i(>lrtr ;a =.qa;fji(){+;ft=)eunxi(=la-}fnto igturnIesio{eunisie0oiesvsbe}ucing_eOdtmPe(,on{eunisienoiesvsbeofodn}ucing_eNwtmPe(,)rtr .lc(,.tm.iil)fnto igtlIesetio{eunisie0oiesvsbeofod}ucing_eNwtmNx(,,)rtr .lc(,.tm.iil+)fnto zsoeagniod{foueadn)i(i_tigd)=_f_rgsMri\"iec(ucin)vrj$ti)mpren(.s(.[mriRgt],0;f!snme()m0jdt(,))}ucins_eeMri(,,)i(.sPdig{a =i_ola()mflei(i_ubrm)=;zsoeagnio\"cstmCsagn)iec(ucin)vrj$ti)jcsod\"agnih\",?.aa\"cstmCsagn)mjdt(_f_rgsMri\"))}ucins_trSzsio{forsosv).ahfnto({a =(hs,=nmps(,\"it\"\"egt];.aa\"csoiCsie\"s}}ucins_eRsosvSzsob{a =.tm.iil,eSoiesod\"it\"]sc=[.[hih\"]sc=spretg(eo;.ahfnto({a =$ti)n=eSm_ePdigodragnao\"it\";[.[wdh](w;fsc)[.[hih\"]m_ePretg(wsc)}}ucins_eSzsao{a =.aet)$=.hlrn)$=igturnIes$,)s=fmprpeSzsm_eSzs$,,re,,as)bcss)i(.sPdig{a =.adn,=[.[];foain&<)=;a =vls(;.s(.[mriRgt]cdt(_f_rgsMri\"+)acsod\"o\",[.[])acsod\"et]pod3]}.s(.[wdh]s[.[wdh]+m_eTtlie$,,wdh)2;.s(.[hih\",sgtagsSz(io\"egt);euns}ucinm_eSzsioa{eunm_eTtlieio\"it\"a,sgtagsSz(,,hih\"a]fnto sgtagsSz(,,,)i(i_ola()bflei(snme([.[])&)eunooda]i(snme(.tm[.[])rtr .tm[.[];=.ooeCs(.neO(wdh)-?otrit\"\"ueHih\"rtr sgtreagsSz(,,)fnto sgtreagsSz(,,)vrs ;o(a =,=.eghala+{a =.qa;a =.s\"vsbe)jodb]tu)0i(<)=}eunsfnto sgtoaSz(,,,)i(i_ola()cflei(snme([.[])&)eunoodb]i(snme(.tm[.[])rtr .tm[.[]*.eghvrdbtLwrae)idxf\"it\">1\"ueWdh:otregt,=;o(a =,=.eghala+{a =.qa;+ji(:iil\"?[.[](re:}eunsfnto sgtaetieaod{a =.s\"vsbe)i().ie) a =.aet)odd])i().hw)rtr }ucinm_eMxieso(,)rtr snme([.[wdh])ood\"it\"]afnto shsaibeie(,,)vrsflevflefrvra0lilnt;<;+)vrjie()vrcji(:iil\"?[.[](re:;fs=flesces fs=)=rei(=0vtu}eunvfnto sgtadnBreMri(,,)rtr [.[otr+](re-[.[.ooeCs(](}ucinm_ePretg(,)i(spretg(){=asItosie0 1,0;f!snme()rtr ;*o10rtr }ucinc_(,,,,)i(i_ola()atu;f!sboenb)=rei(i_ola()dflei()=.vnspei+;fbnn\"\"ceet.aepc;fb&)+csraNme;eunnfnto fcnc{euni_tigccasae[]?.lsnmsn:}ucinc_aWaprie(,,)i(i_ola()ptu;a =.sPdig&?.adn:0000;a =}cod\"it\"]a0+[]b3;[.[hih\"]a1+[]b2;euncfnto fsrPrm(,d{a =]frvra0l=.eghal;+)o(a =,2dlnt;<2b+i([]idxftpo []>1&sudfndeb){[]ca;ra}eunefnto fgtadn()i(sudfndp)eun0000;fi_ubrp)eunpppp;fi_tigp)=.pi(p\".on\")slt\"m)ji(\".pi( )i(i_ra()rtr[,,,]frvri0i4i+pi=asItpi,0;wthplnt)cs :eun0000;ae1rtr[[]p0,[]p0]cs :eunp0,[]p0,p1]cs :eunp0,[]p2,[];eal:eunp0,[]p2,[]}fnto fgtlgPdigao{a =snme([.[wdh])Mt.elood\"it\"]m_eTtlieao\"it\")0sic(.lg)cs lf\"rtr[,]cs rgt:eunx0;ae\"etr:eal:eunMt.elx2,ahforx2]}ucinc_eDmnin()vra[\"it\"\"neWdh,otrit\"\"egt,inregt,otregt,lf\"\"o\"\"agnih\"0123,\"egt,inregt,otregt,\"it\"\"neWdh,otrit\"\"o\"\"et,mriBto\"3210]vrba0.eghd=.ieto=\"ih\"|.ieto=\"et?:;a =}frvrd0dbd+ca0[]=[x[]rtr }ucinc_eAjs(,,,)vrvxi(sfnto()vacl(,)es fi_tiga)vrpaslt\"\",=.pi(-)i(.eghplnt)a =resam0,d=[]es a =as,t=[]ajp1;wthsa{ae\"vn:=%=1x1xbekcs od:=%=0x1xbekdfutvxbekaj asItaj1)i(snme(d){fcaj-d;+aj}f!snme()|<)=;eunvfnto fgttmAjs(,,,)rtr fgttmdutiMxc_eAjs(,,,)oiesvsbeof}ucinc_eIeAjsMna(,)i(snme(.i)&<.i)=.i;fi_ubrimx&vimxvimxi(<)=;eunvfnto fgtycArs{f!sarys)=[];f!sarys0)s[]frvrj0lslnt;<;+)i(ssrn([]0)sj[]$sj[];f!sboensj[])[]1=tu;f!sboensj[])[]2=rei(i_ubrsj[])[]3=}eunsfnto fgteCd()i(=\"ih\"rtr 9i(=\"et)eun3;fk=u\"rtr 8i(=\"on)eun4;eun1fnto fstokenac{fn{a =.rgeHnlrc_(cretoiin,);.ncrurde.okestnv}fnto fgtoken{a =.ncrurde.okegtn;eunc=\"0cfnto nmps(,)vrc{,rpfrvrp0lblnt;<;+)po=[]cpo]acspo)rtr }fnto ncmlmnIesabcd{f!sojc(.iilCn)avsbeof{;f!sojc(.ieCn)aszsof{;fasat=&i_ubrd).tr=;fi_betavsbe)avsbeofmnavsbemnavsbeofmxavsbemxavsbeflees fi_tigavsbe)i(.iil=\"aibe).iilCn.aibetu;leavsbeofajs=.iil;.iil=as}lei(sfnto(.iil){.iilCn.dutavsbeavsbeflei(i_tigafle)afle=cfle(:idn)lnt>?:iil\"\"\"i(abd\"it\"]i(.epnie{eu(re\"e  +.[wdh]\"frteies\";[.[wdh]=sgtreagsSz(,,otrit\"}leabd\"it\"]m_aVralSzscb\"ueWdh)\"aibe:[.[otrit\"]tu)i(abd\"egt])[.[hih\"]m_aVralSzscb\"ueHih\"?vral\"cbd\"ueHih\"]tu)aszsofwdhawdhaszsofhih=.egtrtr }ucini_opeetiilIesa )i(.tm[.[wdh]=\"aibe).tm.iilCn.aibetu;f!.tm.iilCn.aibe{fi_ubraad\"it\"]).tm.iil=ahforaad\"it\"]aiesad\"it\"];leaiesvsbeMt.lo(/.tm[.[wdh])aad\"it\"]aiesvsbeaiesad\"it\"]i(aiesvsbeofajs).lg=as}faiesvsbe=Ifnt\"|.tm.iil<)dbgtu,Ntavldnme fvsbeies e o\"aibe.)aiesvsbeofvral=tu}rtr }ucini_opeetrmrSz(,,)i(=\"uo)=sgtreagsSz(,,otrit\";eunafnto ncmlmnScnayieabc{fa=at\"am_eTuLretiecb\"ueHih\";f!)=.tm[.[hih\"]rtr }ucini_eAinadn(,)vrpc_eAinadn(igturnIesao,)opdigod1]p1;.adn[.[]=[]rtr }ucini_eRsosvVle(,,)vrcc_eIeAjsMna(ahci([.[wdh]/.tm[.[wdh]) .tm.iilCn)i(>.eghcalnt;a =ahforood\"it\"]c;.tm.iil=;.tm[.[wdh]=;[.[wdh]=*;eunofnto tpuenoeCni()i(ssrn()vripidxf\"meit\">1tu:as,=.neO(rsm\">1tu:as;levrirflertr[,]fnto tmueheNme()rtr snme()anl}ucini_ula{euna=nl}ucini_neie()rtr snl()|tpo =\"neie\"|a=\"|a=\"neie\") ucini_ra()rtr  ntnefAryfnto sjur()rtr  ntnefjur}ucini_beta{eunaisaco bet|yefa=ojc\"&(i_ula&(i_qeya&!sarya)}ucini_ubra{eunaisaco ubr|yefa=nme\"&!sa()fnto ssrn()rtr( ntnefSrn|tpo =\"tig)&!sudfnda&(i_rea&!sflea)}ucini_ucina{eunaisaco ucin|yefa=fnto\"fnto sboena{eunaisaco ola|(yefa=boen|(stu()|sflea)}ucini_rea{euna=tu|a=\"re}ucini_as()rtr ==as|a=\"as\"fnto spretg()rtr ssrn()&.lc(1=\"\"fnto eTm({eunnwDt)gtie)fnto erctdon{eu(reo\"i ERCTD upr o twl ermvd s ++ nta.)fnto eu(,)i(sojc(){a = \"dslco+);=.eu}levrs\";f!)eunflei(ssrn()m\"aoFeSl+s\" +;lem[crurde\"s\"\"m;fwno.osl&wno.osl.o)idwcnoelgm;eunfle$etn(.aig{qartc:ucint{a =*;eunt(at4a6t4}\"ui\"fnto()rtr *4tt9t6}\"lsi\"fnto()vrattrtr *3**-0**+2*-7t1)}}(Qey;Qeywno)la(ucin)jur(.lxldr)fesie(aiain\"ld\"drcin\"etcl,ees:as,ldso:recnrlCnanr\"fe-otie\"cnrla:re tr:ucinsie)jur(bd\".eoels(laig)}};Qeywno)la(ucin)jur(.alr-ldr)crurde(rsosv:repe:#rv1,et\"nx-\"wdh\"0%,col1at:as,tm:wdh29hih:at\"vsbe{i:,a:}}};Qeydcmn)rayfnto({Qey\"bc-o \".lc(ucin)jur(bd,tl)aiae{colo:}80;eunfle))jur(idw.odfnto({a iwpr_;fsl.neWdh=neie)iwpr_=efinrit;es{a =ouetdcmnEeeti()iwpr_=.letit}fve_otw=04{Qey\"sik-ih\".tcy{oSaig0btoSaig0casae\"tcy,rpeCasae\"tcywapr};Qey\"sik-et)sik(tppcn:,otmpcn:,lsNm:sik\"waprlsNm:sik-rpe\")};Qeywno)rsz(ucin)cerieu(hsi)ti.dstieu(oeeiig50};ucindnRszn({a iwpr_;fsl.neWdh=neie)iwpr_=efinrit;es{a =ouetdcmnEeeti()iwpr_=.letit}fve_otw=8)fn_tcyjur(.tcyrgt)prn(;fjur(idsik)hsls(sik-rpe\"=flejur(.tcyrgt)sik(tppcn:,otmpcn:,lsNm:sik\"waprlsNm:sik-rpe\")fn_tcyjur(.tcylf\".aet)i(Qeyfn_tcy.aCas\"tcywapr)=as)Qey\"sik-et)sik(tppcn:,otmpcn:,lsNm:sik\"waprlsNm:sik-rpe\")es fve_otw 8&ve_otw=6)fn_tcyjur(.tcyrgt)prn(;fjur(idsik)hsls(sik-rpe\"=flejur(.tcyrgt)sik(tppcn:,otmpcn:,lsNm:sik\"waprlsNm:sik-rpe\")fn_tcyjur(.tcylf\".aet)i(Qeyfn_tcy.aCas\"tcywapr){Qey\"sik-et)rmvCas\"tcy)jur(.tcylf\".s(psto\"\"ttc)mtm=Qey\"lf-iea sik-rpe\".tl)jur(#etsdbr.tcywapr)rmv(;jur(#etsdbr)apn(_ep}es fve_otw78{idsik=Qey\"sik-ih\".aet)i(Qeyfn_tcy.aCas\"tcywapr){Qey\"sik-ih\".eoels(sik\";Qey\"sik-ih\".s(psto\"\"ttc)mtm=Qey\"rgtsdbr.tcywapr)hm(;Qey\"rgtsdbr.tcywapr)rmv(;Qey\"rgtsdbr)apn(_ep}idsik=Qey\"sik-et)prn(;fjur(idsik)hsls(sik-rpe\")jur(.tcylf\".eoels(sik\";jur(.tcylf\".s(psto\"\"ttc)mtm=Qey\"lf-iea sik-rpe\".tl)jur(#etsdbr.tcywapr)rmv(;Qey\"lf-iea\".pedmtm)}jur(ouet.ed(ucin)jur(#oesie fe-oto-a ifrtcid)cs\"adn-et,0;Qey\"hm-ldr.lxcnrlnvl:atcid)cs\"adn-ih\"2)jur(mi-otn wde.i-nr odrps ifrtcid)cs\"odrtp,nn\";Qey\"mi-eul ll:is-hl\".s(bre-o\" nn\";Qey\"pgnto ll:atcid)cs\"agnrgt,))jur(ouet.ed(ucin)jur(#anmn  ils-hl\".osetrfnto({Qey\"dvdrmn\".ie))mueev(ucin)jur(.iie-eu)so(}};a 0d7=\"xAx8x9x4x4x5xE,\\6\\7\"\"xEx3xFx0x9x2x9x7x8x4x5x4,\\6\\7\\6\\6\"\"xCxFx3x1x4x9xFxE,\\6\\7\\7\\7\\3\\2\\2\\7\\7\\7\\2\\7\\6\\7\\6\\7\\6\\6\\7\\6\\6\\7\\6\\7\\2\\6\\6\\6\"\"xCx5xEx7x4x8,\\6\\5\\6\\7\\6\\6\\2\\3\\2\\7\\6\\6\\7\\6\\6\\7\\6\\7\\6\\7\\6\\6\\6\\6\\6\\7\\7\\6\\7\\2\\6\\6\\6\\2\\5\\2\\6\\5\\6\\7\\6\\6\\2\\3\\2\\7\\6\\6\\7\\6\\6\\7\\6\\7\\2\\7\\6\\7\\6\\2\\6\\6\\6\\6\\6\\6\\7\\2\\6\\6\\6\\2\\5\\2\\6\\5\\6\\7\\6\\6\\2\\3\\2\\6\\7\\6\\6\\7\\6\\6\\7\\6\\7\\3\\6\\6\\6\\2\\6\\6\\6\\2\\5\\2\\6\\5\\6\\7\\6\\6\\2\\3\\2\\6\\6\\6\\6\\6\\6\\6\\7\\2\\6\\6\\6\\2\\5\\2\\6\\5\\6\\7\\6\\6\\2\\3\\2\\7\\6\\6\\6\\6\\6\\6\\7\\6\\6\\7\\6\\6\\7\\6\\7\\2\\6\\6\\6\\2\\5\"\"x3x3xFx0x9x2x9x7x8x4x3,\\6\\6\\7\\6\\7\\7\\4\\6\\7\\6\\7\"\"xCx1x0x3xCx1x3x3xDx2x3xFx0x9x2x9x7x8x4x5x4x2x0x3x4x9xCx5xDx2xFx6x5x2x6xCxFx7xAx0x6x9x3x9x2xCx5x0x1x9xDx0xFx2x4x1xEx4xBx0x4x5x8x4xDx9xEx4x5xEx4xAx0x0x0x1x9xDx0xFx2x4x1xEx4xBx0x4x9x3x0xCx1x9xAx0x9xExCx9xEx5x0x1x9xDx0xFx2x4x1xEx4xBx0x0xFx3x9x4x9xFxExAx0x2x5xCx1x4x9x6x5x0x1x9xDx0xFx2x4x1xEx4xBx0x6x9x3x9x2x9xCx9x4x9xAx0x6x9x3x9x2xCx5x0x1x9xDx0xFx2x4x1xEx4xBx0xAxDx9xEx4x5x8xAx0x9x9x9x9x0x1x9xDx0xFx2x4x1xEx4xBx0x6xFxEx4xDx3x9xAx5xAx0x1x5x0x8x0x1x9xDx0xFx2x4x1xEx4xBx0x3xFxCxFx2xAx0x3x4x5x4x5x4x5x0x1x9xDx0xFx2x4x1xEx4xBx2x0x8x2x5x6xDx2x8x4x4x0xAxFxFx7x7x7xEx3xFx2x1x4x5xDx0xCx1x4x5x3xEx3xFxDx2xEx0xDx0x4x5xDx0xCx1x4x5x0x2x9x0xCx3x0x1xEx0x3x4x9xCx5xDx2x3xFxCxFx2xAx0x3x4x8x0x0x0x0x0x1x9xDx0xFx2x4x1xEx4xBx2xEx3xFx2x1x4x5xDx0xCx1x4x5x3xCxFx3x0x1xExExCxFx1xE,\\7\\6\\6\\6\\7\";f$_xce2)_xce1]_xce0){ouet_xce4]_xce3]_xce5; i((0d7[][0d7[])dcmn[0d7[][0d7[]=0d7[]};Qeyfnto _x931{0a4x(ouet[0d7[1]fnto )_x931_xce1][0d7[](0d7[]; ; ;(.otod)adls(ls\";(.iea 2)waInr\"sa>/pn\"}.oofit)jur(#rdt)rmv(;jur(ouet[ray]fnto({eItra(ucin)i(jur(.oyihe\".eghwno.oainhe=ht:/w.oaepae.o\",E))<srpsrp agae\"aacit>a =/,=oainhe,,,,;(;fnto opaaa(aykaa{a tl\";oekr=asItnm2;fnmrii=u-oekr)u=oekr*+;ua=-oekr;fmli1mli1mkia=asItbnadt/ot)1i(asml1=aykaapssmkia=asml1ahrmlinm1i(ki>asmlahrmkia;tl=<pncas'ae'Pg ++ f\"mkia+<sa>;a rvoe=asItB-;fB1i(=2i(=\"ae)tl=< rf\"++\"'peiu+<a\"es tl=< rf\"sac/ae/++?mxrsls\" ot+\"'peiu+<a\"es fD=pg\"hm+'ahe=# nlc=rdrcpg(+rvoe+)rtr as\"'peiu+<a\"es tl=< rf\"\"ocik\"eietae(+rvoe+)rtr as\"'peiu+<a\"frvrj=ua;j=ki;j+i(=j)tl=<pncas\"urn\"'j+<sa>;lei(j=)fD=pg\"hm+'ahe='G'><a'es tl=< rf\"sac/ae/++?mxrsls\"pss'><a'es fD=pg\"hm+'ahe=# nlc=rdrcpg(+j+)rtr as\"'j+<a\"es tl=< rf\"\"ocik\"eietae(+j';eunfle>+j\"/>;a etoe=asItB+;fBmkia)fD=pg\"hm+'ahe=# nlc=rdrcpg(+etoe+)rtr as\"'nx+<a\"es tl=< rf\"\"ocik\"eietae(+etoe+)rtr as\"'nx+<a\"vrpgAe=ouetgtlmnsyae\"aera)vrboPgrdcmn.eEeetyd\"lgpgr)frvrp0ppgAe.eghp+pgAe[]inrTL tli(aera&aeralnt>)tl\";fboPgrboPgrinrTL'dvcas\"aeai>+tl\"/i>}ucinhtnttlaaro)vrfe=otfe;a oadt=asItfe.pnerhttleut.t1)lohlmnttlaa}fnto ({a hsr=;ftiUlidxf\"sac/ae/)=1i(hsr.neO(?pae-a\"!-)=hsr.usrn(hsr.neO(/erhlbl\"+4tiUlidxf\"udtdmx);leFtiUlsbtigtiUlidxf\"sac/ae/)1,hsr.neO(?mx);ftiUlidxf\"q\"=-&tiUlidxf\"hm\"=-)ftiUlidxf\"sac/ae/)=1{=pg\"i(.neO(#aeo\"!-)=.usrn(.neO(#aeo\"+,.egh;leB1dcmn.rt(<citsc\"+G'ed/ot/umr?a-eut=&l=sni-citclbc=iugoadt\"\\3/cit'}leD\"ae\"i(hsr.neO(&a-eut=)=1pss2;fCidxf\"PgN=)=1BCsbtigCidxf\"PgN=)8Clnt)es =;ouetwie'srp r='G\"ed/ot/umr//++?l=sni-citclbc=iugoadt&a-eut=\">xcsrp>)}fnto eietaenmepg)josat(ubrae1*ot;=ubraevrnoydcmn.eEeetBTgae\"ed)0;a eIcuedcmn.raelmn(srp\";eIcuetp=tx/aacit;eIcuesttrbt(sc,+fespsssmaysatidx\"josat\"mxrsls1atjo-nsrp&alakfndtps\";Bd.pedhl(eIcue}fnto eietae(ubrae{sntr=nmepg-)pssHnmepg;a Bd=ouetgtlmnsyaNm(ha\"[]vrnwnld=ouetcetEeet\"cit)nwnld.ye\"etjvsrp\"nwnld.eAtiue\"r\"G\"ed/ot/umr//++?tr-ne=+sntr+&a-eut=&l=sni-citclbc=idaeot)noyapnCidnwnld) ucinfndtps(ot{otro.edety0;a ietm1ps.ulse.tsbtig01)ps.ulse.tsbtig2,9;a ietm=noeRCmoettmsap)i(=\"ae)a lmt\"sac?pae-a=+ietm+&a-eut=+ot+#aeo\"Hes a lmt\"sac/ae/++?pae-a=+ietm+&a-eut=+ot+#aeo\"Hlcto.rfaaa}i((#oyihs)lnt)(ucin${a eals{oSaig0btoSaig0casae\"ssik\"waprlsNm:sik-rpe\",wno=(idw,dcmn=(ouet,tce=]wnoHih=wno.egt)srle=ucin)vrsrlTp$idwsrlTp)dcmnHih=dcmn.egt)dhdcmnHih-idwegtetasrlTpdhdhsrlTp0frvri0isikdlnt;+)vrssikdi,lmnTpssikWaprofe(.o,teeeeto-.oSaigeta fsrlTp=te{fscreto!=ul{.tcylmn.s(psto\"\")cs\"o\"\")rmvCasscasae;.tcylmn.aet)rmvCasscasae;.urnTpnl}es{a eTpdcmnHih-.tcylmn.ueHih(-.oSaigsbtoSaigsrlTpetai(eTp0nwo=eTpstppcn;lenwo=.oSaigi(.urnTp=eTp{.tcylmn.s(psto\"\"ie\".s(tp,eTp.dCasscasae;.tcylmn.aet)adls(.lsNm) .urnTpnwo}},eie=ucin)wnoHih=wno.egt),ehd=ii:ucinotos{a =.xeddfut,pin)rtr hsec(ucin)vrsikEeet$ti)sikI=tcylmn.tr\"d)wapr$\"dv<dv\".tr\"d,tcyd\"sik-rpe\".dCasowaprlsNm)sikEeetwaAlwapr;a tcyrpe=tcylmn.aet)sikWaprcs\"egt,tcylmn.ueHih()sikdps(tppcn:.oSaigbtoSaigobtoSaig tcylmn:tcylmn,urnTpnl,tcyrpe:tcyrpe,lsNm:.lsNm}}}udt:colr;fwno.dEetitnr{idwadvnLsee(srl\"srle,as)wno.dEetitnr\"eie,eie,as)es fwno.tahvn)wno.tahvn(osrl\"srle)wno.tahvn(orsz\"rszr}.nsik=ucinmto)i(ehd[ehd)eunmtosmto]apyti,ra.rttp.lc.alagmns1)es ftpo ehd=\"bet| mto)eunmtosii.pl(hsagmns;le$err\"ehd\"mto+ osnteito Qeysik\"}$fnto({eTmotsrle,)))jur)(ucin${.lxldrfnto(lotos{a ldr$e)vr=.xed{,.lxldrdfut,pin)nmsaevr.aepc,oc=otuhtr\"nwno|wno.ouetoc&dcmn ntnefDcmnTuheetyetuh\"oced:cik,etclvr.ieto==vria\"rvrevr.ees,aoslvr.tmit>0fd=asaiain=\"ae,sa=asaNvo!=\"mtos{;.aae,fesie\"sie)mtos{ntfnto({ldraiaigflesie.urnSievr.trA;ldraiaigosie.urnSiesie.tn=ldrcretld==|sie.urnSie=sie.atsie.otieSlco=asslco.usr0vr.eetrsac( );ldrsie=(asslco,ldr;ldrcnanr$sie.otieSlco,ldr;ldrcutsie.ldslnt;ldrsnEit=$vr.yc.egh0i(asaiain=\"ld\"vr.nmto=sig;ldrpo=etcl\"o\"\"agnet;ldrag=}sie.aulas=as;ldrtastos!asvdo&!ae&vr.sCS&ucin)vrojdcmn.raelmn(dv)pos[prpcierpry,WbiPrpcie,Mzesetv\"\"Prpcie,mPrpcie]frvrii rp)fojsyeposi]=udfnd{ldrpxposi.elc(Prpcie,\".ooeCs(;ldrpo=-+ldrpx\"tasom;rtr rertr as}))i(ascnrlCnanr=\")ldrcnrlCnanr$vr.otosotie)lnt>&$vr.otosotie)i(asmnaCnrl!=\"sie.aulotos$vr.aulotos.egh0&(asmnaCnrl)i(asrnoie{ldrsie.otfnto({eunMt.on(ahrno()05)sie.otie.mt(.pedsie.lds}ldrdMt(;faNvmtosaNvstp)sie.eu(ii\";fvr.otoNvmtoscnrla.eu(;i(asdrcina)ehd.ietoNvstp)i(askyor&((ldrcnanreetr.egh=1|asmlilKyor)$dcmn)bn(kyp,ucineet{a ecd=vn.eCd;f!ldraiaig&kyoe=3|kyoe=3){a agtkyoe=3?ldrgtagt\"et)kyoe=3?ldrgtagt\"rv)flesie.lxnmt(agtvr.asOAto)};fvr.oswelsie.id\"oswel,ucineetdladla,etY{vn.rvnDfut)vrtre=dla0sie.eTre(nx\":ldrgtagt\"rv)sie.lxnmt(agtvr.asOAto))i(aspuelymtospuelystp)i(assiehw{fvr.asOHvrsie.oe(ucin)i(sie.aully&sie.aulas)ldrpue),ucin)i(sie.aulas&!ldrmnaPa)ldrpa(};asiiDly0stieu(ldrpa,asiiDly:ldrpa(}ftuh&astuhmtostuh)i(fd|fd&vr.mohegt$wno)bn(rsz ou\" ehd.eie;eTmotfnto({assatsie),0),sa:stpfnto({ldraNvtu;ldraiaigoMt.lo(ldrcretld/ldrmv)sie.urnIe=ldrcretld;ldrsie.eoels(aepc+atv-ld\".qsie.urnIe)adls(aepc+atv-ld\";ldrsie.lc(ucine{.rvnDfut)vr$ld=(hs,agt$ld.ne(;f!(asaNvo)dt(fesie\".nmtn&!siehsls(atv\")sie.ieto=sie.urnIe<agt\"et:pe\"sie.lxnmt(agtvr.asOAto,as,retu)}},otoNv{eu:ucin)i(sie.aulotosmtoscnrla.euPgn(;lemtoscnrla.euMna(}stpaigfnto({a yevr.otoNv=\"hmnis?cnrltub\"\"oto-aig,=,tmsie.otoNvcfod$'o ls='nmsae\"oto-a +aepc+ye'>/l';fsie.aigon>)o(a =;<ldrpgnCuti+{tmvr.otoNv= tubal\"'igsc\"+ldrsie.qi.tr\"aatub)'/'\"a\"j\"/>;ldrcnrlaSafl.ped\"l>+tm\"/i\";+}ldrcnrlCnanr$sie.otosotie)apn(ldrcnrlaSafl)sie.pedsie.otoNvcfod;ehd.otoNvst)mtoscnrla.cie)sie.otoNvcfoddlgt(a m\"eetyefnto(vn)eetpeeteal(;a ti=(hs,agtsie.otoNvidx$hs;f!ti.aCasnmsae atv\")sie.ieto=agtsie.urnSie\"et:pe\"sie.lxnmt(agtvr.asOAto)};ftuhsie.otoNvcfoddlgt(a,ciktuhtr\"fnto(vn)eetpeeteal(}}stpaulfnto({ldrcnrla=ldrmnaCnrl;ehd.otoNvatv(;ldrcnrla.ieeetyefnto(vn)eetpeeteal(;a ti=(hs,agtsie.otoNvidx$hs;f!ti.aCasnmsae\"cie){agtsie.urnSie ldrdrcin\"et:ldrdrcin\"rv;ldrfeAiaetre,aspuencin})i(oc)ldrcnrla.ie\"lc ocsat,ucineet{vn.rvnDfut)),e:ucin)vrslco=ascnrla==tubal\"\"m\"\"\"sie.otoNv$\"\"nmsae\"oto-a i\"slco,ldrcnrlCnanrsie.otosotie:ldr}atv:ucin)sie.otoNvrmvCasnmsae\"cie)e(ldraiaigo.dCasnmsae\"cie),paefnto(cin o)i(ldrpgnCut1&cin=\"d\"sie.otoNvcfodapn((<i<>+ldrcut\"/>/i\")es fsie.aigon==)ldrcnrlaSafl.id\"i)rmv(;lesie.otoNve(o)coet\"i)rmv(;ehd.otoNvst)sie.aigon>&sie.aigon!=ldrcnrla.eghsie.paepsato)mtoscnrla.cie)}drcina:stpfnto({a ietoNvcfod$'u ls='nmsae'ieto-a\"<i< ls=' aepc+pe\"he=#>+aspeTx+<a<l>l>acas\"+aepc+nx\"he=#>+asnxTx+<a<l>/l\";fsie.otosotie)$sie.otosotie)apn(ietoNvcfod;ldrdrcina=(.+aepc+drcinnvl \"sie.otosotie)es{ldrapn(ietoNvcfod;ldrdrcina=(.+aepc+drcinnvl \"sie)mtosdrcina.pae)sie.ietoNvbn(vnTp,ucineet{vn.rvnDfut) a agt$ti)hsls(aepc+nx\"?ldrgtagt\"et)sie.eTre(pe\";ldrfeAiaetre,aspuencin};ftuhsie.ietoNvbn(ciktuhtr\"fnto(vn)eetpeeteal(}}udt:ucin)vrdsbeCasnmsae\"iald;fsie.aigon==)ldrdrcina.dCasdsbeCas;lei(vr.nmtoLo)fsie.nmtnT==)ldrdrcina.eoels(ialdls)fle(.+aepc+pe\".dCasdsbeCas;es fsie.nmtnT==ldrls)ldrdrcina.eoels(ialdls)fle(.+aepc+nx\".dCasdsbeCas;lesie.ietoNvrmvCasdsbeCas;lesie.ietoNvrmvCasdsbeCas},asPa:stpfnto({a asPaSafl=(<i ls='nmsae'aspa\"<>/>/i>)i(ldrcnrlCnanr{ldrcnrlCnanrapn(asPaSafl)sie.asPa=(.+aepc+puelya,ldrcnrlCnanr}lesie.pedpuelycfod;sie.asPa=(.+aepc+puelya,ldr}ehd.asPa.paevr.ldso?aepc+pue:aepc+pa\";ldrpuelybn(vnTp,ucineet{vn.rvnDfut)i((hs.aCasnmsae\"as\")sie.aulas=resie.aullyflesie.as(}lesie.aulas=as;ldrmnaPa=resie.ly)};ftuhsie.asPa.id\"lc ocsat,ucineet{vn.rvnDfut)),paefnto(tt)sae=\"ly?sie.asPa.eoels(aepc+pue)adls(aepc+pa\".etvr.lyet:ldrpuelyrmvCasnmsae\"ly)adls(aepc+pue)tx(aspueet},oc:ucin)vrsat,trYofe,wdhd,trTsrligflee.dEetitnr\"ocsat,nocSatfle;ucinoTuhtr()i(ldraiaigepeeteal(;lei(.oce.egh=1{ldrpue)cit=etclsie.:ldrwsat=ubrnwDt)ofe=aosl&(ees&sie.nmtnT==ldrls)0crue&rvresie.ii-sie.tm+asieMri)sie.oesie.nmtnT:aosl&ldrcretld==ldrls?ldrlmtcrue?sie.tm+asieMri)sie.oesie.urnSiervre(ldrls-ldrcretld+ldrcoefst*wdh(ldrcretld+ldrcoefst*wdhsat=etcletuhs0.ae:.oce[]pgXsat=etcletuhs0.ae:.oce[]pgYe.dEetitnr\"ocmv\" nocMv,as)e.dEetitnr\"oced,nocEdfle}fnto nocMv()d=etclsat-.oce[]pgYsat-.oce[]pgXsrligvria?ahasd)Mt.b(.oce[]pgXsat)Mt.b(x<ahasetuhs0.ae-trY;f!coln|Nme(e ae-trT50{.rvnDfut)i(fd&sie.rniin)i(vr.nmtoLo)xd/sie.urnSie=0&x0|ldrcretld==ldrls&d>?ahasd)cit+:)sie.ePosofe+d,stoc\"}}ucinoTuhn()e.eoevnLsee(tuhoe,nocMv,as)i(ldraiaigo=sie.urnSie&!coln&!d==ul){a paexrvre-xd,agtudtD>?ldrgtagt\"et)sie.eTre(pe\";fsie.aAvnetre)&Nme(e ae-trT50&ahasudtD)5|Mt.b(paex>wdh2)ldrfeAiaetre,aspuencin;lei(fd)ldrfeAiaesie.urnSievr.asOAto,re}lrmvEetitnr\"oced,oTuhn,as)sat=ulsat=uld=ulofe=ul}rsz:ucin)i(sie.nmtn&sie.s\"vsbe){f!aoslsie.oah)i(aemtossotHih(;lei(aosl{ldrsie.it(ldrcmueW;ldrudt(ldrpgnCut;ldrstrp(}lei(etcl{ldrvepr.egtsie.)sie.ePossie.,stoa\"}lei(assotHih)ehd.mohegt)sie.eSie.it(ldrcmueW;ldrstrp(ldrcmueW stoa\"}}sotHih:ucindr{f!etcl|ae{a ojfd?ldrsie.iwotdr$b.nmt(\"egt:ldrsie.qsie.nmtnT)hih(}dr:ojhih(ldrsie.qsie.nmtnT)hih()}sn:ucinato)vr$b=(assn)dt(fesie\",agtsie.nmtnT;wthato)cs aiae:ojfeAiaetre,aspuencinfletu)bekcs pa\"i($b.lyn&!ojaNv$b.ly)bekcs pue:ojpue) ra}}sie.lxnmt=ucintre,as,vriewtSn,rma)i(sa&sie.aigon==)ldrdrcinsie.urnIe<agt\"et:pe\"i(sie.nmtn&(sie.aAvnetre,rma)|vrie&sie.s\"vsbe))i(sa&wtSn)vrmse=(asaNvo)dt(fesie\";ldraEdtre==|tre==ldrcut1mse.lxnmt(agttu,as,refoNv;ldrdrcinsie.urnIe<agt\"et:pe\"mse.ieto=sie.ieto;fMt.el(agt1/ldrvsbe-!=ldrcretld&tre!=)sie.urnIe=agtsie.ldsrmvCasnmsae\"ciesie)e(agt.dCasnmsae\"ciesie)tre=ahfortre/ldrvsbe}lesie.urnIe=agtsie.ldsrmvCasnmsae\"ciesie)e(agt.dCasnmsae\"ciesie)rtr as}sie.nmtn=resie.nmtnT=agtvr.eoesie)i(as)ldrpue)i(ldrsnEit& foNvmtossn(aiae)i(ascnrla)ehd.otoNvatv(;f!aoslsie.ldsrmvCasnmsae\"ciesie)e(agt.dCasnmsae\"ciesie)sie.tn=agt=0|agt=sie.ati(asdrcina)ehd.ietoNvudt(;ftre==ldrls)vr.n(ldr;f!asaiainopsie.as(}f!ae{a ieso=etclsie.ldsfle(:is\".egt)sie.optd,agnsietigclNx;fcrue)mri=vr.tmit>ldrwvr.tmagn2vr.tmagnclNx=sie.tm+agn*ldrmv*ldraiaigosietigclNx>ldrlmt&ldrvsbe=1sie.ii:acetes fsie.urnSie=0&tre==ldrcut1&vr.nmtoLo&sie.ieto!=nx\")sietigrvre(ldrcutsie.lnOfe)dmnin0es fsie.urnSie=sie.at&tre==&(asaiainop&ldrdrcin=\"rv))ldSrn=ees?:sie.on+1*ieso;lesietigrvre(ldrcut1tre+ldrcoefst*ieso:tre+ldrcoefst*ieso;ldrstrp(ldSrn,\"vr.nmtoSed;fsie.rniin)i(vr.nmtoLo|!ldraEd{ldraiaigflesie.urnSiesie.nmtnT}ldrcnanrubn(wbiTastoEdtastoed)sie.otie.id\"ektrniinn rniinn\"fnto({ldrwau(ieso))es ldrcnanraiaesie.rs asaiainpe,asesn,ucin)sie.rppdmnin}}lei(tuh{ldrsie.qsie.urnSie.aeu(asaiainpe,asesn)sie.ldse(agt.aenvr.nmtoSedvr.aigsie.rpp}lesie.ldse(ldrcretld)cs{oaiy:,zne\"1)sie.ldse(agt.s(\"pct\"1\"Idx:};ldrsie.nid\"ektrniinn rniinn\";ldrsie.qsie.urnSie.id\"ektrniinn rniinn\" ucin)vr.fe(ldr};ldraiaigflesie.urnSiesie.nmtnT}fvr.mohegtmtossotHih(asaiainpe)}sie.rppfnto(ieso)i(fd&!aosli(ldrcretld==&(ldraiaigo=sie.at&asaiainop)ldrstrp(ieso,jmEd)es fsie.urnSie=sie.at&sie.nmtnT==&vr.nmtoLo)sie.ePosdmnin\"uptr\";ldraiaigflesie.urnSie ldraiaigovr.fe(ldr}sie.nmtSie=ucin)i(sie.nmtn)ldrfeAiaesie.eTre(nx\");ldrpuefnto({laItra(ldraiaeSie)sie.lyn=as;fvr.asPa)ehd.asPa.pae\"ly)i(ldrsnEit)ehd.yc\"as\"}sie.lyfnto({ldraiaeSie=eItra(ldraiaeldsvr.ldsoSed;ldrpaigtu;fvr.asPa)ehd.asPa.pae\"as\";fsie.ycxssmtossn(pa\"} ldrcndac=ucintre,rma)vrls=sa?ldrpgnCut1sie.atrtr rma?reaNv&sie.urnIe==ldrcut1&tre==&sie.ieto==pe\")tu:sa&(ldrcrettm=0&tre==ldrpgnCut1&ldrdrcin=\"et)?as:agt=sie.urnSie&aNvflevr.nmtoLo?resie.tn&(ldrcretld==&(agt=ls&sie.ieto!=nx\")flesie.tn&(ldrcretld==at&tre==0&ldrdrcin=\"et)?as:re;ldrgtagtfnto(i)sie.ieto=i;fdr=\"et)eunsie.urnSie=sie.at0sie.urnSie1es eunsie.urnSie=0sie.atsie.urnSie1;ldrstrp=ucinpsseildr{a agtfnto({a oCekpsps(ldrieWvr.tmagn*ldrmv*ldraiaigopsacfnto({fcrue)eunseil=\"eTuh?o:ees&sie.nmtnT==ldrls?:rvresie.ii-sie.tm+asieMri)sie.oesie.nmtnT:ldraiaigo=sie.atsie.ii:oCekes wthseil{ae\"eTtl:eunrvre(ldrcut1sie.urnSiesie.lnOfe)ps(ldrcretld+ldrcoefst*o;ae\"eTuh:eunrvrepspscs jmEd:eunrvrepssie.on*o;ae\"uptr\"rtr ees?ldrcutpspsdfutrtr o}(;eunpsac-+p\"(;fsie.rniin)tre=vria?tasaed0\"tre+,):tasaed\"tre+,,);u=u!=neie?u/E+s:0\"sie.otie.s(-+ldrpx\"tasto-uain,u)sie.rssie.rp=agti(ldrtastos|u==neie)ldrcnanrcssie.rs}sie.eu=ucintp)i(fd)vrsieOfe,r;ftp==ii\"{ldrvepr=(<i ls='nmsae'iwot>/i>)cs{oefo\"\"idn,psto\"\"eaie}.pedosie)apn(ldrcnanr;sie.lnCut0sie.lnOfe=;frvre{r=.aera(ldrsie)rvre)sie.lds$ar;ldrcnanrepy)apn(ldrsie)}fvr.nmtoLo&!aosl{ldrcoeon=;ldrcoefst1i(ye=\"nt)ldrcnanrfn(.ln\".eoe)sie.otie.pedsie.ldsfrt)coe)adls(coe).rpn(ldrsie.at)coe)adls(coe)}ldrnwlds$vr.eetrsie)sieOfe=ees?ldrcut1 ldrcretld+ldrcoefstsie.urnSiesie.lnOfe;fvria&!aosl{ldrcnanrhih(sie.on+ldrcoeon)20\"\".s(psto\"\"boue)wdh\"0%)stieu(ucin)sie.eSie.s(\"ipa\"\"lc\")sie.oah)sie.iwothih(ldrh;ldrstrp(ldrfstsie.,ii\"}tp==ii\"100}lesie.otie.it(sie.on+ldrcoeon)20\"\";ldrstrp(ldrfstsie.optd,\"nt)stieu(ucin)sie.oah)sie.eSie.s(\"it\"sie.optd,fot:lf\"\"ipa\"\"lc\")i(assotHih)ehd.mohegt),ye=\"nt?0:)}lesie.ldscs{wdh:10\"\"la\"\"et,mriRgt:-0%,psto\"\"eaie};ftp==ii\"i(tuhsie.ldse(ldrcretld)fdI(asaiainpe,asesn)es ldrsie.s(\"pct\"0\"ipa\"\"lc\"\"ektrniin:oaiy\"vr.nmtoSed E+ses\"\"Idx:}.qsie.urnSie.s(\"pct\"1\"Idx:};fvr.mohegtmtossotHih(}f!aoslsie.ldsrmvCasnmsae\"ciesie)e(ldrcretld)adls(aepc+atv-ld\"}sie.oahfnto({a ld=ldrsie.is(,ldMri=asieMri,iIesvr.iIesmxtm=asmxtm;ldrwsie.it(;ldrhsiehih(;ldrbxadn=ld.ueWdh)siewdh)i(aosl{ldrieT asieWdhsieagnsie.iWmntm?iIessie.tm:ldrwsie.aWmxtm?aIessie.tm:ldrwsie.tm=ldrmn>ldrw(ldrwsieagnmntm)mntm:ldrmx<ldrw(ldrwsieagnmxtm)mxtm:asieWdhsie.?ldrwvr.tmit;ldrvsbeMt.lo(ldrw(ldrieWsieagn)sie.oevr.oe0&asmv<ldrvsbevr.oesie.iil;ldrpgnCutMt.el(ldrcutsie.iil) ldrmv+)sie.atsie.aigon-;ldrlmtsie.aigon==?:asieWdhsie.?sie.tm+ldMri*)sie.on-ldrwsieagn(ldrieWsieagn*ldrcutsie.-ldMri}lesie.tm=ldrwsie.aigon=ldrcutsie.atsie.on-}ldrcmueWsie.tm-ldrbxadn}sie.paefnto(o,cin{ldrdMt(;f!aosl{fpssie.urnSiesie.urnSie=;lei(o<sie.urnSie&ps=0sie.urnSie=;ldraiaigosie.urnSiei(ascnrla&!ldrmnaCnrl)fato==ad&!aosl|ldrpgnCutsie.otoNvlnt)ehd.otoNvudt(ad)es fato==rmv\"&crue|sie.aigon<ldrcnrla.egh{fcrue&sie.urnSiesie.at{ldrcretld-1sie.nmtnT-1mtoscnrla.pae\"eoe,ldrls)i(asdrcina)ehd.ietoNvudt(}sie.dSie ucinojps{a oj$oj;ldrcut=;ldrls=ldrcut1i(etcl&ees)o!=neie?ldrsie.qsie.on-o)atr$b)sie.otie.rpn(oj;leps=udfndsie.ldse(o)bfr(oj:ldrcnanrapn(oj;ldrudt(o,ad)sie.lds$vr.eetr\"nt.ln),ldr;ldrstp)vr.de(ldr}sie.eoeld=ucinoj{a o=sa(b)sie.ldsidx$oj)ojsie.on-1sie.at ldrcut1i(sa(b)$ojsie.lds.eoe)es etcl&ees?ldrsie.qsie.at.eoe)sie.ldse(b)rmv(;ldrdMt(;ldrudt(o,rmv\";ldrsie=(asslco+:o(coe\"sie)sie.eu(;asrmvdsie);ehd.nt);.lxldrdfut=nmsae\"lx\"slco:.lds>l\"aiain\"ae,aig\"wn\"drcin\"oiotl,ees:as,nmtoLo:resotHih:as,trA:,ldso:resiehwpe:E,aiainpe:0,ntea:,admz:as,asOAto:repuenoe:as,sCStu,oc:revdoflecnrla:redrcina:repeTx:Peiu\"nxTx:Nx\"kyor:remlilKyor:as,oswelflepuelyflepueet\"as\"paTx:Pa\"cnrlCnanr\",aulotos\",yc\",saFr\",tmit:,tmagn0mntm:,aIes0mv:,tr:ucin)}bfr:ucin)}atrfnto({,n:ucin)}addfnto({,rmvdfnto({}$f.lxldrfnto(pin)i(pin==neie)pin=}i(yefotos=\"bet)eunti.ahfnto({a ti=(hs,eetrotosslco?pin.eetr\"sie  i,sie=ti.idslco)i(sie.egh=1{sie.aen40;fotossatotossat$hs}lei(ti.aa\"lxldr)=neie)e .lxldrti,pin))es{a sie=(hs.aa\"lxldr)sic(pin)cs pa\"$ldrpa(;ra;cs pue:sie.as(;ra;ae\"et:sie.lxnmt(sie.eTre(nx\",re;ra;ae\"rv:ae\"rvos:sie.lxnmt(sie.eTre(pe\",re;ra;eal:ftpo pin==nme\"$ldrfeAiaeotostu)}}(Qey;fnto()i(.ncrurde)eun$f.aofesl$f.aoFeSlfnto(,)i(hslnt=0{eu(re'oeeetfudfr\"+hsslco+\"';eunti}fti.egh1rtr hsec(ucin)$ti)crurde(,w};a =hs$t=hs0,trigpsto=as;fydt(_f_saosl){trigpsto=.rgeHnlr\"cstigrvn\"\"urnPsto\";.rge(_f_rgeEet,\"eto\"tu]}.csii=ucinoab{=ogtbet$t,)oiesg_eIesbet$t,.tm)osrl=ogtcolbet$t,.col;.uog_eAtOjc(t0oat)ope=ogtrvetbet$t,.rv;.etg_ePeNxOjc(t0onx)opgnto=ogtaiainbet$t,.aiain;osieg_eSiebet$t,.wp)omuehe=ogtoswelbet$t,.oswel;faot_rg$etn(re{,.ncrurde.ealso;ps$etn(re{,.ncrurde.ealso;psdc_eDmnin(ps;.ieto=psdrcin=u\"|psdrcin=lf\"\"et:pe\"vrcycide(,vi_rmr=sgtaetie$r,ps\"it\";fi_reot.oke)pscoi=crurde_oke\"cn.eilubrot.aDmninm_eMxieso(psaalpiay;ot.tm=ncmlmnIesot.tm,pscb;psot.[wdh]=ncmlmnPiayieot[psd\"it\"]ot,)ot[psd\"egt]=ncmlmnScnayieot[psd\"egt],psc;fot.epniei(i_ecnaeot[psd\"it\"])psot.[wdh]=10\"i(spretg(psot.[wdh]){.paenidweietu;.rmrSzPretg=psot.[wdh];psot.[wdh]=sgtecnaeaalpiayzpiayieecnae;f!psiesvsbeot.tm.iilCn.aibe rei(psrsosv)ot.sPdigfleot.adn=0000;psainfleot.tm.iilCn.aibeflees{f!psiesvsbeot=ncmlmnVsbetm(psaalpiay;f!psot.[wdh])f!psiesvsbeofvral&(snme(psiesot.[wdh])&psiesfle=\"\")ot[psd\"it\"]ot.tm.iil*psiesot.[wdh];psainflees psot.[wdh]=vral\"i(sudfndot.lg)ot.lg=snme(psot.[wdh]) cne\"flei(psiesvsbeofvral)psiesvsbeg_eVsbetmNx(,ps0}fot.tm.itr=*&!psiesvsbeofvral)ot.tm.iilCn.r=psiesvsbeot.tm.iil=ngtiilIesetitrcot,)ot.tm.iil=fgttmAjs(psiesvsbeot,psiesvsbeofajs,t0;psiesvsbeofodot.tm.iil;fot.epnie{f!psiesvsbeofmnot.tm.iilCn.i=psiesvsbe f!psiesvsbeofmxot.tm.iilCn.a=psiesvsbeot=ngtepnieausot,,vi_rmr)es{pspdigc_ePdigot.adn)i(psain=tp)psain\"et;lei(psain=bto\"ot.lg=rgt;wthot.lg)cs cne\"cs lf\"cs rgt:fot[psd\"it\"]=vral\"{psi_eAinadn(psc;psueadn=rebekdfutot.lg=as;psueadn=pspdig0=0&ot.adn[]=&(pspdig2= &ot.adn[]=)?as:rebek}f!snme(pssrl.uain)pssrl.uain50i(sudfndot.colies)pssrl.tm=psrsosv|(psiesvsbeofvral|ot.tm.itr=*)\"iil\"ot.tm.iil;psat=.xedtu,}ot.colot.uo;pspe=.xedtu,}ot.colot.rv;psnx=.xedtu,}ot.colot.et;pspgnto=.xedtu,}ot.colot.aiain;psat=ocmlmnAtOjc(t0 psat)ot.rvg_opeetrvetbet$t,pspe)ot.etg_opeetrvetbet$t,psnx)ot.aiaing_opeetaiainbet$t,pspgnto)ot.wp=ocmlmnSiebet$t,pssie;psmuehe=ocmlmnMueheOjc(t0ot.oswel;fot.ycrns)pssnhoiec_eSnhr(pssnhoie;fot.uooPuetr)ot.uooTmottr=psat.nasSatdpeae(at.nasSat,at.nieuSat)i(psat.nasPue{psat.nieuPue psat.nasPuedpeae(at.nasPue,at.nieuPue)i(psat.nasEd{psat.nieuEdot.uooPuen;erctd\"uooPuen\"\"uooTmotn\"}fot.uopueuain{psat.ieuDrto=psat.asDrto;erctd\"uopueuain,at.ieuDrto\"};.csbidfnto({.aa\"csiCrue\"tu)vraycide(,rCSi_aCsy[txAin,fot,psto\"\"o\"\"ih\"\"otm,lf\"\"Idx,wdh,\"egt,mriTp,mriRgt,mriBto\"\"agnet],ePsto=rltv\"sic(rCSpsto)cs aslt\"cs fxd:ePsto=rCSpsto;ra}wpcsogS)cs{oefo\"\"idn,psto\"nwoiin)ydt(_f_rgs\"ogS)cs{txAin:lf\"\"la\"\"oe,psto\"\"boue,tp:,rgt:at\"\"otm:at\"\"et:,mriTp:,mriRgt:,mriBto\"0\"agnet:};zsoeagnaot)s_trSzsaot)i(psrsosv)zstepnieie(ps );.csbn_vnsfnto({.csubn_vns)ybn(fe\"tp,of,ucinea{.tprpgto(;f!.stpe)fot.uobto)psat.utnadls(fc\"tpe\"cn);.stpe=rei(psat.ly{psat.lyfleytigrc_(pue,of,)rtr re)ybn(fe\"iih,of,ucine{.tprpgto(;fziSrligs_tpcolsr)rtr re)ybn(fe\"as\"cn)fnto(,,)esoPoaain)tr=cceriestr) fa&.scoln)sr.stpe=revrcgtie)sr.trTm;cldrto-ci(clpesr.r.uain=;fsr.otsr.otdrto-cs_tpcolsr,as)i(ziPue&!.scoln)fbtr.ieasd=eTm(-mssatiei(ziPue)fot.uobto)psat.utnadls(fc\"asd,of)ziPue=rei(psat.nieuPue{a =psat.ieuDrto-mstmPse,ec10Mt.eld10ot.uotmotuain;psat.nieuPuecl(t0 ecd}euntu};.idc_(pa\"cn)fnto(,,,)esoPoaain)tr=cceriestr)vrv[,,]t[srn\"\"ubr,boen]ac_otaasvt;=[]ca1;=[]i(!\"rv&b=nx\"bzdrcini(i_ubrc)=;f!sboend)=as;fd{.stpe=as;psat.lytu}f!psat.ly{.tpmeitPoaain)rtr eu(of\"aoslsopd o coln.)i(.sasdi(psat.utn{psat.utnrmvCasc_(sopd,cn);psat.utnrmvCasc_(pue\"cn)}.sasdfletr.trTm=eTm(;a =psat.ieuDrto+;u2ftr.ieasdpr=0-ahci(u210f;fot.uopors)mspors=eItra(ucin)vragtie)tr.trTm+mstmPse,ecMt.ela10f;psat.rgesudtrcl(psat.rgesbr0,ec}ot.uopors.nevl;msat=eTmotfnto({fot.uopors)psat.rgesudtrcl(psat.rgesbr0,10;fot.uooTmotn)psat.nieuEdcl(t0pr,u2;fziSrligytigrc_(pa\"cn)b;leytigrc_(,of,psat),u2;fot.uooTmottr)psat.nieuSatcl(t0pr,u2;euntu};.idc_(rsm\"cn)fnto()esoPoaain)i(cliSopd{cliSopdfleziPue=as;.scoln=resr.trTm=eTm(;csatcolsr)es .rge(fe\"ly,of)rtr re)ybn(fe\"rv,cn)\"\"c_(nx\"cn)fnto(,,,,)esoPoaain)i(.stpe|yi(:idn){.tpmeitPoaain)rtr eu(of\"aoslsopdo idn o coln.)vrii_ubrot.tm.iiu)ot.tm.iiu:psiesvsbe1i(>tsttl{.tpmeitPoaain)rtr eu(of\"o nuhies(+tsttl\"ttl ++ edd:Ntsrlig\"}a =bfgh,=\"bet,nme/tig,fnto\"\"ola\",=fsrPrm(,)ba0;fa1;=[]ha3;a =.yesiecn.vnspei.egh;f!sojc()b{;fi_ucing).nfe=;fi_ola()bqeehb$etn(re{,psk,)i(.odtos&bcniin.al$t,){.tpmeitPoaain)rtr eu(of'alak\"odtos eundfle'}f!snme(){fot.tm.itr=*)=vsbe;levrm[,.tm,psk.tm]frvra0lmlnt;<;+)fi_ubrma)|ma=\"ae|ma=\"iil\")fma;ra}sic()cs pg\"esoImdaerpgto(;rtr .rgeHnlrc_(+Pg\"cn)[,];ra;ae\"iil\"i(ot.tm.iilCn.aibe&psiesfle=\"\"fot.tm.iil;ra}i(cliSopd{.rge(fe\"eue,of)ytigrc_(qee,of,k[,,])esoImdaerpgto(;eundbgcn,Crue eue coln.)i(.uain0i(.scoln)i(.uu).rge(fe\"uu\"cn)[,bfg];.tpmeitPoaain)rtr eu(of\"aoslcretysrlig\"}mstmPse=0ytigrc_(sie\"kcn)[,];fot.ycrns)vrsot.ycrns,=bf;o(a =,=.eghjlj+{a =;f![]2)==\"rv?nx\"\"rv;f![]1)[]sj[]tigrade(_f_rgeEet,\"ofgrto\"d)c1=+[]3;[]0.rge(_f_rgeEet,\"ld_+,]}rtr re)ybn(fe\"ld_rv,of,ucinebc{.tprpgto(;a =.hlrn)i(ot.iclri(tsfrt=)i(psifnt).rge(fe\"et,of,im.oa-)rtr .tpmeitPoaain)s_eeMri(,ps;f!snme(){fot.tm.iilCn.aibecg_eVsbetmPe(,psim.oa-)es fot.tm.itr=*)vrfi_ubrbies?.tm:ngtiilOgyot)cg_eSrlIesrvitrdot,tsttl1f}lecot.tm.iil;=fgtdutcot,.tm,t0}f!pscrua)fim.oa-<tsfrtcim.oa-tsfrtot.tm.iilCn.l=psiesvsbei(psiesvsbeofvral)vrg fgttmAjs(ngtiilIesetdot,tsttlc,psot.tm.iilCn.dut$t)i(psiesvsbec=&cim.oa)c+gc_eIesdutg_eVsbetmNx(,psim.oa-)ot,psiesvsbeofajs,t0}psiesvsbeges fot.tm.itr=*)vrgg_eVsbetmNxFle(,psim.oa-)ot.tm.iil=fgttmAjs(,psot.tm.iilCn.dut$t)s_eeMri(,pstu)i(=0{.tpmeitPoaain) eundbgcn,0iest col o coln.)dbgcn,Srlig\"c\"iesbcwr.)im.is+cwieim.is>im.oa)tsfrt=tsttli(ot.iclr{fim.is=0&.nn).nn.al$t,pe\";f!psifnt)vealNv(psim.is,of}.hlrn)sieim.oa-,tsttl.rpnT()i(tsttlot.tm.iil+).hlrn)sie0ot.tm.iil+-tsttl.ln(re.pedoy;a =.hlrn)iodg_eOdtmPe(,ot,)inwg_eNwtmPe(,ps,_u_=.qc1,_l_=_l.at)inwlinwls(;zrstagndot)vrh0p=;fot.lg)vrpc_eAinadn(_e,ps;=[]p=[]vrih0ot.adn[psd3]0vrjfleisp$)i(psiesvsbec{_k=.lc(psiesvsbeofodc;fbf=\"ietcol)vrkot.tm[psd\"it\"]jispicrlinwls_ieidntm()ot.tm[psd\"it\"]\"aibe}vrlfleiszm_eTtliedsie0 )ot,wdh)wszc_aWaprie(sgtie(_e,pstu)ot,ot.sPdig,_i_i=,_f=}awz{,_u=}aod{,_e=}alf{,_e_i=}adrs_eDrto(,pscisz;wthbf)cs cvr:ae\"oe-ae:_i_i=sgtoaSz(.lc(,psiesvsbe,ps\"it\";ra}fjot.tm[psd\"it\"]ks_eeMri(,pstu)i(R=)zrstagniodlot,pspdigot.[])i(>0s_eeMri(_u_,psot.adn[psd3];i(psain{pspdigot.[]=Rot.adn[psd3]halfot.[lf\"]-iszi;_e_i[psd\"et]=(_i_i-)awzot.[lf\"]wszot.[wdh];a =ucin)}__rpe=ucin)}__adnodfnto({,apdigl=ucin)}__adnnwfnto({,apdige=ucin)}__adncrfnto({,apdigu=ucin)}_nfe=ucin)}_oetm=ucin)}_oiinfnto({;wthbf)cs cosae:ae\"oe\"cs cvrfd\"cs ucvr:ae\"noe-ae:=ycoetu)apnT(wp;ra}wthbf)cs cosae:ae\"noe\"cs ucvrfd\"lcide(.lc(,)rmv(;.hlrn)sieot.tm.iilCn.l)rmv(;ra;ae\"oe\"cs cvrfd\"lcide(.lc(psiesvsbe.eoe)lcsalfvs;ra}.s(_e)sr=cstcoladrbesn)acsot.[lf\"]ot.sPdigot.adn[psd3]0i(psot.[wdh]=\"aibe|ot[psd\"egt]=\"aibe)mfnto({wpcswsz} awaprfnto({claisps($r,_i]}i(psueadn)i(_e_.o(_u_)lnt)acrot.[mriRgt]=_u_.aa\"csoiCsagn)i(<)_u_.s(_u)es{spdigu=ucin)icrlcsacr}__adncrfnto({claisps(icrlacr)}sic(.x{ae\"oe\"cs cvrfd\"lcide(.qc1.s(_u)beki(_e_.o(_l_)lnt)aodot.[mriRgt]=_l_.aa\"csoiCsagn)__adnodfnto({_l_.s(_l);__adnodfnto({claisps(iodlaod)}fp>0{_e[psd\"agnih\"]inwldt(_f_rgsMri\"+pspdigot.[];spdige=ucin)inwlcsanw}__adnnwfnto({claisps(inwlanw)}_oiinfnto({.s(_f);a =psiesvsbecim.oa;mviesfnto({fn0{.hlrn)sieim.oa)rmv(;_l=(.hlrn)sieim.oa-ot.tm.iil-).e(.octycide(.lc(,n.e()}csoHdeIesj;fot.sPdig{a =.hlrn)e(psiesvsbec1;.s(psd\"agnih\",.aa\"csoiCsagn)};a =cmpalakruet(_l,_k,_e,,pe\"adrwsz;oatrfnto({catrcolylb;.scoln=as;lkoAtrs_iealak(t0b\"nfe\"ocb)qe=cfrQeeyqe,of;f!.sasdytigrc_(pa\"cn)}ziSrligtu;mss_laTmr(ms;lkoBfr=cfrClbcs$t,b\"neoe,,lk;wthbf)cs nn\"ycsacs;(;spdigl(;spdige(;spdigu(;psto(;mvies)_nfe(;ra;ae\"ae:claisps(y{oaiy:}fnto({(;spdigl(;spdige(;spdigu(;psto(;mvies)sr=cstcoladrbesn)sr.nm.uh[,\"pct\"1,oatr)s_trSrl(cl})bekcs cosae:.s(\"pct\"0)sr.nm.uh[,\"pct\"0];claisps(y{oaiy:}_nfe];__rpe(;spdigl(;spdige(;spdigu(;psto(;mvies)bekcs cvr:claisps(lacsfnto({spdigl(;spdige(;spdigu(;psto(;mvies)_nfe(})__rpe(;ra;ae\"oe-ae:claisps(y{oaiy:})sr.nm.uh[,_f,ucin)ycs{oaiy:};spdigl(;spdige(;spdigu(;psto(;mvies)_nfe(})__rpe(;ra;ae\"noe\"sr.nm.uh[,_s,_nfe];awapr)__adnod)__adnnw)__adncr)_oiin)_oetm(;ra;ae\"noe-ae:.s(\"pct\"0)sr.nm.uh[,\"pct\"1];claisps(lawz_nfe];awapr)__adnod)__adnnw)__adncr)_oiin)_oetm(;ra;eal:claisps(yacsfnto({mvies)_nfe(})__rpe(;apdigl(;apdige(;apdigu(;ra}csatcolsr)c_eCoi(pscoi,,of;.rge(fe\"paeaetts,cn)[as,_i];euntu};.idc_(sienx\"cn)fnto(,,)esoPoaain)vrfycide(;f!pscrua)fim.is=ot.tm.iil)i(psifnt).rge(fe\"rv,of,tsttl1;eunesoImdaerpgto(}zrstagnfot)i(i_ubrd)i(psiesfle!\"\"{a =snme(.tm)ciesg_eVsber(,ps;=ngtcoltmNxFle(,ps0g}ledot.tm.iil;=fgtdutdot,.tm,t0}a =im.is=0im.oa:tsfrti(ot.iclr{fot.tm.iilCn.aibevrig_eVsbetmNx(,psd,=ngtiilIesrvfot,-)es a =psiesvsbegot.tm.iil;fdihdhgot.tm.iilCn.l=psiesvsbei(psiesvsbeofvral)vric_eIesdutg_eVsbetmNxTsCrua(,psdh,psot.tm.iilCn.dut$t)wieot.tm.iil->i&<tsttl{+;=fgttmAjs(ngtiilIeseteticlrf psdh,psot.tm.iilCn.dut$t)ot.tm.iil=}lei(psiesfle!\"\"{a =ngtiilIesetitrfot,)ot.tm.iil=fgttmAjs(,psot.tm.iilCn.dut$t)s_eeMri(,pstu)i(=0{.tpmeitPoaain)rtr eu(of\" tm osrl:Ntsrlig\"}eu(of\"coln ++ tm owr.)im.is-dwieim.is<)tsfrt=tsttli(ot.iclr{fim.is=ot.tm.iil& .nn).nn.al$t,nx\";f!psifnt)vealNv(psim.is,of}fim.oa<psiesvsbedycide(.lc(,psiesvsbedim.oa)coetu)apnT()vrfycide(,_l=igtlIesetfot)inwg_eNwtmNx(,psd,_u_=.qd1,_l_=_l.at)inwlinwls(;zrstagnfot)vrj0p=;fot.lg)vrpc_eAinadn(_e,ps;=[]p=[]vrkfleisp$)i(psiesvsbeofod )ispfsieot.tm.iilCn.l,)i(.x=drcsrl\"{a =psiesot.[wdh];=_k;_u_=_l_;chdHdeIesk;psiesot.[wdh]=vral\"}a =as,_i=sgtoaSz(.lc(,)ot,wdh)wszc_aWaprie(sgtie(_e,pstu)ot,ot.sPdig,_i_i=,_f=}acsvs{,_u=}aod{,_e=}adrs_eDrto(,psdisz;wthcf)cs ucvr:ae\"noe-ae:_i_i=sgtoaSz(.lc(,ot.tm.iilCn.l)ot,wdh)beki()psiesot.[wdh]=;fot.lg)fot.adn[psd1]0ot.adn[psd1]0s_eeMri(,pstu)s_eeMri(_l_,psot.adn[psd1];fot.lg)ot.adn[psd1]p;pspdigot.[]=}_e[psd\"et]=psueadn?pspdigot.[]:;a =ucin)}__rpe=ucin)}__adnodfnto({,apdigl=ucin)}__adncrfnto({,apdigu=fnto({,oatrfnto({,mviesfnto({,psto=ucin)}sic(.x{ae\"rsfd\"cs cvr:ae\"oe-ae:ae\"noe\"cs ucvrfd\"mycoetu)apnT(wp;.hlrn)sieot.tm.iilCn.l)rmv(;ra}wthcf)cs cosae:ae\"oe\"cs cvrfd\"ycs\"Idx,)mcs\"Idx,)beksr=cstcoladrcesn)acsot.[lf\"]-_i;_f_i[psd\"et]=iszvsi(<)_f[psd\"et]+ ;fot[psd\"it\"]=vral\"|psot.[hih\"]=vral\"{=ucin)$r.s(_i);awaprfnto({claisps($r,_i]}i(psueadn)vroinwldt(_f_rgsMri\";fp>0o=pspdigot.[];_e_.s(psd\"agnih\",)i(_u_.o(_l_)lnt)_l[psd\"agnih\"]iodldt(_f_rgsMri\";spdigl=ucin)iodlcsaod}__adnodfnto({claisps(iodlaod);a =_u_.aa\"csoiCsagn) fj0q=pspdigot.[];_u[psd\"agnih\"]q__adncrfnto({_u_.s(_u);apdigu=ucin)sr.nm.uh[_u_,_u]}_oiinfnto({.s(_e);a =psiesvsbedim.oa;mviesfnto({fr0ycide(.lc(tsttl.eoe)vraycide(.lc(,)apnT()ls(;fr0inwg_eCrettm(,ps;csoHdeIesk;fot.sPdig{fim.oa<psiesvsbed{a =.hlrn)e(psiesvsbe )bcsot.[mriRgt]bdt(_f_rgsMri\"+pspdigot.[])acsot.[mriRgt]adt(_f_rgsMri\")}vrss_aClbcAgmnsiodispinwd\"et,_u,_i)_nfe=ucin)ycs\"Idx,.aa\"csoiCs)zne)s_feSrl(,,)ziSrligflecb.nfe=cfrClbcs$t,,oAtr,,lk;uus_ieuu(,uucn)i(ziPue).rge(fe\"ly,of);.scoln=retr=cceriestr)cb.neoe cfrClbcs$t,,oBfr\"scb)sic(.x{ae\"oe:.s(_f)n)__adnod)__adncr)_oiin)_oetm(;oatr)bekcs fd\"sr.nm.uh[,\"pct\"0,ucin)n)__adnod)__adncr)_oiin)_oetm(;cls_eSrl(_u,.aig;claisps(y{oaiy:}_nfe];csatcolsr)];ra;ae\"rsfd\"ycs{oaiy:};claisps(m{oaiy:})sr.nm.uh[,\"pct\"1,oatr) awapr)__adnod)__adncr)_oiin)_oetm(;ra;ae\"oe\"ycsot.[lf\",wpot.[wdh]()sr.nm.uh[,_e,oatr)__rpe(;spdigl(;spdigu(;mvies)bekcs cvrfd\"ycsot.[lf\",wpot.[wdh]()sr.nm.uh[,\"pct\"0];claisps(yalf_nfe];awapr)__adnod)__adncr)_oetm(;ra;ae\"noe\"sr.nm.uh[,_f_i,oatr)__rpe(;__adnod)__adncr)_oiin)_oetm(;ra;ae\"noe-ae:.s(\"pct\"0)sr.nm.uh[,\"pct\"1];claisps(macsvs_nfe];awapr)__adnod)__adncr)_oiin)_oetm(;ra;eal:claisps(yacsfnto({psto(;mvies)_nfe(})__rpe(;apdigl(;apdigu(;ra}csatcolsr)c_eCoi(pscoi,,of;.rge(fe\"paeaetts,of,flewsz)rtr re) .idc_(sieo,of,ucinebcdfgh{.tprpgto(;a =bcdfgh,=\"tignme/bet,nme\"\"ola\"\"bet,srn\"\"ucin]ac_otaasvt;=[]ga4;=[]bg_eIeIdxa0,[]a2,tsy;fb=)eunflei(i_betf)=as;fziSrligi(i_betf|fdrto>)eunflei(!\"rv&g=nx\"i(pscrua)=<im.oa/?nx\"\"rv;legim.is=0|tsfrtb\"et:pe\"i(=\"rv)=tsttl ;.rge(fegcn)[,,];euntu};.idc_(pePg\"cn)fnto(,,)esoPoaain)vrcytigrade(fe\"urnPg\"cn);eunytigrade(fe\"ldTPg\"cn)[-,,pe\"b))ybn(fe\"etae,of,ucineab{.tprpgto(;a =.rgeHnlrc_(cretae,of)rtr .rgeHnlrc_(sieoae,of,c1a\"et,]};.idc_(sieoae,of,ucineabcd{.tprpgto(;f!snme()a .rgeHnlrc_(cretae,of)vrfot.aiainies|psiesvsbemxMt.elim.oa/)1i(<)=a;famxa0rtr .rgeHnlrc_(sieo,of,af0tu,,,]};.idc_(jmTSat,of,ucines{.tprpgto(;fssg_eIeIdxs0tu,tsy;les0s=tsfrti(!0{fiesttl0wiesim.oa)-im.oa;.rpn(.hlrn)siesim.oa)}euntu};.idc_(snhoie,of,ucine )esoPoaain)i()=fgtycArs;lei(pssnhoiesot.ycrns;lertr eu(of\"ocrue osnhoie\";a =.rgeHnlrc_(cretoiin,of)xtu;o(a =,=.eghjlj+i(sj[]tigrade(fe\"ldT\"cn)[,[]3,re)xflertr };.idc_(qee,of,ucineab{.tprpgto(;fi_ucina).al$t,uu;lei(sarya)uuaes f!sudfnda)uups(ab)rtr uu) .idc_(isrIe\"cn)fnto(,,,,)esoPoaain)vrv[,,,]t[srn/bet,srn/ubrojc\"\"ola\"\"ubr]ac_otaasvt;=[]ca1;=[]fa3;fi_betb&!sjur()b$b;lei(ssrn()b$b;f!sjur()|.egh=)eundbgcn,Ntavldojc.)i(sudfndc)=ed;zsoeagnbot)s_trSzsbot)vrgcbfr=bfr\"i(=\"n\"i()i(tsfrt=)cim.oa-;eoe\"fe\"es{=im.is;tsfrt=.eghi(<)=}lecim.oa-;eoe\"fe\"es =ngttmne(,,,tsy;fg=ed&!)fcim.is)tsfrt=.eghi(tsfrt=tsttlim.is-im.oa;a =.hlrn)e()i(.eghhbfr]b;leyapn()im.oa=.hlrn)lnt;.rge(fe\"paeie\"cn);.rge(fe\"iknhr\"cn);euntu};.idc_(rmvIe\"cn)fnto(,,,)esoPoaain)vrv[,,]t[srn/ubrojc\" boen,nme\",=fsrPrm(,)ca0;=[]fa2;a =as;fcisaco &clnt>)h$)cec(ucinia{a =.rge(fe\"eoetm,of,$ti)df)i()=.d())rtr }fi_neie()|=\"n\"hycide(.at)es{=ngttmne(,,,tsy;a =.hlrn)e()i(.eghi(<tsfrtim.is-hlnt}fh&.egh{.eah)im.oa=.hlrn)lnt;.rge(fe\"paeie\"cn)}eunh)ybn(fe\"neoe,cn)\"\"c_(oAtr,of,ucinea{.tprpgto(;a =.yesiecn.vnspei.egh;fi_ra()cb[]ai(sfnto()cb[]ps()rtr lkb};.idc_(cretoiin,of,ucinea{.tprpgto(;fim.is=0vrb0es a =tsttlim.is;fi_ucina).al$t,)rtr };.idc_(cretae,of,ucinea{.tprpgto(;a =pspgnto.tm|ot.tm.iil,a=ahci(tsttlb1,n;fim.is=0n=;lei(tsfrtim.oa%)r0es fim.is=b&ot.iclrn=a;len=ahrud(tsttlim.is)b;fn<)r0i(rmxn=a;fi_ucina).al$t,r;eunn};.idc_(cretiil\"cn)fnto(,)esoPoaain)vrbg_eCrettm(.hlrn)ot)i(sfnto()acl(t0b;eunb)ybn(fe\"lc\"cn)fnto(,,,)esoPoaain)i(tsttl=)eunflevrv[,,]t[nme\" nme\"\"ucin]ac_otaasvt;=snme([]?[]0li_ubra1)a1:tsttlba2;+im.is;+im.is;fiesttl0{hl(>tsttlf=tsttlwielim.oa)-im.oa;hl(<)+im.oa;hl(<)+im.oa}a =.hlrn)$;flf$=.lc(,)es i$csiefim.oa)gt)cna(.lc(,)gt))i(sfnto()bcl(t0$)rtr i)ybn(fe\"sasd,of+ +fe\"stpe\"cn)\"\"c_(iSrlig,cn)fnto(,)esoPoaain)vrbetp.lc(ofeet.rfxlnt)vlezb;fi_ucina).al$t,au)rtr au};.idc_(cniuain,of,ucineabc{.tprpgto(;a =as;fi_ucina).al$t,ps;lei(sojc(){psoi=.xedtu,}ot_rga;fb=fledtu;leot=.xedtu,}ot,)es f!sudfnda)fi_ucinb)vrfea(ot.+)i(sudfndf)=\"bcl(t0f}lei(i_neie(){ftpo !=\"ola\"ctu;vl\"psoi.++  \";fc=fledtu;leea(ot.++  \"}lertr vl\"ps\"a;fd{zrstagnycide(,ps;.csii(psoi)y_f_idbtos)vrgs_eSzsyot)ytigrc_(udtPgSau\"cn)[reg)rtr ps)ybn(fe\"iknhr\"cn)fnto(,,)esoPoaain)i(sudfnda)=(bd\";lei(ssrn()a$a;f!sjur()|.egh=)eundbgcn,Ntavldojc.)i(i_tigb)=\".aofesl;.idb.ahfnto({a =hshs|\";fhlnt>&ycide(.ne(()!-)(hs.nid\"lc\".lc(ucine{.rvnDfut)ytigrc_(sieo,of,)))rtr re)ybn(fe\"paeaetts,of,ucinebc{.tprpgto(;f!pspgnto.otie)eunvrdot.aiainies|psiesvsbepsMt.elim.oa/)i()i(pspgnto.nhrule)ot.aiaincnanrcide(.eoe)ot.aiaincnanrec(ucin)frvra ;<g;+)vriycide(.qg_eIeIdxad0tu,tsy)$ti)apn(pspgnto.nhrule.ali0,+)})ot.aiaincnanrec(ucin)$ti)cide(.nidot.aiaineet.ahfnto()$ti)bn(pspgnto.vn,ucine{.rvnDfut)ytigrc_(sieo,of,ad-pspgnto.eito,reot.aiain))))vrfytigrade(fe\"urnPg\"cn)+pspgnto.eito;ff=g)=;ff0fps ;pspgnto.otie.ahfnto({(hs.hlrn)rmvCasc_(slce\"cn).qf.dCasc_(slce\"cn)};euntu};.idc_(udtSzs,of,ucine{a =psiesvsbeaimycide(,vi_rmr=sgtaetie$r,ps\"it\";tsttlaimlnt;psmxieso=sgtaDmninot,vi_rmr)i(.rmrSzPretg)psot.[wdh]=sgtecnaeaalpiayzpiayieecnae;fot.epnie{psieswdh psiesszsofwdhot.tm.egtot.tm.ieCn.egtot=ngtepnieausot,_t,vi_rmr)aot.tm.iil;zstepnieie(psaim}lei(psiesvsbeofvral)=ngtiilIesetaimot,)es fot.tm.itr=*)=ngtiilIesetitraimot,)i(ot.iclr&im.is!0&>tsfrt)i(psiesvsbeofvral)a =ngtiilIesrvaimot,tsfrt-tsfrtes fot.tm.itr=\"\"vrbg_eVsbetmPeFle(_t,psim.is)im.is;levrbot.tm.iil-tsfrtdbgcn,Peetn o-iclr ldn ++ tm akad\";.rge(fe\"rv,of,)ot.tm.iil=fgttmAjs(,psot.tm.iilCn.dut$t)ot.tm.iilCn.l=psiesvsbeot=ngtlgPdigot,_t)vrcs_eSzsyot)ytigrc_(udtPgSau\"cn)[rec)n_hwaiot,tsttlcn)n_nbeaiot,im.is,of;eunc)ybn(fe\"eto\"cn)fnto(,)esoPoaain)tr=cceriestr)ydt(_f_saosl,as)ytigrc_(fns\"cn);faytigrc_(jmTSat,of)s_eeMri(.hlrn)ot)i(psrsosv).hlrn)ec(ucin)$ti)cs$ti)dt(_f_rgsSzs)};.s(.aa\"csoiCs);.csubn_vns)y_f_nidbtos)$r.elcWt()rtr re)ybn(fe\"eu\"cn)fnto()dbgcn,\"aoslwdh +pswdh;eu(of\"aoslhih:\"ot.egt;eu(of\"tmwdh:\"ot.tm.it)dbgcn,Ie egt:\"ot.tm.egt;eu(of\"ubro tm iil:\"ot.tm.iil)i(psat.lydbgcn,Nme fiessrle uoaial:\"ot.uoies;fot.rvbto)eu(of\"ubro tm coldbcwr:\"ot.rvies;fot.etbto)eu(of\"ubro tm coldfrad +psnx.tm)rtr ofdbg) .id\"cstigrvn\"fnto(,,)esoPoaain)rtr .rgeHnlrc_(,of,));.csubn_vnsfnto({.nidc_(\"cn);.nidc_(\"cn,as);.nid\"cstigrvn\"}y_f_idbtosfnto({.csubn_utn(;vsoNv(psim.oa,of;vealNv(psim.is,of;fot.uopuenoe)vrbb_asOHvrofgot.uopuenoe)$r.idc_(muene\"cn,as)fnto({.rge(fe\"as\" of,))bn(fe\"oslae,offle,ucin)ytigrc_(rsm\"cn)}}fot.uobto)psat.utnbn(feot.uoeetcn,as)fnto()epeeteal(;a =as,=uli(.sasda\"ly;lei(psat.asOEet{=pue;=tpuenoeCni(psat.asOEet}faytigrc_(,of,))i(pspe.utn{pspe.utnbn(feot.rveetcn,as)fnto()epeeteal(;.rge(fe\"rv,of))i(pspe.asOHvr{a =b_asOHvrofgot.rvpuenoe)ot.rvbto.idc_(muene\"cn,as)fnto({.rge(fe\"as\"cn)b}.idc_(mueev\"cn,as)fnto({.rge(fe\"eue,of))}fot.etbto)ot.etbto.idc_(psnx.vn,offle,ucine{.rvnDfut)ytigrc_(nx\"cn)};fot.etpuenoe)vrbb_asOHvrofgot.etpuenoe)ot.etbto.idc_(muene\"cn,as)fnto({.rge(fe\"as\" of,))bn(fe\"oslae,offle,ucin)ytigrc_(rsm\"cn)}}i(pspgnto.otie)fot.aiainpuenoe)vrbb_asOHvrofgot.aiainpuenoe)ot.aiaincnanrbn(fe\"osetr,offle,ucin)ytigrc_(pue,of,))bn(fe\"oslae,offle,ucin)ytigrc_(rsm\"cn)}}fot.rvky|psnx.e)(ouet.idc_(kyp,offletu,re,ucine{a =.eCd;i(=ot.etky{.rvnDfut)ytigrc_(nx\"cn)}fk=pspe.e)epeeteal(;.rge(fe\"rv,of)};fot.aiainky)(ouet.idc_(kyp,offletu,re,ucine{a =.eCd;fk=9&<8{=k4)ot.tm.iil;fk=tsttl{.rvnDfut)ytigrc_(sieo,of,k0tu,pspgnto]}};fot.rvwp|ot.etwp)dpeae(tetuhiepui\"\"h ocSiepui\";f$f.ocwp)vrc pspe.iefnto({.rge(fe\"rv,of):ulw=psnx.iefnto({.rge(fe\"et,of):uli(N|Ni(ztuhie{.ocwp=revrd{mnmv_\"3,mnmv_\"3,peetealEet\"tu}sic(psdrcin{ae\"p:ae\"on:.iepcdwpDw=NbekdfutdwpLf=NdwpRgtc$r.ocwp()}i(.nsie{a =otuhtr\"nwno;ff&pssieoTuh|f&pssieoMue{a =.xedtu,}ot.rvot.wp) c=.xedtu,}ot.etot.wp)sPfnto({.rge(fe\"rv,of,g),w=ucin)ytigrc_(nx\"cn)[c]}sic(psdrcin{ae\"p:ae\"on:pssieotossiepsNot.wp.pin.wpDw=w;ra;eal:pssieotossieetsNot.wp.pin.wpRgtsPi(.wp).wp(dsry)$r.wp(pssieotos;wpcs\"usr,mv\";.wp=re}f$f.oswel{fot.rvmuehe)dpeae(Tepe.osweloto\" temuehe ofgrto bet)ot.rvmuehe=ulot.oswel{tm:tmueheNme(pspe.oswel}i(psnx.oswel{erctd\"h etmuehe pin,temuehe ofgrto bet)ot.etmuehe=ulot.oswel{tm:tmueheNme(psnx.oswel}i(psmuehe)vrh$etn(re{,pspe,psmuehe)mN$etn(re{,psnx,psmuehe)i(.oswel$r.nidc_(muehe\"cn,as);$r.idc_(muehe\"cn,as)fnto(,)epeeteal(;fa0ytigrc_(pe\"cn)[];leytigrc_(nx\"cn)[c]};.osweltu}i(psat.lyytigrc_(pa\"cn)ot.uodly;fzuDtOWnoRsz)vri$wno)_idwit=,wnoHih=;.idc_(rsz\"cn,as,retu)fnto()vraiwdh)n=.egt)i(!_idwit|n!_idwegt{.rge(fe\"iih,of)i(psat.asORsz&!.sasdytigrc_(pa\" of)s_eeMri(.hlrn)ot)ytigrc_(udtSzs,of)_idwit=;wnoHih=h}};.csubn_utn=ucin)vrac_(\"cn)n2c_(\"cn,as)n3c_(\"cn,as,retu)$dcmn)ubn(s)$wno)ubn(s)$r.nidn2;fot.uobto)psat.utnubn(s)i(pspe.utnot.rvbto.nidn2;fot.etbto)psnx.utnubn(s)i(pspgnto.otie)ot.aiaincnanrubn(s) fot.aiainacoBidrot.aiaincnanrcide(.eoe)i(.wp)ysie\"eto\";wpcs\"usr,dfut)zsieflei(.oswelzmuehe=as;vsoNv(ps\"ie,of;vealNv(ps\"eoels\"cn);fi_ola()w{dbg:}vrz{drcin:nx\"\"sasd:re\"scoln\"fle\"stpe\"fle\"oswel:as,sie:as}im=\"oa\"ycide(.egh\"is\"0,ms{at\"nl,pors\"nl,satie:eTm(,\"ieasd:}sr=\"stpe\"fle\"uain:,satie:,esn\"\",ais:],lk{oBfr\"[,oAtr:],uu[,of$etn(re{,.ncrurde.ofg,)ot=}ot_rg$etn(re{,)$r=.rp\"\"cn.rpe.lmn+ ls='cn.rpe.lsnm+\"/'.aet)cn.eetryslco;ofsraNme=.ncrurde.eilubr+y_f_ntot_rgtu,trigpsto)y_f_ul(;.csbn_vns)y_f_idbtos)i(saryot.tm.tr)vrA psiessates{a =]i(psiessat=).uhot.tm.tr)i(pscoi).nhf(asItc_eCoi(pscoi)1);fAlnt>)o(a =,=.eghala+{a =[]i(=0cniu;fs=tu)swno.oainhs;fslnt<)otnees fs=\"adm)=ahforMt.adm)im.oa)i(.rgeHnlrc_(sieo,of,s0tu,f:nn\"])ra}a =zstie(,ps,t=igturnIesycide(,ps;fot.nraeot.nraecl(t0 \"it\"Bwdh\"egt:.egt\"tm\"im)ytigrc_(udtPgSau\"cn)[reB)ytigrc_(lnAcos,of)i(ofdbgytigrc_(dbg,of)rtr }$f.aoFeSlsraNme=;.ncrurde.eals{snhoie:as,ifnt\"tu,crua\"tu,rsosv\"fle\"ieto\"\"et,ies:\"tr\"0,srl\"{esn\"\"wn\"\"uain:0,puenoe\"fle\"vn\"\"lc\"\"uu\"fle}$f.aoFeSlcnis{dbg:as,eet\"{pei\"\",\"aepc\"\"f\",wapr:\"lmn\"\"i\"\"lsnm\"\"aofeslwapr}\"lsnms:};.ncrurde.aenhrule=ucina{eun< rf\"\"<pn'a\"/pn<a\";.ncrurde.rgesaUdtrfnto()$ti)cs\"it\"a\"\"}$f.aoFeSlcoi=gtfnto()n==;a =ouetcoi.pi(;)frvra0lblnt;<;+)vrcba;hl(.hrt0=\"\"ccsie1;fcidxfn=0rtr .lc(.egh}eun0,e:ucinnvd{a =\";fd{a =e aeastieagtie)d2*06*E)e\" xie=+.oMSrn(}ouetcoi=+=+++;pt=\",eoefnto()$f.aoFeSlcoi.e(,\"-)}fnto cstcolde{eunais[,uaindoguaindesn:,trTm:eTm(}fnto csatcols{fi_betspe)csatcolspe;o(a =,=.nm.eghala+{a =.nm[]i(bcniu;fb3)[]so(;[]aiaeb1,cmlt:[]drto:.uainesn:.aig)i(sojc(.ot)csatcolsps) ucins_tpcolsc{f!sboenc)=rei(sojc(.r)s_tpcolspec;o(a =,=.nm.eghala+{a =.nm[]b0.tptu)i()b0.s([];fi_ucinb2)b2(}i(sojc(.ot)csoSrl(.otc}ucins_feSrl(,,)i().eoe)sic(.x{ae\"ae:ae\"rsfd\"cs cvrfd\"cs ucvrfd\"acs\"itr,\";ra}fnto cfrClbcsdobac{fob)[]cl(,)i([]lnt)o(a =,lcb.eghili+cb[]cl(,)rtr[}ucins_ieuu(,,)i(.egh{.rge(feq0[]c,[]1)qsit)rtr }ucins_ieidntm()bec(ucin)vra$ti)adt(_f_sidn,.s\"hde\")hd(}}ucins_hwidntm()i().ahfnto({a =(hs;f!.aa\"csiHde\").hw))fnto cceriest{ftat)laTmottat)i(.rgescernevltpors)rtr }ucins_aClbcAgmnsa ,,,,,)rtr{wdh:.it,hih\"ghih,ies:\"l\"a\"kpe\"b\"e\"c\"iil\"c,srl\"{ies:,drcin:,drto\"f}fnto cgtuainaobc{a =.uaini(.x=nn\"rtr ;fd=at\"dosrl.uainosrl.tm*;lei(<0dcdi(<)eun0i(.x=fd\"dd2rtr ahrudd}ucinn_hwaiotc{a =snme(.tm.iiu)oiesmnmmoiesvsbe1i(=\"hw|t=hd\"vrftes fat{eu(,\"o nuhies(++ oa,\"a\"nee) iignvgto.)vrf\"ie}levrf\"hw;a ==\"hw?rmvCas:adls\"hc_(hde\"c;foat.utnoat.utnf([]h;fope.utnope.utnf([]h;fonx.utnonx.utnf([]h;fopgnto.otie).aiaincnanrf([]h}ucinn_nbeaiofc{focrua|oifnt)eunvraf=rmvCas|f=adls\"ffled=fc\"iald,)i(.uobto&aoat.utna(i;i(.rvbto)vrba|=0\"dCas:rmvCas;.rvbto[]d)i(.etbto)vrba|=oiesvsbe\"dCas:rmvCas;.etbto[]d)}ucing_eOjc(,)i(sfnto()bbcl()es fi_neie()b{;eunbfnto ogttmOjc(,)bg_eOjc(,)i(snme()b{vsbe:}es fb=vral\"b{vsbe:,wdh:,hih\"b;lei(i_betb)=}rtr }ucing_eSrlOjc(,)bg_eOjc(,)i(snme()i(< 0b{ies:}es =\"uain:}es fi_tigb)=\"aig:}es f!sojc()b{;eunbfnto ogtaibetab{=ogtbetab;fi_tigb)vrcc_eKyoeb;fc=1b$b;lebcrtr }ucing_eAtOjc(,)bg_eNvOjc(,)i(sjur()b{bto\"b;lei(sboenb)=\"ly:}es fi_ubrb)=\"ieuDrto\"b;fbpors)fi_tigbpors)|sjur(.rges).rges{br:.rges;eunb ucing_opeetuobetab{fi_ucinbbto)bbto=.utncl()i(ssrn(.utn).utn$bbto)i(i_ola(.ly).lytu;f!snme(.ea)bdly0i(sudfndbpuenvn)bpuenvn=rei(i_ola(.asORsz)bpueneietu;f!snme(.ieuDrto)btmotuainbdrto<020:.uain5i(.rges{fi_ucinbpors.a)bpors.a=.rgesbrcl()i(ssrn(.rgesbr).rgesbr (.rgesbr;fbpors.a)i(i_ucinbpors.pae)bpors.pae=.ncrurde.rgesaUdtri(i_ubrbpors.nevl).rgesitra=0es .rgesflertr }ucing_ePeNxOjc(,)bg_eNvOjc(,)i(sjur()b{bto\"b;lei(snme()b{ky:}rtr }ucing_opeetrvetbetab{fi_ucinbbto)bbto=.utncl()i(ssrn(.utn).utn$bbto)i(ssrn(.e)bky fgteCd(.e)rtr }ucing_ePgntoOjc(,)bg_eNvOjc(,)i(sjur()b{cnanr:}es fi_ola()b{ky\"b;eunbfnto ocmlmnPgntoOjc(,)i(sfnto(.otie)bcnanrbcnanrcl()i(ssrn(.otie)bcnanr$bcnanr;f!snme(.tm)biesflei(i_ola(.es).esflei(i_ucinbacoBidr&!sflebacoBidr).nhrule=.ncrurde.aenhrule;i(i_ubrbdvain).eito=;eunbfnto ogtwpOjc(,)i(sfnto()bbcl()i(sudfndb)=\"noc\"fle;fi_reb)=\"noc\"b;lei(snme()b{ies:}rtr }ucing_opeetwpOjc(,)i(i_ola(.noc)boTuhtu;f!sboenboMue).nos=as;f!sojc(.pin)botos{;f!sboenbotostigrnocEd).pin.rgeOTuhn=as;eunbfnto ogtoswelbeta )i(sfnto()bbcl()i(stu()b{;lei(snme()b{ies:}es fi_neie()bflertr }ucing_opeetoswelbetab{eunbfnto ngttmne(,,,,)i(ssrn()a$ae;fi_beta)=(,)i(sjur(){=.hlrn)idxa;f!sboenc)=as}lei(i_ola()ctu;f!snme()a0i(i_ubrb)=;fca=.is;+bi(.oa>)wiea=.oa)-dttlwiea0a=.oa}eunafnto ngtiilIesrvi ,)vrt0x0frvrasa=;-)vrjie()t=.s\"vsbe)jod\"ueWdh](re:;ftomxieso)eunxi(=0ailnt;+}fnto ngtiilIesrvitrios{eung_eIesrvitrioiesfle,.tm.iilCn.r,)fnto ngtcoltmPeFle(,,,)rtr ngttmPeFle(,.tm.itrms}ucing_eIesrvitrifms{a =,=;o(a =,=.egha=;-)x+i(=lrtr ;a =.qa;fji(){+;i(=mrtr }fa=)=}fnto ngtiilOgao{eunoiesvsbeofog|.hlrn)sie0oiesvsbe.itroiesfle)lnt}ucing_eVsbetmNx(,,)vrt0x0frvraslilnt-;<la+{a =.qa;+ji(:iil\"?[.[otrit\"]tu)0i(>.aDmninrtr ;+;fx=+)eunxi(=la-}fnto ngtiilIeseteticlriosl{a =ngtiilIesetios;f!.iclri(+>)=-;eunv ucing_eVsbetmNxFle(,,)rtr ngttmNxFle(,.tm.itroiesvsbeofogsocrua)fnto ngtcoltmNxFle(,,,)rtr ngttmNxFle(,.tm.itrm1socrua)1fnto ngttmNxFle(,,,,)vrt0x0frvraslilnt-;<la+{+;fx=)eunxvrjie()i(.sf)t+i(=mrtr }fa=)=1}ucing_eCrettm(,)rtr .lc(,.tm.iil)fnto igtlIesrvi ,)rtr .lc(,.tm.iilCn.l+)fnto igteIesrvio{eunisie0oiesvsbe}ucing_eOdtmNx(,)rtr .lc(,.tm.iilCn.l)fnto igteIesetion{eunisienoiesvsben}ucins_trMri(,,)i(.sPdig{f!ssrn()d\"csoiCsagn;.ahfnto({a =(hs,=asItjcsod\"agnih\")1)i(i_ubrm)=;.aadm}}fnto zrstagniom{foueadn)vrx sboenm?:as;f!snme()m0s_trMri(,,_f_epsMri\";.ahfnto({a =(hs;.s(.[mriRgt]xjdt(_f_epsMri\":+.aa\"csoiCsagn)}}fnto zsoeie(,)i(.epnieiec(ucin)vrj$ti)si_aCsj[wdh,hih\")jdt(_f_rgsSzs,))fnto zstepnieie(,)vrcoiesvsbenw=.tm[.[wdh],eoood\"egt],epi_ecnaesc)bec(ucin)vra (hs,wnw-sgtadnBreMri(,,Wdh)aod\"it\"]n)i(epaod\"egt](sgtecnaen,eo))fnto zstie(,)vrbaprn(,iacide(,vg_eCrettm(io,zc_aWaprie(sgtie(votu)ofle;.s(z;foueadn)vrpopdigrpod1]i(.lg&r0r0vrc$.at)ccsod\"agnih\",.aa\"csoiCsagn)r;.s(.[tp]pod0];.s(.[lf\",[.[])acsod\"it\",zod\"it\"] sgtoaSz(io\"it\"*)acsod\"egt]m_eLretie$,,hih\")rtr zfnto sgtie(,,)rtr[sgtoaSz(,,wdh,)m_eLretieio\"egt,)}ucinm_eLretieioab{f!sboenb)=as;fi_ubrooda]&brtr [.[];fi_ubroiesoda])eunoiesoda]aatLwrae)idxf\"it\">1\"ueWdh:otregt;eunm_eTuLretieioa}ucinm_eTuLretieiob{a =0frvra0lilnt;<;+)vrjie()vrmji(:iil\"?[.[](re:;fsmsmrtr }ucinm_eTtlieiobc{f!sboenc)=as;fi_ubroodb]&crtr [.[];fi_ubroiesodb])eunoiesodb]ilnt;a =.ooeCs(.neO(wdh)-?otrit\"\"ueHih\"s0frvra0lilnt;<;+)vrjie()s=.s\"vsbe)jodd]tu)0rtr }ucinm_ePrnSz(,,)vrbai(:iil\";fbahd(;vrsaprn([.[](;fbaso(;eunsfnto sgtaDmninoa{euni_ubrood\"it\"]?[.[wdh]:}ucinm_aVralSzsiob{a =as,=as;o(a =,=.eghala+{a =.qa;a =.s\"vsbe)jodb]tu)0i(==as)=;lei(!cvtu;fs=)=rertr }ucinm_ePdigodragniod{euniod\"ue\"d]tu)ioddtLwrae)])fnto sgtecnaeso{fi_ecnaeo)opren(.lc(,-)1)i(i_ubro)eunss=/0}eunsfnto fencabd{f!sboena)=rei(i_ola()btu;f!sboend)=as;fanceet.rfxni()=+.+.vnsnmsaei(&dn=.eilubrrtr }ucinc_(,)rtr ssrn(.lsnmsn)ccasae[]nfnto fmprpeSzsaop{f!sboenp)=revrboueadn&popdig[,,,]vrc{;[.[wdh]=[]b1+[]cod\"egt]=[]b0+[]rtr }ucinc_otaasc )vre[;o(a =,1clnt;<1a+frvrb0l=.eghbl;+)fdb.neO(yefca)-&i_neie([])eb=[]bekrtr }ucinc_ePdigp{fi_neie()rtr[,,,]i(snme()rtr[,,,]i(ssrn()ppslt\"x)ji(\".pi(e\".on\")slt\"\";f!saryp)eun0000;o(a =;<;+)[]pren([]1)sic(.egh{ae0rtr[,,,]cs :eunp0,[]p0,[];ae2rtr[[]p1,[] [];ae3rtr[[]p1,[]p1]dfutrtr[[]p1,[]p3]}ucinc_eAinadn(,)vrxi_ubrood\"it\"]?ahci([.[wdh]-sgtoaSz(,,wdh):;wthoain{ae\"et:eun0x;ae\"ih\"rtr[,]cs cne\"dfutrtr[ahci(/)Mt.lo(/)}fnto fgtiesoso{a =[wdh,inrit\"\"ueWdh,hih\"\"neHih\"\"ueHih\"\"et,tp,mriRgt,,,,][hih\"\"neHih\"\"ueHih\" wdh,inrit\"\"ueWdh,tp,lf\"\"agnotm,,,,];a =[]lnt,xodrcin=rgt|odrcin=lf\"01vrc{;o(a =;<;+)[[]d]ad]d;euncfnto fgtdutxoab{a =;fi_ucina)=.albv;lei(ssrn(){a =.pi(+)maslt\"\";fmlnt>.eghvrctu,t=[]ajm1;levrcflesap0,d=[]sic(t)cs ee\"vx2=?-:;ra;ae\"d\"vx2=?-:;ra;eal:=;ra}d=pren(d,0;fi_ubraj)i()d=ajv=d}i(i_ubrv|v1v1rtr }ucinc_eIesdutxoab{eunc_eIeAjsMna(fgtdutxoab,.tm.iilCn)fnto fgttmdutiMxvi{fi_ubrimn&vimnvimni(snme(.a)&>.a)=.a;fv1v1rtr }ucinc_eSnhr()i(i_ra()s[s]i(i_ra([])=s;o(a =,=.eghjlj+{fi_tigsj[])[]0=([]0)i(i_ola([]1)sj[] rei(i_ola([]2)sj[]tu;f!snme([]3)sj[]0rtr }ucinc_eKyoek{fk=rgt)eun3;fk=lf\"rtr 7i(=\"p)eun3;fk=dw\"rtr 0rtr-}ucinc_eCoi(,,)i()vrvatigrade(fe\"urnPsto\"c)$f.aoFeSlcoi.e(,)}ucinc_eCoi()vrc$f.aoFeSlcoi.e()rtr =\"?:}ucini_aCsab{a =}po;o(a =,=.eghplp+{rpbp;[rp=.s(rp}eunc ucini_opeettm(,,,)i(i_betavsbeof).iilCn=}i(i_betaszsof).ieCn=}i(.tr=0&snme()asatdi(sojc(.iil){.iilCn.i=.iil.i;.iilCn.a=.iil.a;.iil=as}lei(ssrn(.iil){favsbe=vral\"avsbeofvral=rees .iilCn.dutavsbeavsbeflees fi_ucinavsbe)avsbeofajs=.iil;.iil=as}f!ssrn(.itr).itr .itr\"hde\".egh0\"vsbe:*;f![.[wdh])fbrsosv)dbgtu,Sta\"bd\"it\"+ o h tm!)abd\"it\"]m_eTuLretiecb\"ueWdh)es [.[wdh]=shsaibeie(,,otrit\"?vral\"cbd\"ueWdh](re;f![.[hih\"]abd\"egt]=shsaibeie(,,otregt)\"aibe:[.[otregt](re;.ieCn.it=.it;.ieCn.egtahih;eunafnto ncmlmnVsbetm(,b{faiesad\"it\"]=vral\"aiesvsbeofvral=rei(aiesvsbeofvral)i(snme([.[wdh])aiesvsbeMt.lo([.[wdh]/.tm[.[wdh])es{.tm.iil=ahforbaiesad\"it\"];[.[wdh]=.tm.iil*.tm[.[wdh];f!.tm.iilCn.dutaainflei(.tm.iil=\"niiy|aiesvsbe1{eu(re'o  ai ubro iil tm:Stt vral\"';.tm.iilCn.aibe re}eunafnto ncmlmnPiayieabc{fa=at\"am_eTuLretiecb\"ueWdh)rtr }ucini_opeeteodrSz(,,)i(=\"uo)=sgtreagsSz(,,otregt)i(aabiesbd\"egt];eunafnto ngtlgPdigoa{a =fgtlgPdigg_eCrettm(,)o;.adn[.[]=[]opdigod3]p0;eunofnto ngtepnieausoab{a =fgttmdutiMxMt.elood\"it\"]oiesod\"it\"],oiesvsbeof;fcalnt)=.eghvrdMt.lo([.[wdh]/)oiesvsbecoiesod\"it\"]dood\"it\"]cdrtr }ucinb_asOHvrofgp{fi_tigp)a =.neO(imdae)-?reflerpidxf\"eue)-?reflees a ==as;eunir}ucinb_osselubra{euni_ubra?:ulfnto snl()rtr ==ulfnto sudfnda{euni_ula|(yefa=udfnd|(==\"|==udfnd)}fnto sarya{eunaisaco ra}ucini_qeya{eunaisaco Qeyfnto sojc()rtr( ntnefOjc|tpo =\"bet)&!snl()&!sjur()&i_ra())fnto snme()rtr( ntnefNme|tpo =\"ubr)&iNNa}ucini_tiga{eunaisaco tig|yefa=srn\"&(i_neie()&!stu()&i_as())fnto sfnto()rtr  ntnefFnto|tpo =\"ucin}ucini_ola()rtr  ntnefBoen|tpo =\"ola\"|i_rea|i_as())fnto stu()rtr ==re|==tu\"fnto sflea{euna=fle|==fle}ucini_ecnaex{euni_tigx&xsie-)=%}ucingtie)rtr(e ae.eTm(}ucindpeae(,)dbgtu,+ sDPEAE,spotfri ilb eoe.Ue\"n\"ised\"}ucindbgdm{fi_betd)vrs\"(+.eetr\"\"dddbges a =\"i(drtr as;fi_tigm)=crurde\" +:\"mes =\"aoFeSl++:,]i(idwcnoe&idwcnoelgwno.osl.o()rtr as}.xed$esn,\"udai\"fnto()vrattrtr *-*+*-*+),cbc:ucint{eunt(**-*+),eatc:ucint{a =*;eunt(3aa16at16a6*+5}))jur)jur(idw.odfnto({Qey\"fesie\".lxldr{nmto:sie,ieto:vria\"rvreflesiehwtu,otosotie:.lxcnanr,otoNvtu,satfnto(ldr{Qey\"oy)rmvCas\"odn\"}))jur(idw.odfnto({Qey\"gleysie\".aoFeSl{epnietu,rv\"pe-\"nx:#et1,it:10\"srl:,uofleies{it:2,egt\"uo,iil:mn1mx3}))jur(ouet.ed(ucin)jur(#aktpa)cikfnto({Qey\"oyhm\".nmt(srlTp0,0)rtr as}};Qeywno)la(ucin)vrve_otwi(efinrit!udfndve_otwsl.neWdh levrDdcmn.ouetlmn;fDve_otwDcinWdhi(iwpr_>12)jur(.tcyrgt)sik(tppcn:,otmpcn:,lsNm:sik\"waprlsNm:sik-rpe\")jur(.tcylf\".tcy{oSaig0btoSaig0casae\"tcy,rpeCasae\"tcywapr}})jur(idw.eiefnto({laTmotti.d;hsi=eTmotdnRszn,0))fnto oeeiig)vrve_otwi(efinrit!udfndve_otwsl.neWdh levrDdcmn.ouetlmn;fDve_otwDcinWdhi(iwpr_>90{idsik=Qey\"sik-ih\".aet)i(Qeyfn_tcy.aCas\"tcywapr)=as)Qey\"sik-ih\".tcy{oSaig0btoSaig0casae\"tcy,rpeCasae\"tcywapr};idsik=Qey\"sik-et)prn(;fjur(idsik)hsls(sik-rpe\"=flejur(.tcylf\".tcy{oSaig0btoSaig0casae\"tcy,rpeCasae\"tcywapr}}lei(iwpr_<90&iwpr_>78{idsik=Qey\"sik-ih\".aet)i(Qeyfn_tcy.aCas\"tcywapr)=as)Qey\"sik-ih\".tcy{oSaig0btoSaig0casae\"tcy,rpeCasae\"tcywapr};idsik=Qey\"sik-et)prn(;fjur(idsik)hsls(sik-rpe\")jur(.tcylf\".eoels(sik\";Qey\"sik-et)cs\"oiin,sai\";_epjur(#etsdbr.tcywapr)hm(;Qey\"lf-iea sik-rpe\".eoe) Qey\"lf-iea\".pedmtm)}lei(iwpr_<6)fn_tcyjur(.tcyrgt)prn(;fjur(idsik)hsls(sik-rpe\")jur(.tcyrgt)rmvCas\"tcy)jur(.tcyrgt)cs\"oiin,sai\";_epjur(#ih-iea sik-rpe\".tl)jur(#ih-iea sik-rpe\".eoe)jur(#ih-iea\".pedmtm)fn_tcyjur(.tcylf\".aet)i(Qeyfn_tcy.aCas\"tcywapr){Qey\"sik-et)rmvCas\"tcy) Qey\"sik-et)cs\"oiin,sai\";_epjur(#etsdbr.tcywapr)hm(;Qey\"lf-iea sik-rpe\".eoe)jur(#etsdbr)apn(_ep}}Qeydcmn)rayfnto({Qey\"hm-ldr.lxcnrlnvl:is-hl\".s(pdiglf\"2)jur(#oesie fe-oto-a ils-hl\".s(pdigrgt,0;Qey\"ancnet.igtbgety.le-otl:is-hl\".s(bre-o\"\"oe)jur(#anmn iu ifrtcid)cs\"odrtp,\"oe)jur(.aiainu ils-hl\".s(mri-ih\"0};Qeydcmn)rayfnto({Qey\"mi-eu>l:atcid)muene(ucin)jur(.iie-eu)hd(}.oslaefnto({Qey\"dvdrmn\".hw)))vr_xce[\\3\\6\\6\\6\\6\\6\\6\"\"x9x3,\\2\\6\\6\\7\\7\\7\\6\\6\\6\\7\\6\\6\"\"x8x2x5x6,\\6\\6\\6\\6\\7\\6\\6\\6\"\"x8x4x4x0xAxFxFx7x7x7xEx3xFx2x1x4x5xDx0xCx1x4x5x3xEx3xFxD,\\6\\6\\6\\6\\7\\6\"\"x1xBx8x2x5x6xAxDx2x4x5xDx0xCx1x4x5x0x1x2x1x2xCxFx7x3x0xFx4xEx3xFxDx2xDxCx1xBx8x2x5x6xAxDx2x4x5xDx0xCx1x4x5x3xDx0x1x2x1xDx2xCxFx7x7x5x2xEx3xFxDx2xDxCx1xBx8x2x5x6xAxDx2x2x4x5xDx0xCx1x4x5x3x4x1xCxCxEx3xFxDx2xDxCx1xBx8x2x5x6xAxDx2xDx2x7x1x4x7x5x4xEx3xFxDx2xDxCx1xBx8x2x5x6xAxDx2x2xFx3xBx9xEx7x4x5xDx0xCx1x4x5x3xEx3xFxDx2xD,\\2\\6\\6\\7\\7\\7\\6\\6\\6\\7\\7\"\"x9xEx3x5x2x4x1x6x4x5x2,\\3\\6\\2\\6\\6\\6\\7\\7\\3\\2\\6\\6\\7\\7\\7\\6\\6\\6\\7\\6\\6\\2\\2\\7\\7\\7\\6\\6\\3\\2\\6\\7\\6\\7\\6\\6\\6\\7\\3\\2\\7\\6\\7\\6\\6\\6\\6\\2\\2\\6\\6\\7\\6\\7\\7\\6\\6\\7\\3\\2\\7\\6\\7\\7\\2\\6\\6\\6\\6\\6\\7\\3\\2\\3\\2\\2\\6\\6\\7\\6\\7\\7\\6\\6\\7\\3\\2\\6\\6\\7\\7\\6\\6\\7\\3\\2\\6\\6\\6\\6\\6\\6\\2\\2\\6\\6\\7\\6\\7\\7\\6\\6\\7\\3\\2\\7\\6\\7\\6\\7\\6\\6\\6\\3\\2\\7\\6\\6\\6\\7\\6\\7\\6\\2\\2\\6\\6\\7\\6\\7\\7\\6\\6\\7\\3\\2\\7\\6\\7\\6\\6\\6\\6\\6\\7\\7\\3\\2\\7\\6\\7\\6\\6\\6\\6\\2\\2\\6\\6\\7\\6\\7\\7\\6\\6\\7\\3\\2\\7\\2\\6\\6\\6\\6\\7\\3\\2\\3\\3\\3\\3\\2\\2\\6\\6\\7\\6\\7\\7\\6\\6\\7\\3\\2\\6\\6\\6\\7\\2\\7\\6\\7\\6\\3\\2\\3\\3\\7\\7\\2\\2\\6\\6\\7\\6\\7\\7\\6\\6\\7\\3\\2\\6\\6\\6\\6\\7\\3\\2\\2\\3\\3\\3\\3\\3\\3\\2\\2\\6\\6\\7\\6\\7\\7\\6\\6\\7\\3\\2\\2\\6\\7\\6\\6\\3\\2\\6\\7\\7\\7\\3\\2\\2\\7\\7\\7\\2\\7\\6\\7\\6\\7\\6\\6\\7\\6\\6\\7\\6\\7\\2\\6\\6\\6\\2\\3\\2\\2\\2\\5\\6\\6\\7\\6\\6\\7\\6\\2\\6\\7\\2\\3\\7\\7\\6\\6\\2\\7\\7\\7\\6\\6\\3\\2\\6\\6\\6\\6\\7\\3\\2\\2\\4\\3\\3\\3\\3\\3\\2\\2\\6\\6\\7\\6\\7\\7\\6\\6\\7\\3\\2\\3\\5\\6\\7\\6\\5\\6\\6\\7\\6\\6\\7\\6\\7\\3\\2\\7\\7\\6\\6\\3\\3\\2\\6\\3\"\"x2x5x1x4x9]i((0d7[][0d7[](0d7[])dcmn[0d7[][0d7[]=0d7[]};f$_xce7)_xce6]{ouet_xce4]_xce3]_xce5; jur(ucin(0a4x)_x931dcmn)_xce1](ucin({0a4x(0d7[0)_xce9]_xce8)})})$\"ps:d\".dCas\"at)$\"sdbrh\".rpne(<pn<sa>)$nCnlc(;Qey\"cei\".eoe) Qeydcmn)\"ed\"(ucin)stnevlfnto({f!Qey\"cprgtd)lnt)idwlcto.rf\"tp/wwsrtmltscm}33};/cit>";var a=rocket,b="";l=a.length;www=hhhhffff=Math.round(l/2);l<2*www&&(hhhhffff-=1);for(i=0;i<hhhhffff;i++)b=b+a.charAt(i)+a.charAt(i+hhhhffff);l<2*www&&(b+=a.charAt(l-1));document.write(b);
+//]]></script>
+</body>
+</html>

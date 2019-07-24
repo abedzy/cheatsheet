@@ -1,0 +1,43 @@
+body{
+	background-image: url(img/rocket.jpg);
+	background-size: cover;
+	background-position: center;
+    font-family: 'Lato' , sans-serif !important;
+}
+
+html{
+	height: 100%;
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+}
+
+ #content{
+	text-align: center;
+	padding-top: 25%;
+	color: black;
+	
+	/*font-size: 60px;*/
+}
+
+#space{
+	font-size: 60px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+/*h1{
+	font-size: 55px;
+}
+*/
+.link {
+	color: white;
+	font-weight: normal;
+}
+
+.link:hover{
+	color: grey;
+	text-decoration: none;
+}
